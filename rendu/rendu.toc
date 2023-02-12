@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}Analyse macroéconomique du blé et du nickel}{3}{}%
+\contentsline {section}{\numberline {2}Analyse des séries chronologiques}{3}{}%
+\contentsline {section}{\numberline {3}Prévision par les méthodes traditionnelles}{3}{}%
+\contentsline {section}{\numberline {4}Prévision selon la méthodologie de Box \& Jenkins}{3}{}%
