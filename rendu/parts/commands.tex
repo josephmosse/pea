@@ -1,0 +1,24 @@
+\newcommand{\archtest}[3]{
+\begin{equation*}
+    \begin{split}
+        H_{0} &: \text{Homoscédasticité} \\
+        H_{1} &: \text{Hétéroscédasticité}
+    \end{split}
+\end{equation*}
+Statistique de test :
+    \begin{equation*}
+        LM = n \times R^{2} \sim \rchi^{2}_{0,95} \, (p)
+    \end{equation*}
+La statistique du multiplicateur de Lagrange est comparée au quantile à 95\% de la distribution du khi-deux ayant pour degrés de liberté #1. Dans le cas suivant :}
+
+\newcommand{\test}[3]{
+    \begin{equation*}
+        \begin{split}
+            H_{0} &: \text{#1} \\
+            H_{1} &: \text{#2}
+        \end{split}
+    \end{equation*}
+    Statistique de test :
+    \begin{equation*}
+        #3
+    \end{equation*}}
