@@ -28,7 +28,7 @@ séries initiales afin de déterminer si il y a homoscédasticité dans la distr
     \caption{Résultats du test ARCH}
 \end{table}
 Ici, pour toutes les séries, la statistique $LM$ est supérieur au seuil, l'hypothèse $H_{0}$ est 
-rejetée au risque de $5\%$. Les cours du blé et du nickel sont donc hétéroscédastiques. Afin d'amoindrir les fluctuations importantes, une transformation 
+rejetée au risque de $5\%$. Les cours du blé et du nickel sont donc présente de l'hétéroscédasticité. Afin d'amoindrir ces fluctuations importantes, une transformation 
 logarithmique est faite sur chacune des séries. Les séries transformées serviront donc
 pour le reste du travail.
 
@@ -62,11 +62,55 @@ Après calculs \textit{(Cf-\ref{appendix:anova} p.\pageref{appendix:anova})}, le
     \input{tab/2_3_anova.tex}
 \end{table}
 
-Enfin grace aux variances, lke test de fisher peut être effectué.
-\subsubsection{Test d'influence du facteur colonne}
-\test{Pas d'influence du facteur colonne}
-    {Influence du facteur colonne}
-    {F_{c} = \frac{V_{P}}{V_{R}} \sim F_{0,95}((n-1), (n-1)(p-1))}
-\subsubsection{Test d'influence du facteur saisonnalité}
+Enfin grace aux variances, le test de fisher peut être effectué.
 
-\subsection{test}
+\subsubsection{Test de Fisher de détection de saisonnalité}
+Il s'agira ici de tester l'influence du facteur colonne en comparant la variance période à la variance résiduelle
+,afin de déterminer si les séries sont saisonnières.
+\test{Pas d'influence du facteur colonne (pas de saisonnalité)}
+    {Influence du facteur colonne (saisonnalité)}
+    {F_{c} = \frac{V_{P}}{V_{R}} \sim F_{0,95}((n-1), (n-1)(p-1))}
+La statistique calculée ($F_{c}$) est ensuite comparée au quantile à $95\%$ de la distribution $F$ de
+Fisher avec comme degrés de liberté $(p-1)$ et $(n-1)(p-1)$, où $n$ représente le nombre d'année
+et $p$ le nombre de périodes. Si la statistique empirique est supérieure au quantile,
+alors $ H_{0} $ est rejetée, la série est saisonnière. Après calculs :
+\begin{table}[H]
+    \centering
+    \caption{Test de Fisher (saisonnalité)}
+    \sffamily
+    \input{tab/2_3_saiso.tex}
+\end{table}
+Ici, les statistique calculée sont toutes inférieures au seuil, sauf pour l'échantillon (2016-2021)
+du nickel.  Ainsi, l'hypothèse $H_{0}$ est acceptée au risque de $5\%$ pour les deux échantillons du blé
+et pour l'échantillon (2016-2019) du nickel. En revanche elle est rejetée pour l'échantillon (2016-2021) du nickel.\\[11pt]
+Pour ses deux échantillons, la série du blé n'est donc pas saisonnière, il en est de même pour le premier échantillon de la série du nickel. 
+Par contre, l'échantillon (2016-2021) du nickel est lui saisonnier, il faudra donc à la suite 
+déterminer son type de saisonnalité (déterministe ou aléatoire), puis son type de schéma de décomposition
+(additif ou multiplicatif) et finalement désaisonnaliser la série afin de pouvoir utiliser les méthodes de prévision.
+\subsubsection{Test de Fisher de détection de tendance}
+De manière analogue, il revient à comparer la variance année à la variance résiduelle afin de déterminer si les séries possèdent une tendance.
+\test{Pas d'influence du facteur ligne (pas de tendance)}
+    {Influence du facteur ligne (tendance)}
+    {F_{c} = \frac{V_{A}}{V_{R}} \sim F_{0,95}((p-1), (n-1)(p-1))}
+Comme pour le test précédent, si la statistique calculée est supérieure au quantile à $ 95\% $ 
+de la distribution de Fisher ayant pour \textit{dll} : $(n-1)$ et $(n-1)(p-1)$ , alors $ H_{0} $ est rejetée, la série possède une tendance.
+\begin{table}[H]
+    \centering
+    \caption{Test de Fisher (tendance)}
+    \sffamily
+    \input{tab/2_3_tend.tex}
+\end{table}
+Ici dans tous les cas, le Fisher empirique est supérieur au Fisher théorique, $H_{0}$ est rejetée
+au risque de $ 5\% $ pour toutes les séries. \\[11pt]
+Les deux séries et leurs échantillons possèdent donc une tendance. Il à remarquer que la probabilité de rejeter 
+$H_{0}$ est bien plus supérieure sur les échantillons (2016-2021) que sur les échantillons (2016-2019),
+cela confirme l'intuition dégagée de l'analyse graphique.
+
+\subsection{Analyse de la saisonnalité de l'échantillon (2016-2021) du nickel}
+Comme vu précédemment l'échantillon (2016-2021) du Nickel possède de la saisonnalité, il est donc indispensable d'étudier, puis de corriger la saisonnalité. 
+\subsubsection{Type de saisonnalité et schéma de décomposition}
+Dans un premier temps le type de saisonnalité doit être défini, en effet la saisonnalité peut être déterministe ou bien aléatoire. Pour cela chaque ligne du tableau de 
+Buys-Ballot de l'échantillon concerné est classée par ordre croissant. De plus pour faciliter la lecture, chaque mois s'est vu attribué une couleur appartenant à
+un gradient rouge (\textit{tableau~\ref{tab:bbc} p.\pageref{tab:bbc} }). Il est donc rapidement possible de remarquer que la saisonnalité n'est pas répétitive,
+elle est donc aléatoire. Il faudra donc désaisonnaliser la série par méthode CENSUS.\\[11pt] 
+

@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[left=2cm, right=2cm]{geometry}
@@ -12,6 +12,8 @@
 \usepackage{booktabs, tabularx}
 \usepackage{multicol}
 \setlength{\tabcolsep}{10pt}
+
+\setlength{\parindent}{0pt}
 
 
 \graphicspath{{img/}}
@@ -56,12 +58,15 @@
 
 \clearpage
 \newgeometry{left=2.5cm, right=2.5cm,top=3cm, bottom=3cm}
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\fancyhead{}\fancyfoot[C]{\thepage}
 \section*{Résumé}
 \setcounter{tocdepth}{6}
 \renewcommand\contentsname{Sommaire}
 \tableofcontents
-\pagestyle{fancy}
-\fancyhead{}\fancyfoot{}
+
+
 
 \section*{Introduction}
 \section{Analyse macroéconomique du blé et du nickel}
@@ -69,8 +74,6 @@
 \subsection{Le nickel}
 
 \include{parts/2_analyse.tex}
-
-\subsection{Analyse de la variance}
 
 \section{Prévision par le méthodes traditionnelles}
 \subsection{Prévision pour 2020}
@@ -192,4 +195,14 @@ faire par sous périodes
     \input{annexe/2_3_anova_nickel21.tex}
     \caption{Tableau d'analyse de la variance du nickel (échantillon 2016-2021) }
 \end{table}
+
+\subsubsection{test}
+\begin{figure}[H]
+    \centering
+    \caption{test}
+    \sffamily
+    \label{tab:bbc}
+    \resizebox{\textwidth}{!}{\input{graphs/nickel_bbc.pgf}}
+\end{figure}
+
 \end{document}
