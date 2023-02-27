@@ -11,6 +11,10 @@
 \usepackage{float}
 \usepackage{booktabs, tabularx}
 \usepackage{multicol}
+
+\usepackage{biblatex}
+\bibliography{biblio.bib}
+
 \setlength{\tabcolsep}{10pt}
 
 \setlength{\parindent}{0pt}
@@ -28,8 +32,8 @@
 \DeclareFixedFont{\titlefont}{T1}{ppl}{b}{n}{1.2cm}
 \DeclareFixedFont{\subtitlefont}{T1}{ppl}{m}{n}{0.6cm}
 \DeclareFixedFont{\namefont}{T1}{ppl}{m}{n}{0.6cm}
-\begin{document}
 
+\begin{document}
 \afterpage{\restoregeometry}
 \newgeometry{left=1in, right=1in,top=1in, bottom=-0.5in}
 \definecolor{mytan}{HTML}{1C3651}
@@ -73,23 +77,9 @@
 \subsection{Le blé}
 \subsection{Le nickel}
 
-\include{parts/2_analyse.tex}
+\include{parts/2_analyse}
+\include{parts/3_tradi}
 
-\section{Prévision par le méthodes traditionnelles}
-\subsection{Prévision pour 2020}
-\subsubsection{Lissage exponentiel double (LED)}
-\subsubsection{Lissage exponentiel triple (Holt Winter)}
-\subsubsection{Extrapolation d'une droite de tendance}
-\subsection{Prévision pour 2022}
-\subsubsection{Lissage exponentiel double (LED)}
-\subsubsection{Lissage exponentiel triple (Holt Winter)}
-\subsubsection{Extrapolation d'une droite de tendance}
-\subsection{Classification des méthodes}
-\subsubsection{Blé}
-\subsubsection{Nickel}
-\subsection{Prévision pour 2023}
-\subsubsection{Blé}
-\subsubsection{Nickel}
 \section{Prévision selon la méthodologie de Box \& Jenkins}
 \subsection{Présentation de la méthode}
 \subsection{Test de racine unitaire}
@@ -105,35 +95,38 @@ faire par sous périodes
 
 
 \appendix
-\renewcommand\thefigure{\thesubsubsection.\arabic{table}}
-\renewcommand\thetable{\thesubsubsection.\arabic{figure}}    
+\renewcommand{\thetable}{\thesection.\arabic{table}}
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}
 \section{Analyse des séries chronologiques}
+\setcounter{table}{0}
 \subsection{Stabilité de la variance}\label{appendix:hetero}
 \begin{table}[H]
-    \sffamily
     \centering
+    \caption{Test ARCH pour la série Blé}
+    \sffamily
     \label{tab:hetero_ble}
     \input{annexe/2_1_hetero_ble.tex}
-    \caption{Test ARCH pour la série Blé}
 \end{table}
+
 \begin{table}[H]
-    \sffamily
     \centering
+    \caption{Test ARCH pour la série Nickel}
+    \sffamily
     \label{tab:hetero_nickel}
     \input{annexe/2_1_hetero_nickel.tex}
-    \caption{Test ARCH pour la série Nickel}
 \end{table}
+
 \subsection{Analyse graphique}\label{appendix:loggraph}
 \begin{figure}[H]
     \centering
     \label{fig:ble_log}
-    \resizebox{0.6\textwidth}{!}{\input{graphs/ble_log.pgf}}
+    \resizebox{0.8\textwidth}{!}{\input{graphs/ble_log.pgf}}
     \caption{Cours du blé (en logarithme)}
 \end{figure}
 \begin{figure}[H]
     \centering
     \label{fig:nickel_log}
-    \resizebox{0.6\textwidth}{!}{\input{graphs/nickel_log.pgf}}
+    \resizebox{0.8\textwidth}{!}{\input{graphs/nickel_log.pgf}}
     \caption{Cours du nickel (en logarithme)}
 \end{figure}
 \subsection{Analyse de la variance}
@@ -172,37 +165,52 @@ faire par sous périodes
     \centering
     \label{tab:anova_ble19}
     \input{annexe/2_3_anova_ble19.tex}
-    \caption{Tableau d'analyse de la variance du blé (échantillon 2016-2019) }
+    \caption{Tableau d'analyse de la variance du blé (2016-2019) }
 \end{table}
 \begin{table}[H]
     \sffamily
     \centering
     \label{tab:anova_ble21}
     \input{annexe/2_3_anova_ble21.tex}
-    \caption{Tableau d'analyse de la variance du blé (échantillon 2016-2021) }
+    \caption{Tableau d'analyse de la variance du blé (2016-2021) }
 \end{table}
 \begin{table}[H]
     \sffamily
     \centering
     \label{tab:anova_nickel19}
     \input{annexe/2_3_anova_nickel19.tex}
-    \caption{Tableau d'analyse de la variance du nickel (échantillon 2016-2019) }
+    \caption{Tableau d'analyse de la variance du nickel (2016-2019) }
 \end{table}
 \begin{table}[H]
     \sffamily
     \centering
     \label{tab:anova_nickel21}
     \input{annexe/2_3_anova_nickel21.tex}
-    \caption{Tableau d'analyse de la variance du nickel (échantillon 2016-2021) }
+    \caption{Tableau d'analyse de la variance du nickel (2016-2021) }
 \end{table}
 
 \subsubsection{test}
-\begin{figure}[H]
+\begin{table}[H]
     \centering
-    \caption{test}
+    \caption{Tableau de Buys-Ballot classé du Nickel (2019-2021)}
     \sffamily
     \label{tab:bbc}
     \resizebox{\textwidth}{!}{\input{graphs/nickel_bbc.pgf}}
-\end{figure}
+\end{table}
 
+\begin{table}[H]
+    \centering
+    \caption{test}
+    \sffamily
+    \label{tab:bb_test}
+    \input{annexe/2_4_bb_test.tex}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Désaisonnalisation de l'échantillon (2016-2021) du nickel}
+    \sffamily
+    \label{tab:desaiso}
+    \resizebox{!}{0.45\textheight}{\input{annexe/2_4_desaiso.tex}}
+\end{table}
 \end{document}

@@ -7,35 +7,36 @@
 \contentsline {subsection}{\numberline {2.3}Analyse de la variance}{4}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Test de Fisher de détection de saisonnalité}{4}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Test de Fisher de détection de tendance}{5}{subsubsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.4}Analyse de la saisonnalité de l'échantillon (2016-2021) du nickel}{5}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Type de saisonnalité et schéma de décomposition}{6}{subsubsection.2.4.1}%
-\contentsline {section}{\numberline {3}Prévision par le méthodes traditionnelles}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Prévision pour 2020}{7}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Lissage exponentiel double (LED)}{7}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Lissage exponentiel triple (Holt Winter)}{7}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}Extrapolation d'une droite de tendance}{7}{subsubsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.2}Prévision pour 2022}{7}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Lissage exponentiel double (LED)}{7}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Lissage exponentiel triple (Holt Winter)}{7}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Extrapolation d'une droite de tendance}{7}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}Classification des méthodes}{7}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Blé}{7}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Nickel}{7}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Prévision pour 2023}{7}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Blé}{7}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Nickel}{7}{subsubsection.3.4.2}%
-\contentsline {section}{\numberline {4}Prévision selon la méthodologie de Box \& Jenkins}{7}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Présentation de la méthode}{7}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Test de racine unitaire}{7}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Identification des processus}{7}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Tests de validité}{7}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}Significativité des paramètres}{7}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}Tests sur les résidus}{7}{subsubsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.5}Prévision pour 2023}{7}{subsection.4.5}%
-\contentsline {section}{\numberline {A}Analyse des séries chronologiques}{8}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Stabilité de la variance}{8}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Analyse graphique}{9}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Analyse de la variance}{10}{subsection.A.3}%
-\contentsline {subsubsection}{\numberline {A.3.1}Tableau de Buys-Ballot}{10}{subsubsection.A.3.1}%
-\contentsline {subsubsection}{\numberline {A.3.2}ANOVA}{11}{subsubsection.A.3.2}%
-\contentsline {subsubsection}{\numberline {A.3.3}test}{12}{subsubsection.A.3.3}%
+\contentsline {subsection}{\numberline {2.4}Analyse de la saisonnalité de l'échantillon (2016-2021) du nickel}{6}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Type de saisonnalité et sélection du schéma de décomposition}{6}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Désaisonnalisation de l'échantillon par méthode Census}{7}{subsubsection.2.4.2}%
+\contentsline {section}{\numberline {3}Prévision par le méthodes traditionnelles}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Prévision pour 2020}{9}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Extrapolation d'une droite de tendance}{9}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Lissage exponentiel double (LED)}{9}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Lissage exponentiel triple (Holt Winter)}{9}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Prévision pour 2022}{9}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Extrapolation d'une droite de tendance}{9}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Lissage exponentiel double (LED)}{9}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Lissage exponentiel triple (Holt Winter)}{9}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Classification des méthodes}{9}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Blé}{9}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Nickel}{9}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Prévision pour 2023}{9}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Blé}{9}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Nickel}{9}{subsubsection.3.4.2}%
+\contentsline {section}{\numberline {4}Prévision selon la méthodologie de Box \& Jenkins}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Présentation de la méthode}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Test de racine unitaire}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Identification des processus}{10}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Tests de validité}{10}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Significativité des paramètres}{10}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Tests sur les résidus}{10}{subsubsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.5}Prévision pour 2023}{10}{subsection.4.5}%
+\contentsline {section}{\numberline {A}Analyse des séries chronologiques}{10}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Stabilité de la variance}{10}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Analyse graphique}{11}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Analyse de la variance}{12}{subsection.A.3}%
+\contentsline {subsubsection}{\numberline {A.3.1}Tableau de Buys-Ballot}{12}{subsubsection.A.3.1}%
+\contentsline {subsubsection}{\numberline {A.3.2}ANOVA}{13}{subsubsection.A.3.2}%
+\contentsline {subsubsection}{\numberline {A.3.3}test}{14}{subsubsection.A.3.3}%
