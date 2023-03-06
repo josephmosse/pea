@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.28)  6 MAR 2023 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.28)  6 MAR 2023 22:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -605,22 +605,9 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count327
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
-Package: ragged2e 2021/12/15 v3.1 ragged2e Package
-\CenteringLeftskip=\skip70
-\RaggedLeftLeftskip=\skip71
-\RaggedRightLeftskip=\skip72
-\CenteringRightskip=\skip73
-\RaggedLeftRightskip=\skip74
-\RaggedRightRightskip=\skip75
-\CenteringParfillskip=\skip76
-\RaggedLeftParfillskip=\skip77
-\RaggedRightParfillskip=\skip78
-\JustifyingParfillskip=\skip79
-\CenteringParindent=\skip80
-\RaggedLeftParindent=\skip81
-\RaggedRightParindent=\skip82
-\JustifyingParindent=\skip83
+) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box116
 ) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
@@ -677,14 +664,14 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \blx@sectionciteorderinternal@0=\count370
 \blx@entrysetcounter=\count371
 \blx@biblioinstance=\count372
-\labelnumberwidth=\skip84
-\labelalphawidth=\skip85
-\biblabelsep=\skip86
-\bibitemsep=\skip87
-\bibnamesep=\skip88
-\bibinitsep=\skip89
-\bibparsep=\skip90
-\bibhang=\skip91
+\labelnumberwidth=\skip70
+\labelalphawidth=\skip71
+\biblabelsep=\skip72
+\bibitemsep=\skip73
+\bibnamesep=\skip74
+\bibinitsep=\skip75
+\bibparsep=\skip76
+\bibhang=\skip77
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language79
@@ -766,20 +753,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count441
 \c@pageref=\count442
 \c@savedpageref=\count443
-\shorthandwidth=\skip92
-\shortjournalwidth=\skip93
-\shortserieswidth=\skip94
-\shorttitlewidth=\skip95
-\shortauthorwidth=\skip96
-\shorteditorwidth=\skip97
-\locallabelnumberwidth=\skip98
-\locallabelalphawidth=\skip99
-\localshorthandwidth=\skip100
-\localshortjournalwidth=\skip101
-\localshortserieswidth=\skip102
-\localshorttitlewidth=\skip103
-\localshortauthorwidth=\skip104
-\localshorteditorwidth=\skip105
+\shorthandwidth=\skip78
+\shortjournalwidth=\skip79
+\shortserieswidth=\skip80
+\shorttitlewidth=\skip81
+\shortauthorwidth=\skip82
+\shorteditorwidth=\skip83
+\locallabelnumberwidth=\skip84
+\locallabelalphawidth=\skip85
+\localshorthandwidth=\skip86
+\localshortjournalwidth=\skip87
+\localshortserieswidth=\skip88
+\localshorttitlewidth=\skip89
+\localshortauthorwidth=\skip90
+\localshorteditorwidth=\skip91
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -842,7 +829,7 @@ Package: expl3 2022-08-23 L3 programming layer (loader)
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-08-23 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count455
-\l__pdf_internal_box=\box116
+\l__pdf_internal_box=\box117
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2022-08-23 L3 programming layer (loader) 
@@ -923,7 +910,7 @@ LaTeX Font Info:    ... okay on input line 36.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count458
 \scratchdimen=\dimen315
-\scratchbox=\box117
+\scratchbox=\box118
 \nofMPsegments=\count459
 \nofMParguments=\count460
 \everyMPshowfont=\toks42
@@ -1105,7 +1092,12 @@ LaTeX Warning: Reference `tab:desaiso' on page 6 undefined on input line 114.
 
 
 
-] (tab/3_1_extra_ble19.tex) (tab/3_1_led_ble_19.tex) [9] (tab/3_1_led_nickel_19.tex) [10] (tab/3_1_hw_ble_19.tex) [11] (tab/3_1_hw_nickel_19.tex)) [12] [13] (annexe/2_1_hetero_ble.tex)
+] (tab/3_1_extra19.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 41--53
+
+ []
+
+(tab/3_1_led19.tex) [9] [10] (tab/3_1_hw19.tex)) [11] (annexe/2_1_hetero_ble.tex)
 Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--109
  [][] 
  []
@@ -1115,16 +1107,16 @@ Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--117
  [][] 
  []
 
-(graphs/ble_log.pgf) (graphs/nickel_log.pgf) [14
+(graphs/ble_log.pgf) (graphs/nickel_log.pgf) [12
 
 
-] (annexe/2_2_bb_ble19.tex) (annexe/2_2_bb_ble21.tex) [15] (annexe/2_2_bb_nickel19.tex) (annexe/2_2_bb_nickel21.tex) (annexe/2_3_anova_ble19.tex) (annexe/2_3_anova_ble21.tex) (annexe/2_3_anova_nickel19.tex) [16] (annexe/2_3_anova_nickel21.tex) (graphs/nickel_bbc.pgf) (annexe/2_4_bb_test.tex) [17] (annexe/2_4_coefsaiso.tex) (annexe/3_1_mco_ble19.tex) [18] (annexe/3_1_mco_nickel19.tex)
-<annexe/3_1_extra_cor_ble19.pdf, id=372, 316.18124pt x 252.945pt>
+] (annexe/2_2_bb_ble19.tex) (annexe/2_2_bb_ble21.tex) [13] (annexe/2_2_bb_nickel19.tex) (annexe/2_2_bb_nickel21.tex) (annexe/2_3_anova_ble19.tex) (annexe/2_3_anova_ble21.tex) (annexe/2_3_anova_nickel19.tex) [14] (annexe/2_3_anova_nickel21.tex) (graphs/nickel_bbc.pgf) (annexe/2_4_bb_test.tex) [15] (annexe/2_4_coefsaiso.tex) (annexe/3_1_mco_ble19.tex) [16] (annexe/3_1_mco_nickel19.tex)
+<annexe/3_1_extra_cor_ble19.pdf, id=363, 316.18124pt x 252.945pt>
 File: annexe/3_1_extra_cor_ble19.pdf Graphic file (type pdf)
 <use annexe/3_1_extra_cor_ble19.pdf>
 Package pdftex.def Info: annexe/3_1_extra_cor_ble19.pdf  used on input line 242.
 (pdftex.def)             Requested size: 316.18047pt x 252.94438pt.
- [19]
+ [17]
 Package epstopdf Info: Source file: <annexe/3_1_extra_hist_ble19.eps>
 (epstopdf)                    date: 2023-03-03 08:54:43
 (epstopdf)                    size: 19308 bytes
@@ -1137,12 +1129,12 @@ Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/3_1_extra_hist_ble19-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/3_1_extra_hist_ble19-eps-converted-to.pdf, id=377, 1653.17625pt x 750.805pt>
+<annexe/3_1_extra_hist_ble19-eps-converted-to.pdf, id=368, 1653.17625pt x 750.805pt>
 File: annexe/3_1_extra_hist_ble19-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/3_1_extra_hist_ble19-eps-converted-to.pdf>
 Package pdftex.def Info: annexe/3_1_extra_hist_ble19-eps-converted-to.pdf  used on input line 248.
 (pdftex.def)             Requested size: 455.24411pt x 206.75269pt.
-(annexe/3_1_extra_arch_ble19.tex) [20 <./annexe/3_1_extra_cor_ble19.pdf> <./annexe/3_1_extra_hist_ble19-eps-converted-to.pdf>] (annexe/3_1_led_ble19.tex) (annexe/3_1_led_nickel19.tex) (annexe/3_1_hwout_ble19.tex) (annexe/3_1_hwout_nickel19.tex) [21] [22] (rendu.aux (parts/2_analyse.aux) (parts/3_tradi.aux))
+(annexe/3_1_extra_arch_ble19.tex) [18 <./annexe/3_1_extra_cor_ble19.pdf> <./annexe/3_1_extra_hist_ble19-eps-converted-to.pdf>] (annexe/3_1_led_ble19.tex) (annexe/3_1_led_nickel19.tex) (annexe/3_1_hwout_ble19.tex) (annexe/3_1_hwout_nickel19.tex) [19] [20] (rendu.aux (parts/2_analyse.aux) (parts/3_tradi.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1153,17 +1145,17 @@ Package logreq Info: Writing requests to 'rendu.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30638 strings out of 477843
- 591198 string characters out of 2823126
- 1316282 words of memory out of 3000000
- 48867 multiletter control sequences out of 15000+600000
- 487339 words of font info for 61 fonts, out of 8000000 for 9000
+ 30620 strings out of 477843
+ 590247 string characters out of 2823126
+ 1316111 words of memory out of 3000000
+ 48857 multiletter control sequences out of 15000+600000
+ 487119 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,20n,104p,1164b,801s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>{C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on rendu.pdf (23 pages, 1416509 bytes).
+ <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>{C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on rendu.pdf (21 pages, 1420660 bytes).
 PDF statistics:
- 891 PDF objects out of 1000 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
+ 883 PDF objects out of 1000 (max. 8388607)
+ 103 named destinations out of 1000 (max. 500000)
  428 words of extra memory for PDF output out of 10000 (max. 10000000)
 

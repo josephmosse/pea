@@ -10,9 +10,14 @@ Concernant l'échantillon 2019-2021 du nickel, malgré une composante saisonniè
 prévision adéquate serait donc aussi l'extrapolation d'une droite de tendance.\\[11pt]
 Cependant, afin de ne mettre aucun élément d'analyse de côté, en plus de l'extrapolation, des méthodes de prévision par lissage exponentiel de composantes seront 
 utilisées. Parmi ces méthodes, le lissage exponentiel double (LED) et le lissage exponentiel de Holt-Winter sont choisis. \\[11pt]
-Avant de prédire le cours pour 2023, pour chacune des matières premières, deux prévisions seront faites. Une première, prévision pour 2020 (grace à l'échantillon 2016-2019)
-et une seconde pour 2022 (grace à l'échantillon 2016-2021). L'objectif étant de sélectionner la méthode de prévision minimisant le critère de RMSE (Root-Mean-Squarred 
-Errors).
+Afin de prévoir le cours en 2023, il est nécessaire de sélectionner la méthode ayant le meilleurs score de prévision sur des données passées. Pour les deux matières 
+premières le choix de la meilleure méthode se fera en deux grandes étapes :
+\begin{enumerate}
+    \item Prévision des cours en 2020 grace aux échantillons 2016-2019, la prévision minimisant le critère MSE sur 2020 sera retenue et prolongée jusqu'à fin 2022.
+    \item Prévision des cours en 2022 grace aux échantillons 2016-2021, comparaison des MSE avec les MSE de la méthode retenue pour 2020, la prévision minimisant le 
+            critère sera retenue et utilisée pour prévoir les cours de 2023 
+\end{enumerate}
+
 \subsection{Échantillon 2016-2019}
 \subsubsection{Prévision pour 2020}
 \subsubsection*{Extrapolation d'une droite de tendance} 
@@ -32,27 +37,21 @@ Le test est le même pour les deux séries :
 \end{equation*}
 Statistique de test pour un niveau $\alpha = 5\%$:
 \begin{equation*}
-    t_{c} = \frac{\hat{\beta}}{\hat{\sigma}_{\hat{\beta}}}\sim t_{0,975}(n-k)
+    t_{c} = \frac{\hat{\beta}}{\hat{\sigma}_{\hat{\beta}}}\sim t_{0,975}(46)
 \end{equation*}
 Règle de décision : la statistique de student calculée en valeur absolue est comparée au quantile à 97,5\%, de la distribution bilatérale de Student avec comme 
-degrés de liberté $48 - 2 = 46$. Si elle est inférieure alors la pente du modèle n'est pas significative, elle est en revanche significative si la statistique est 
+degrés de liberté $46$. Si elle est inférieure alors la pente du modèle n'est pas significative, elle est en revanche significative si la statistique est 
 supérieure au seuil.\\[11pt]
 Ici, les deux statistiques calculées (~\ref{tab:mco_ble19} ~\ref{tab:mco_nickel19})$H_{0}$ sont supérieures au seuil (1,96). $H_{0}$ est donc acceptée au risque de 5\%, 
 les pentes des deux modèles sont significatives. Il en est de même pour les constantes du modèle, la probabilité critique d'accepter l'hypothèse nulle étant 0. Les 
 paramètres du modèles sont donc significatifs. Les valeurs pour 2020 du blé et du nickel peuvent être calculées en extrapolant les droites.\\[11pt]
-\textbf{Le blé} 
 \begin{table}[H]
-    \centering
-    \caption{Prévision par extrapolation linéaire du cours du blé pour l'année 2020}
-    \sffamily
-    \input{tab/3_1_extra_ble19.tex}
+        \centering
+        \caption{Prévision du cours du blé et du nickel en 2020 par extrapolation linéaire}
+        \sffamily
+        \input{tab/3_1_extra19.tex}
 \end{table}
-Les différents tests sur les résidus sont fait.
-\begin{itemize}
-    \item \underline{Test de recherche d'autocorrelation} : Test de Ljung-Box
-    \test{Abscence d'autocorrélation à l'odre h}{Autocorélation à l'odre h}{Q = n(n+2)\sum_{k=1}^h\frac{\hat{\rho}^2_k}{n-k} \sim \rchi_{0,95}^{2}(h)}
-    \item \underline{Test d'homoscédasticité} : Test ARCH
-\end{itemize}
+
 
 \subsubsection*{Lissage exponentiel double (LED)}
 Les techniques de lissage exponentiel ont été introduites par Holt et Brown. Un lissage exponentiel double consiste à effectuer deux lissage sur une série temporelle 
@@ -65,17 +64,9 @@ Dans le cas du blé et du nickel, le programme d'optimisation calcule $ \lambda 
 proches de 0,45, cela veut dire que pour les deux séries, la prévision par lissage apportera très légèrement plus d'importance au passé que au présent.
 \begin{table}[H]
     \centering
-    \centering
-    \caption{Prévision par LED de l'échantillon 2016-2019 du Blé}
+    \caption{Prévision du cours du blé et du nickel en 2020 par lissage exponentiel double}
     \sffamily
-    \input{tab/3_1_led_ble_19.tex}
-\end{table}
-
-\begin{table}[H]
-    \centering
-    \caption{Prévision par LED de l'échantillon 2016-2019 du nickel}
-    \sffamily
-    \input{tab/3_1_led_nickel_19.tex}
+    \input{tab/3_1_led19.tex}
 \end{table}
 
 
@@ -101,16 +92,9 @@ tableau ci dessous.
 Ainsi la prévision pour 2020 peut être faite :
 \begin{table}[H]
     \centering
-    \caption{Prévision du cours du blé en 2020 par lissage de Holt-Winter}
+    \caption{Prévision du cours du blé et du nickel en 2020 par lissage de Holt-Winter}
     \sffamily
-    \input{tab/3_1_hw_ble_19.tex}
-\end{table}
-
-\begin{table}[H]
-    \centering
-    \caption{Prévision du cours du nickel en 2020 par lissage de Holt-Winter}
-    \sffamily
-    \input{tab/3_1_hw_nickel_19.tex}
+    \input{tab/3_1_hw19.tex}
 \end{table}
 \subsubsection{Choix de la meilleure méthode}
 L'objectif du travail étant de prévoir la valeur de 2023, il est désormais nécessaire de sélectionner la meilleure méthode de prévision. Pour ce faire, le critère
