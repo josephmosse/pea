@@ -23,4 +23,24 @@ La statistique du multiplicateur de Lagrange est comparée au quantile à 95\% d
     Statistique de test pour un niveau $\alpha = 5\%$:
     \begin{equation*}
         #3
-    \end{equation*}}
+    \end{equation*}
+    Règle de décision : }
+
+    \newcommand{\stutest}[5]{ % 1 : parametre ; 2 : n ; 3 : k ; 4 : n-k. ; 5 compar 
+        \begin{equation*}
+            \begin{split}
+                H_{0} &: #1 = 0     \quad \text{Non significativité du paramètre} \\
+                H_{1} &: #1 \neq 0  \quad \text{Significativité du paramètre}
+            \end{split}
+        \end{equation*}
+        Statistique de test pour un niveau $\alpha = 5\%$:
+        \begin{equation*}
+            t_{c} = \frac{\hat{#1}}{\hat{\sigma}_{\hat{#1}}}\sim t_{0,975}(n-k)
+        \end{equation*}
+        Règle de décision : la statistique de student calculée en valeur absolue est comparée au quantile à 97,5\%, de la distribution bilatérale de Student avec comme 
+        degrés de liberté $#2 - #3 = #4$. Si elle est inférieure alors la pente du modèle n'est pas significative, elle est en revanche significative si la statistique est 
+        supérieure au seuil. Ici : 
+        \begin{equation*}
+            #5
+        \end{equation*}}
+    

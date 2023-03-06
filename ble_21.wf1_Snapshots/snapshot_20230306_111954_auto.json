@@ -1,0 +1,382 @@
+
+{
+	"commands" : null,
+	"description" : "Generated based on timer.",
+	"label" : "auto",
+	"workbook_meta" : 
+	{
+		"_name" : "c:\\users\\joseph\\desktop\\pea\\ble_21.wf1",
+		"_pages" : 
+		[
+			
+			{
+				"_frequency" : "M",
+				"_last_update" : [ 738584.3999768519, "03/06/2023 09:35" ],
+				"_name" : "2021",
+				"_obj_count" : 15,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 738489.0, "12/01/2022" ],
+						"_obs_min" : [ 735963.0, "01/01/2016" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "BLE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "DLBLE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DLBLE_21",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "DLBLE_21_AR1",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "EXTRA_21",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "HETERO_BLE",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "LBLE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_21",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_21_AR1",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_21_EXTRA",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_21_HW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_21_LED",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "TEST",
+						"_type" : "SCALAR"
+					}
+				],
+				"_obs_count" : 84
+			},
+			
+			{
+				"_frequency" : "M",
+				"_last_update" : [ 738584.4704398148, "03/06/2023 11:17" ],
+				"_name" : "2019",
+				"_obj_count" : 13,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 738489.0, "12/01/2022" ],
+						"_obs_min" : [ 735963.0, "01/01/2016" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "BLE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "EXTRA_19",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "LBLE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_19",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_19_EXTRA",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_19_F",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_19_HW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_19_LED",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID_EXTRA",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID_LED",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID_LED2",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 84
+			},
+			
+			{
+				"_frequency" : "M",
+				"_last_update" : [ 738582.4388773148, "03/04/2023 10:31" ],
+				"_name" : "racine_19",
+				"_obj_count" : 6,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 738489.0, "12/01/2022" ],
+						"_obs_min" : [ 735963.0, "01/01/2016" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "DLBLE_19",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_19",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "MODELE3_CONTRAINT",
+						"_type" : "EQUATION"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SCRC",
+						"_type" : "SCALAR"
+					}
+				],
+				"_obs_count" : 84
+			},
+			
+			{
+				"_frequency" : "M",
+				"_last_update" : [ 738582.4388773148, "03/04/2023 10:31" ],
+				"_name" : "racine_21",
+				"_obj_count" : 5,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 738489.0, "12/01/2022" ],
+						"_obs_min" : [ 735963.0, "01/01/2016" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "DLBLE_21",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_21",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "SCRC",
+						"_type" : "SCALAR"
+					}
+				],
+				"_obs_count" : 84
+			},
+			
+			{
+				"_frequency" : "M",
+				"_last_update" : [ 738582.4388773148, "03/04/2023 10:31" ],
+				"_name" : "Untitled",
+				"_obj_count" : 3,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 738489.0, "12/01/2022" ],
+						"_obs_min" : [ 735963.0, "01/01/2016" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "HETERO_BLE",
+						"_type" : "TABLE"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 84
+			},
+			
+			{
+				"_frequency" : "M",
+				"_last_update" : [ 738582.4388773148, "03/04/2023 10:31" ],
+				"_name" : "forecast",
+				"_obj_count" : 9,
+				"_objects" : 
+				[
+					
+					{
+						"_data_type" : "date",
+						"_name" : "@DATE",
+						"_obs_max" : [ 738854.0, "12/01/2023" ],
+						"_obs_min" : [ 735963.0, "01/01/2016" ],
+						"_type" : "INDEX"
+					},
+					
+					{
+						"_name" : "C",
+						"_type" : "COEF"
+					},
+					
+					{
+						"_name" : "LBLE",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_19_EXTRA",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_19_HW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_19_LED",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_21_EXTRA",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_21_HW",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "LBLE_21_LED",
+						"_type" : "SERIES"
+					},
+					
+					{
+						"_name" : "RESID",
+						"_type" : "SERIES"
+					}
+				],
+				"_obs_count" : 96
+			}
+		]
+	}
+}

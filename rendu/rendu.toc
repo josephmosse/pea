@@ -1,42 +1,36 @@
-\contentsline {section}{\numberline {1}Analyse macroéconomique du blé et du nickel}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Le blé}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Le nickel}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Analyse des séries chronologiques}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Stabilité de la variance}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Analyse graphique et tableau de Buys-Ballot}{3}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Analyse de la variance}{4}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Test de Fisher de détection de saisonnalité}{4}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Test de Fisher de détection de tendance}{5}{subsubsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.4}Analyse de la saisonnalité de l'échantillon (2016-2021) du nickel}{6}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Type de saisonnalité et sélection du schéma de décomposition}{6}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Désaisonnalisation de l'échantillon par méthode Census}{7}{subsubsection.2.4.2}%
+\contentsline {section}{\numberline {1}Analyse technique et macroéconomique du blé et du nickel}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Présentation des deux matières premières}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Analyse macroéconomique}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Analyse technique}{2}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Analyse de la saisonnalité et de la tendance}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Détection de saisonnalité et de tendance}{3}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Analyse graphique}{3}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Analyse de la variance et test de Fisher}{4}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Désaisonnalisation de l'échantillon 2016-2021 du nickel}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Type de saisonnalité et sélection du schéma de décomposition}{6}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Désaisonnalisation de l'échantillon par méthode Census}{6}{subsubsection.2.2.2}%
 \contentsline {section}{\numberline {3}Prévision par le méthodes traditionnelles}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Prévision pour 2020}{9}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Extrapolation d'une droite de tendance}{9}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Lissage exponentiel double (LED)}{9}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}Lissage exponentiel triple (Holt Winter)}{9}{subsubsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.2}Prévision pour 2022}{9}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Extrapolation d'une droite de tendance}{9}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Lissage exponentiel double (LED)}{9}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Lissage exponentiel triple (Holt Winter)}{9}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}Classification des méthodes}{9}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Blé}{9}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Nickel}{9}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Prévision pour 2023}{9}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Blé}{9}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Nickel}{9}{subsubsection.3.4.2}%
-\contentsline {section}{\numberline {4}Prévision selon la méthodologie de Box \& Jenkins}{10}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Présentation de la méthode}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Test de racine unitaire}{10}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Identification des processus}{10}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Tests de validité}{10}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}Significativité des paramètres}{10}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}Tests sur les résidus}{10}{subsubsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.5}Prévision pour 2023}{10}{subsection.4.5}%
-\contentsline {section}{\numberline {A}Analyse des séries chronologiques}{10}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Stabilité de la variance}{10}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Analyse graphique}{11}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Analyse de la variance}{12}{subsection.A.3}%
-\contentsline {subsubsection}{\numberline {A.3.1}Tableau de Buys-Ballot}{12}{subsubsection.A.3.1}%
-\contentsline {subsubsection}{\numberline {A.3.2}ANOVA}{13}{subsubsection.A.3.2}%
-\contentsline {subsubsection}{\numberline {A.3.3}test}{14}{subsubsection.A.3.3}%
+\contentsline {subsection}{\numberline {3.1}Échantillon 2016-2019}{8}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Prévision pour 2020}{8}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Choix de la meilleure méthode}{12}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Prévision pour 2022}{13}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Échantillon 2016-2021}{13}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Prévision pour 2022}{13}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.3}Prévision pour 2023}{13}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Prévision selon la méthodologie de Box \& Jenkins}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Présentation de la méthode}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Test de racine unitaire}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Identification des processus}{14}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Prévision pour 2023}{14}{subsection.4.4}%
+\contentsline {section}{\numberline {A}Analyse des séries chronologiques}{14}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Stabilité de la variance}{14}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Analyse graphique}{15}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Analyse de la variance}{16}{subsection.A.3}%
+\contentsline {subsubsection}{\numberline {A.3.1}Tableau de Buys-Ballot}{16}{subsubsection.A.3.1}%
+\contentsline {subsubsection}{\numberline {A.3.2}ANOVA}{16}{subsubsection.A.3.2}%
+\contentsline {subsection}{\numberline {A.4}Désaisonnalisation de l'échantillon (2016-2021) du Nickel}{17}{subsection.A.4}%
+\contentsline {section}{\numberline {B}Prévision traditionnelle}{19}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Échantillon 2016-2019}{19}{subsection.B.1}%
+\contentsline {subsubsection}{\numberline {B.1.1}Extrapolation d'une droite de tendance}{19}{subsubsection.B.1.1}%
+\contentsline {subsubsection}{\numberline {B.1.2}Lissage exponentiel double}{21}{subsubsection.B.1.2}%
+\contentsline {subsubsection}{\numberline {B.1.3}Lissage exponentiel de Holt-Winter}{22}{subsubsection.B.1.3}%
