@@ -13,24 +13,28 @@
 \contentsline {subsection}{\numberline {3.1}Échantillon 2016-2019}{8}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Prévision pour 2020}{8}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}Choix de la meilleure méthode}{11}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}Prévision pour 2022}{11}{subsubsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.2}Échantillon 2016-2021}{11}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Prévision pour 2022}{11}{subsubsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.3}Prévision pour 2023}{11}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Prévision selon la méthodologie de Box \& Jenkins}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Présentation de la méthode}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Test de racine unitaire}{12}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Identification des processus}{12}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Prévision pour 2023}{12}{subsection.4.4}%
-\contentsline {section}{\numberline {A}Analyse des séries chronologiques}{12}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Stabilité de la variance}{12}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Analyse graphique}{13}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Analyse de la variance}{14}{subsection.A.3}%
-\contentsline {subsubsection}{\numberline {A.3.1}Tableau de Buys-Ballot}{14}{subsubsection.A.3.1}%
-\contentsline {subsubsection}{\numberline {A.3.2}ANOVA}{14}{subsubsection.A.3.2}%
-\contentsline {subsection}{\numberline {A.4}Désaisonnalisation de l'échantillon (2016-2021) du Nickel}{15}{subsection.A.4}%
-\contentsline {section}{\numberline {B}Prévision traditionnelle}{17}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Échantillon 2016-2019}{17}{subsection.B.1}%
-\contentsline {subsubsection}{\numberline {B.1.1}Extrapolation d'une droite de tendance}{17}{subsubsection.B.1.1}%
-\contentsline {subsubsection}{\numberline {B.1.2}Lissage exponentiel double}{19}{subsubsection.B.1.2}%
-\contentsline {subsubsection}{\numberline {B.1.3}Lissage exponentiel de Holt-Winter}{20}{subsubsection.B.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3}Prévision pour 2022}{12}{subsubsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.2}Échantillon 2016-2021}{12}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Prévision pour 2022}{12}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Choix de la meilleure méthode}{15}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}Prévision selon la méthodologie de Box \& Jenkins}{16}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Présentation de la méthode}{16}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Test de racine unitaire}{17}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Identification des processus}{17}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Prévision pour 2023}{17}{subsection.4.4}%
+\contentsline {section}{\numberline {A}Analyse des séries chronologiques}{18}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Stabilité de la variance}{18}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Analyse graphique}{19}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Analyse de la variance}{20}{subsection.A.3}%
+\contentsline {subsubsection}{\numberline {A.3.1}Tableau de Buys-Ballot}{20}{subsubsection.A.3.1}%
+\contentsline {subsubsection}{\numberline {A.3.2}ANOVA}{20}{subsubsection.A.3.2}%
+\contentsline {subsection}{\numberline {A.4}Désaisonnalisation de l'échantillon (2016-2021) du Nickel}{21}{subsection.A.4}%
+\contentsline {section}{\numberline {B}Prévision traditionnelle}{23}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}Échantillon 2016-2019}{23}{subsection.B.1}%
+\contentsline {subsubsection}{\numberline {B.1.1}Extrapolation d'une droite de tendance}{23}{subsubsection.B.1.1}%
+\contentsline {subsubsection}{\numberline {B.1.2}Lissage exponentiel double}{25}{subsubsection.B.1.2}%
+\contentsline {subsubsection}{\numberline {B.1.3}Lissage exponentiel de Holt-Winter}{26}{subsubsection.B.1.3}%
+\contentsline {subsection}{\numberline {B.2}Échantillon 2016-2021}{27}{subsection.B.2}%
+\contentsline {subsubsection}{\numberline {B.2.1}Extrapolation d'une droite de tendance}{27}{subsubsection.B.2.1}%
+\contentsline {subsubsection}{\numberline {B.2.2}Lissage exponentiel double}{30}{subsubsection.B.2.2}%
+\contentsline {subsubsection}{\numberline {B.2.3}Lissage exponentiel de Holt-Winter}{31}{subsubsection.B.2.3}%

@@ -81,12 +81,8 @@ blé et le nickel}
 
 \include{parts/2_analyse}
 \include{parts/3_tradi}
+\include{parts/4_boxjen.tex}
 
-\section{Prévision selon la méthodologie de Box \& Jenkins}
-\subsection{Présentation de la méthode}
-\subsection{Test de racine unitaire}
-\subsection{Identification des processus}
-\subsection{Prévision pour 2023}
 \section*{Conclusion}
 
 
@@ -290,4 +286,103 @@ faire par sous périodes
     \input{annexe/3_1_hwout_nickel19.tex}
     \label{tab:hwout_nickel19}
 \end{table}
+
+
+\subsection{Échantillon 2016-2021}
+\subsubsection{Extrapolation d'une droite de tendance}
+\begin{table}[H]
+    \centering
+    \caption{Estimation par les MCO de l'échantillon 2016-2021 du blé}
+    \sffamily
+    \label{tab:mco_ble21}
+    \input{annexe/3_2_mco_ble.tex}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \label{fig:mco_cor_ble21}
+    \includegraphics[]{annexe/3_2_mco_corr_ble.pdf}
+    \caption{Corrélograme des résidus des MCO de l'échantillon 2016-2021 du blé}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{annexe/3_2_mco_hist_ble.eps}
+    \caption{Histogramme des résidus des MCO de l'échantillon 2016-2021 du blé}
+    \label{fig:mco_hist_ble21}
+\end{figure}
+
+\begin{table}[H]
+    \centering
+    \caption{Test ARCH sur les résidus des MCO de l'échantillon 2016-2021 du blé}
+    \sffamily
+    \input{annexe/3_2_mco_homo_ble.tex}
+    \label{tab:mco_homo_ble19}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Estimation par les MCO de l'échantillon 2016-2021 du nickel}
+    \sffamily
+    \label{tab:mco_nickel21}
+    \input{annexe/3_2_mco_nickel.tex}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \label{fig:mco_cor_nickel21}
+    \includegraphics[]{annexe/3_2_mco_corr_nickel.pdf}
+    \caption{Corrélograme des résidus des MCO de l'échantillon 2016-2021 du nickel}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{annexe/3_2_mco_hist_nickel.eps}
+    \caption{Histogramme des résidus des MCO de l'échantillon 2016-2021 du nickel}
+    \label{fig:mco_hist_nickel21}
+\end{figure}
+
+\begin{table}[H]
+    \centering
+    \caption{Test ARCH sur les résidus des MCO de l'échantillon 2016-2021 du nickel}
+    \sffamily
+    \input{annexe/3_2_mco_homo_nickel.tex}
+    \label{tab:mco_homo_nickel19}
+\end{table}
+
+\subsubsection{Lissage exponentiel double}
+\begin{table}[H]
+    \centering
+    \caption{Constante de lissage LED blé (2016-2021)}
+    \sffamily
+    \input{annexe/3_2_led_ble.tex}
+    \label{tab:led_ble21}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Constante de lissage LED nickel (2016-2021)}
+    \sffamily
+    \input{annexe/3_2_led_nickel.tex}
+    \label{tab:led_nickel21}
+\end{table}
+
+\subsubsection{Lissage exponentiel de Holt-Winter}
+\begin{table}[H]
+    \centering
+    \caption{Constantes de lissage HW blé (2016-2021)}
+    \sffamily
+    \input{annexe/3_2_hw_ble.tex}
+    \label{tab:hw_ble}
+\end{table}
+\begin{table}[H]
+    \centering
+    \caption{Constantes de lissage HW nickel (2016-2021)}
+    \sffamily
+    \input{annexe/3_2_hw_nickel.tex}
+    \label{tab:hw_nickel}
+\end{table}
+
+
+
 \end{document}

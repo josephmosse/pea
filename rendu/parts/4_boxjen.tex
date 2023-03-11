@@ -1,0 +1,42 @@
+\section{Prévision selon la méthodologie de Box \& Jenkins}
+\subsection{Présentation de la méthode}
+Lors de des prévisions faites grace aux méthodes traditionnelles, il a été possible de montrer que les résidus des prévisions n'étaient pas des bruits blancs. En effet, 
+les méthodes traditionnelle s'avèrent le plus souvent inefficaces lors de prévisions de chroniques économiques, en particulier financières. Une partie des informations est 
+donc perdue, mal modélisée par les lissages ou extrapolations. Une autre classe de méthodes de modélisation de séries temporelles peut donc être utilisée pour modéliser le 
+cours du blé et du nickel : les processus aléatoires ARMA.\\[11pt]
+La démocratisation de l'utilisation des processus aléatoires dans le domaine de la modélisation économique remonte aux années 1970. A cette époque, deux statisticiens, 
+George Box et Gwilym Jenkins mettent au point une méthode itérative de prévision de séries temporelles basée sur les processus aléatoires ARMA. \\[11pt]
+La première étape de cet algorithme est de transformer la série de base, c'est à dire procéder a une transformation logarithmique en cas de forte variations, corriger les 
+variations saisonnières en cas de saisonnalité, et finalement corriger la tendance si il y en à une. Cette étape de transformation vise donc à rendre stationnaire une 
+série temporelle pour que ses caractéristiques se rapprochent le plus à celles d'un processus ARMA. En effet, la méthodologie de Box et Jenkins est bâtie sur la 
+modélisation de chroniques stationnaires, or les séries économiques ou financières sont rarement la réalisation de de processus aléatoires stationnaires. Il faut donc 
+réaliser un test de racine unitaire afin de déterminer si la série est stationnaire ou non, et si oui alors quel est son type de non-stationnarité.\\[11pt]
+Les types de processus non-stationnaires les plus fréquents sont :
+\begin{itemize}
+    \item \textbf{Les processus DS}  (\textit{Differency Stationary} ) représentent la non-stationnarité aléatoire, forme la plus commune des chroniques financières.
+    \item \textbf{Les processus TS}  (\textit{Trend Stationary} ) représentent la non-stationnarité déterministe.
+\end{itemize}
+Si la série est un DS, il faut appliquer un filtre aux différences pour corriger la stationnarité. Au contraire si c'est un TS, la stationnarité est corrigée par la 
+méthode des moindres carrés ordinaires.\\[11pt]
+Lorsque la série est stationnaire, vient alors l'étape d'identification. Les caractéristiques des fonctions d'autocorrélation et autocorrélation partielle de la chronique
+sont comparées à celles de processus ARMA théoriques, ceci permet d'identifier l'ordre du processus ARMA sous-jacent.\\[11pt]
+La troisième étape est l'étape de d'estimation, les paramètres du processus ARMA identifié sont estimés par la méthode des MCO. Pour rappel, un ARMA($p,q$) est une 
+combinaison linéaire de processus autorégressif à l'ordre $p$ AR($p$) et de processus moyenne mobile à l'ordre $q$ MA($q$) tel que :
+\begin{equation*}
+    x_t = \varepsilon_t +  \sum_{i=1}^p \phi_i x_{t-i} + \sum_{i=1}^q \theta_i \varepsilon_{t-i}
+\end{equation*}
+Une fois que les paramètres du modèle ont été estimés, s'en suit l'étape de tests de validation du modèle. En effet, si le modèle ne répond pas aux critères attendus 
+d'un bon modèle ARMA, alors il faut revenir à l'étape d'identification afin d'identifier si possible, un meilleur modèle. Ces critères peuvent être classés de la sorte :
+\begin{itemize}
+    \item Minimisation des critères d'information construits pour les ARMA.
+    \item Stationnarité de la partie AR et inversibilité de la partie MA.
+    \item Significativité des paramètres estimés et du coefficient de détermination.
+    \item Les résidus suivent un bruit blanc gaussien.
+    \item Respect du principe de parcimonie.
+\end{itemize}
+Si le modèle estimé respecte la majorité des éléments de la liste, il alors est possible de passer à la cinquième et dernière étape : la prévision. Une fois la prévision
+faite, il est nécessaire de recolorer la chronique, c'est à dire re-transformer la chronique à son état d'origine.\\[11pt]
+Maintenant que les étapes de l'algorithme ont été explicités, ce dernier est utilisé afin de prévoir les valeurs des cours du blé et du nickel.
+\subsection{Test de racine unitaire}
+\subsection{Identification des processus}
+\subsection{Prévision pour 2023}
