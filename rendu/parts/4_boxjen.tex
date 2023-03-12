@@ -53,46 +53,155 @@ La stratégie de test de Philip-Perron est la même que celle du test de Dickey-
 \end{itemize}
 \subsubsection{Echantillon 2016-2019}
 Dans un premier temps, la stratégie de test de racine unitaire est fait sur les échantillons 2016-2019 des cours du blé et du nickel.
-\subsubsection*{Le blé}
-Le troisième modèle est estimé, c'est un AR(1) avec tendance et constante :
+\subsubsection*{$\bullet$ Test de racine unitaire sur le cours blé}
+Le modèle 3 est estimé, c'est un AR(1) avec tendance et constante :
 \begin{equation*}
     x_{t} = c + bt + \phi_{1} x_{t-1} + a_{t}
 \end{equation*}
-L'hypothèse de présence de racine unitaire est ensuite testée :
+L'hypothèse de présence de racine unitaire est testée.
+%
+\begin{itemize}
+\item[-]\textbf{ Hypothèse :} 
 \begin{equation*}
     \begin{split}
         H_{0} &: \text{Présence de racine unitaire.}  \quad  (\phi_{1} = 1)\\
         H_{1} &: \text{Stationnarité du processus.}
     \end{split}
 \end{equation*}
-Statistique de test :
+\item[-]\textbf{Statistique de test :} 
 \begin{equation*}
     t_{c} = \frac{\tilde{\phi}_{1}- 1}{\hat{\sigma}_{\tilde{\phi}_{1}}}
 \end{equation*}
-Pour un niveau de test à 5\%, la statistique de student calculée est ensuite comparée au seuil critique trouvée dans la table de Dickey-Fuller (annexe). Si la 
-statistique calculée est supérieure au seuil, alors l'hypothèse nulle de présence de racine unitaire est acceptée. Après
-calculs :
+\item[-]\textbf{Règle de décision :} Pour un niveau de test à 5\%, la statistique de student calculée est ensuite comparée à la statistique de student ajustée de la table 
+de Dickey-Fuller (annexe). Si la statistique calculée est supérieure au seuil, alors l'hypothèse nulle de présence de racine unitaire est acceptée.
+\item[-]\textbf{Application :} 
 \begin{equation*}
-    t_{c} = 0,25 > t_{ajuste} = - 3,5
+    t_{c} = -2,67
 \end{equation*}
-L'hypothèse $H_{0}$ est donc acceptée au risque de 5\%, il y a présence de racine unitaire. \\[11pt]
-Il faut a présent tester l'hypothèse jointe, cette dernière est formulé de la sorte :
+D'autre part, la statistique de student ajustée lue dans la table de Dickey-Fuller est $t_{ajs} = - 3,5$. La statistique calculée est donc supérieure au seuil critique,
+l'hypothèse $H_{0}$ est acceptée au risque de 5\%, il y a présence de racine unitaire.
+\end{itemize}
+%
+Afin de distinguer TS de DS, il faut a présent tester l'hypothèse jointe $H_{0}^{3}$
+%
+\begin{itemize}
+\item[-]\textbf{Hypothèse :} 
 \begin{equation*}
     \begin{split}
-        H_{0}^{3} &: (c; b; \phi_{1}) = (0;0;1)\\
+        H_{0}^{3} &: (c; b; \phi_{1}) = (c;0;1)\\
         H_{1}^{3} &: \text{Au moins un des paramètres est différent.}
     \end{split}
 \end{equation*}
-Statistique de test :
+\item[-]\textbf{Statistique de test :} 
 \begin{equation*}
     F_{3} = \frac{(SCR_{c}^{3} - SCR_{3})/2}{SCR_{3}/(n-3)}
 \end{equation*}
-Où $SCR_{3}$ est la somme des carrés des résidus du modèle 3 et $SCR_{c}^{3}$ la somme des carrés des résidus du modèle 3 contraint sous l'hypothèse $H_{0}^{3}$. Si 
-$F_{3}$ est inférieur à la valeur critique lue dans la table de Dickey-Fuller pour un niveau de test à 5\%, alors $H_{0}^{3}$ est acceptée. D'où :
+Où $SCR_{3}$ est la somme des carrés des résidus du modèle 3 et $SCR_{c}^{3}$ la somme des carrés des résidus du modèle 3 contraint sous l'hypothèse $H_{0}^{3}$ tel que :
+$SCR_{c}^{3} = \sum_{t} \left(x_{t} - x_{t-1} - \hat{c}\right)^{2}$.
+\item[-]\textbf{Règle de décision :} La statistique de Fisher calculée est par la suite comparée à la statistique de Fisher tabulée de Dickey-Fuller. Si $F_{3}$ est 
+inférieur au seuil critique lu dans la table pour un niveau de test à 5\%, alors $H_{0}^{3}$ est acceptée.
+\item[-]\textbf{Application :} 
 \begin{equation*}
-    F_{3} = \frac{(0,100994 -  0,087023)/2}{0,087023/(47-3)} = 3,53 < 6,73
+    F_{3} = \frac{(0,100994 -  0,087023)/2}{0,087023/(47-3)} = 3,53
 \end{equation*}
-$H_{0}^{3}$ Est donc acceptée au risque de 5\%
+La statistique lue dans la table de Dickey-Fuller est $\Phi_{3} = 6,73$; or $F_{3}$ est inférieure à $\Phi_{3}$. L'hypothèse $H_{0}^{3}$ Est donc acceptée au risque 
+de 5\%.
+\end{itemize}
+%
+En suivant le diagramme de stratégie de test de racine unitaire, il est désormais nécessaire de tester l'hypothèse jointe $H_{0}^{2}$.
+%
+\begin{itemize}
+\item[-]\textbf{Hypothèse :} 
+\begin{equation*}
+    \begin{split}
+        H_{0}^{2} &: (c; b; \phi_{1}) = (0;0;1)\\
+        H_{1}^{2} &: \text{Au moins un des paramètres est différent.}
+    \end{split}
+\end{equation*}
+\item[-]\textbf{Statistique de test :}
+\begin{equation*}
+    F_{2} = \frac{(SCR_{c} - SCR_{3})/3}{SCR_{3}/(n-3)}
+\end{equation*}
+Où $SCR_{c}$ est la somme des carrés des résidus du modèle 3 contraint sous l'hypothèse $H_{0}^{2}$, il s'agira donc ici de la somme des carrés de la différence première
+du cours en log du blé.
+\item[-]\textbf{Règle de décision :}  Si la statistique $F_{2}$ est inférieure à la statistique lue dans la table de Dickey-Fuller pour un niveau de test de 5\%, alors $H_{0}^{2}$ est acceptée.
+\item[-]\textbf{Application :} 
+\begin{equation*}
+    F_{2} = \frac{(0,101423 - 0,087023)/3}{0,087023/(47-3)} = 2,43
+\end{equation*}
+De plus, la statistique de Fisher lue dans la table de Dickey-Fuller $\Phi_{2} = 5,13$ est supérieure à la statistique calculée. L'hypothèse $H_{0}^{2}$ est donc acceptée
+au risque de 5\%. 
+\end{itemize}
+%
+Pour le moment, d'après le diagramme, le cours du blé ne peut pas être un TS. Il est maintenant nécessaire d'estimer le modèle 2, qui est identique au modèle 3 à 
+l'exception de l'absence de tendance.
+\begin{equation*}
+    x_{t} = c + \phi_{1} x_{t-1} + a_{t}
+\end{equation*}
+De manière séquentielle, comme pour le modèle 3, l'hypothèse de présence de racine unitaire est testée.
+%
+\begin{itemize}
+\item[-]\textbf{ Hypothèse :} 
+\begin{align*}
+        H_{0} &: \phi_{1} = 1  & &\text{Présence de racine unitaire.}\\
+        H_{1} &:|\phi_{1}| < 1   &  &\text{Stationnarité du processus.}
+\end{align*}
+\item[-]\textbf{Statistique de test :} 
+\begin{equation*}
+    t_{c} = \frac{\tilde{\phi}_{1}- 1}{\hat{\sigma}_{\tilde{\phi}_{1}}}
+\end{equation*}
+\item[-]\textbf{Règle de décision :} La statistique de student calculée est comparée à la statistique de student tabulée de Dickey-Fuller pour un niveau de test à 
+5\%. Si la statistique calculée est supérieure au seuil critique, alors l'hypothèse nulle de présence de racine unitaire est acceptée.
+\item[-]\textbf{Application :} 
+\begin{equation*}
+    t_{c} = -1,73 > t_{ajs} = -2,93
+\end{equation*}
+L'hypothèse $H_{0}$ est donc acceptée au risque de 5\%, il y a présence de racine unitaire.
+\end{itemize}
+%
+Un test d'hypothèse jointe $H_{0}^{1}$ est ensuite fait afin de valider la présence de racine unitaire et tester la nullité de la constante $c$.
+\begin{itemize}
+\item[-]\textbf{Hypothèse :} 
+\begin{equation*}
+    \begin{split}
+        H_{0}^{1} &: (c; \phi_{1}) = (0;1)\\
+        H_{1}^{1} &: \text{Au moins un des paramètres est différent.}
+    \end{split}
+\end{equation*}
+\item[-]\textbf{Statistique de test :}
+\begin{equation*}
+    F_{1} = \frac{(SCR_{c} - SCR_{2})/2}{SCR_{2}/(n-2)}
+\end{equation*}
+Où $SCR_{2}$ est la somme des carrés des résidus du modèle 2 non contraint.
+\item[-]\textbf{Règle de décision :}  Si la statistique $F_{2}$ est inférieure à la statistique lue dans la table de Dickey-Fuller pour un niveau de test de 5\%, alors 
+$H_{0}^{2}$ est acceptée.
+\item[-]\textbf{Application :} 
+\begin{equation*}
+    F_{2} = \frac{(0,101423 - 0,094683)/2}{0,094683/(47-2)} = 1,60
+\end{equation*}
+Cette statistique est inférieure à la statistique de Fisher lue dans la table de Dickey-Fuller $\Phi_{1} = 4,86$. L'hypothèse $H_{0}^{2}$ est donc acceptée au risque 
+de 5\%. 
+\end{itemize}
+%
+D'après le diagramme, il faut maintenant tester la nullité de la moyenne du cours du blé. En effet, si il s'avère que la moyenne n'est pas nulle alors le processus 
+sous-jacent est un DS.
+\begin{itemize}
+    \item[-]\textbf{Hypothèse :}
+\begin{equation*}
+\begin{split}
+    H_{0} &: \mu = 0\\
+    H_{1} &: \mu \neq 0
+\end{split}
+\end{equation*}
+\item[-]\textbf{Règle de décision :} La statistique calculé est un student et elle est comparée à la distribution bilatérale de la loi de Student. Si la probabilité 
+critique d'accepter $H_{0}$ est supérieure à 5\%, alors $H_{0}$ est acceptée au risque de 5\%.
+\item[-]\textbf{Application :} Ici la probabilité critique de rejeter $H_{0}$ est de 0 (annexe), l'hypothèse de nullité de la moyenne est donc rejetée au risque de 5\%.
+\end{itemize}
+La moyenne du cours du blé n'étant pas nulle, il est possible de conclure que le processus générateur de la chronique est un DS. Pour le rendre stationnaire il est donc
+nécessaire d'appliquer un filtre aux différences premières.
+\begin{equation*}
+    \Delta x_{t} = x_{t} - x_{t-1}
+\end{equation*}
 \subsubsection*{Le nickel}
 \subsubsection{Echantillon 2016-2021}
 \subsubsection*{Le blé}
