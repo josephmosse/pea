@@ -14,6 +14,9 @@
 \usepackage{caption}
 \usepackage{eurosym}
 \usepackage{biblatex}
+\usepackage{multicol}
+\usepackage{color}
+\setlength\columnseprule{.5pt}
 \bibliography{biblio.bib}
 
 \setlength{\tabcolsep}{10pt}
@@ -62,12 +65,12 @@ blé et le nickel}
 \end{center}
 
 \clearpage
-\newgeometry{left=2.5cm, right=2.5cm,top=3cm, bottom=3cm}
+\newgeometry{left=2.5cm, right=2.5cm,top=2.5cm, bottom=2.5cm}
 \pagenumbering{arabic}
 \pagestyle{fancy}
-\fancyhead{}\fancyfoot[C]{\thepage}
+\fancyhead{}
+\fancyfoot[C]{\thepage}
 \section*{Résumé}
-\setcounter{tocdepth}{6}
 \renewcommand\contentsname{Sommaire}
 \tableofcontents
 
@@ -387,6 +390,7 @@ faire par sous périodes
 \setcounter{figure}{0}
 \subsection{Test de racine unitaire}
 \subsubsection{Echnatillon 2016-2019}
+\subsubsection*{Blé}
 \begin{table}[H]
     \centering
     \caption{Estimation du modèle 3 pour le blé (2016-2019)}
@@ -419,11 +423,37 @@ faire par sous périodes
     \label{tab:testmoy_ble19}
 \end{table}
 
+\subsubsection*{Nickel}
 \begin{table}[H]
     \centering
-    \caption{Estimation du modèle 1 pour le blé (2016-2019)}
+    \caption{Estimation du modèle 3 pour le nickel (2016-2019)}
     \sffamily
-    \input{annexe/4_2_1_mod1_ble.tex}
-    \label{tab:mod1_ble19}
+    \input{annexe/4_2_1_mod3_nickel.tex}
+    \label{tab:mod3_nickel19}
 \end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Estimation du modèle 3 contraint sous $H_{0}^{3}$ pour le nickel (2016-2019)}
+    \sffamily
+    \input{annexe/4_2_1_mod3cont_nickel.tex}
+    \label{tab:mod3cont_nickel19}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Estimation du modèle 2 pour le blé (2016-2019)}
+    \sffamily
+    \input{annexe/4_2_1_mod2_nickel.tex}
+    \label{tab:mod2_nickel19}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Test de nullité de la moyenne du cours du nickel (2016-2019)}
+    \sffamily
+    \input{annexe/4_2_1_testmoy_nickel.tex}
+    \label{tab:testmoy_nickel19}
+\end{table}
+
 \end{document}

@@ -10,7 +10,7 @@ La première étape de cet algorithme est de transformer la série de base, c'es
 variations saisonnières en cas de saisonnalité, et finalement corriger la tendance si il y en à une. Cette étape de transformation vise donc à rendre stationnaire une 
 série temporelle pour que ses caractéristiques se rapprochent le plus à celles d'un processus ARMA. En effet, la méthodologie de Box et Jenkins est bâtie sur la 
 modélisation de chroniques stationnaires, or les séries économiques ou financières sont rarement la réalisation de de processus aléatoires stationnaires. Il faut donc 
-réaliser un test de racine unitaire afin de déterminer si la série est stationnaire ou non, et si oui alors quel est son type de non-stationnarité.\\[11pt]
+réaliser un test de racine unitaire pour déterminer si la série est stationnaire ou non, et si elle ne l'est pas, identifier le type de non-stationnarité.\\[11pt]
 Les types de processus non-stationnaires les plus fréquents sont :
 \begin{itemize}
     \item \textbf{Les processus DS}  (\textit{Differency Stationary} ) représentent la non-stationnarité aléatoire, forme la plus commune des chroniques financières.
@@ -51,6 +51,7 @@ La stratégie de test de Philip-Perron est la même que celle du test de Dickey-
     \item Un test de présence de racine unitaire $H_{0}$ (l'hypothèse alternative $H_{1}$ étant stationnarité de la chronique).
     \item Un test d'hypothèse jointe, permettant de valider la présence de racine unitaire et de différencier TS et DS. 
 \end{itemize}
+%
 \subsubsection{Echantillon 2016-2019}
 Dans un premier temps, la stratégie de test de racine unitaire est fait sur les échantillons 2016-2019 des cours du blé et du nickel.
 \subsubsection*{$\bullet$ Test de racine unitaire sur le cours blé}
@@ -62,12 +63,10 @@ L'hypothèse de présence de racine unitaire est testée.
 %
 \begin{itemize}
 \item[-]\textbf{ Hypothèse :} 
-\begin{equation*}
-    \begin{split}
-        H_{0} &: \text{Présence de racine unitaire.}  \quad  (\phi_{1} = 1)\\
-        H_{1} &: \text{Stationnarité du processus.}
-    \end{split}
-\end{equation*}
+\begin{align*}
+    H_{0} &: \phi_{1} = 1  & &\text{Présence de racine unitaire.}\\
+    H_{1} &:|\phi_{1}| < 1   &  &\text{Stationnarité du processus.}
+\end{align*}
 \item[-]\textbf{Statistique de test :} 
 \begin{equation*}
     t_{c} = \frac{\tilde{\phi}_{1}- 1}{\hat{\sigma}_{\tilde{\phi}_{1}}}
@@ -78,7 +77,7 @@ de Dickey-Fuller (annexe). Si la statistique calculée est supérieure au seuil,
 \begin{equation*}
     t_{c} = -2,67
 \end{equation*}
-D'autre part, la statistique de student ajustée lue dans la table de Dickey-Fuller est $t_{ajs} = - 3,5$. La statistique calculée est donc supérieure au seuil critique,
+D'autre part, la statistique de student ajustée lue dans la table de Dickey-Fuller est $t_{ajs} = - 3,51$. La statistique calculée est donc supérieure au seuil critique,
 l'hypothèse $H_{0}$ est acceptée au risque de 5\%, il y a présence de racine unitaire.
 \end{itemize}
 %
@@ -177,7 +176,7 @@ Où $SCR_{2}$ est la somme des carrés des résidus du modèle 2 non contraint.
 $H_{0}^{2}$ est acceptée.
 \item[-]\textbf{Application :} 
 \begin{equation*}
-    F_{2} = \frac{(0,101423 - 0,094683)/2}{0,094683/(47-2)} = 1,60
+    F_{1} = \frac{(0,101423 - 0,094683)/2}{0,094683/(47-2)} = 1,60
 \end{equation*}
 Cette statistique est inférieure à la statistique de Fisher lue dans la table de Dickey-Fuller $\Phi_{1} = 4,86$. L'hypothèse $H_{0}^{2}$ est donc acceptée au risque 
 de 5\%. 
@@ -187,24 +186,267 @@ D'après le diagramme, il faut maintenant tester la nullité de la moyenne du co
 sous-jacent est un DS.
 \begin{itemize}
     \item[-]\textbf{Hypothèse :}
-\begin{equation*}
-\begin{split}
-    H_{0} &: \mu = 0\\
-    H_{1} &: \mu \neq 0
-\end{split}
-\end{equation*}
-\item[-]\textbf{Règle de décision :} La statistique calculé est un student et elle est comparée à la distribution bilatérale de la loi de Student. Si la probabilité 
-critique d'accepter $H_{0}$ est supérieure à 5\%, alors $H_{0}$ est acceptée au risque de 5\%.
-\item[-]\textbf{Application :} Ici la probabilité critique de rejeter $H_{0}$ est de 0 (annexe), l'hypothèse de nullité de la moyenne est donc rejetée au risque de 5\%.
+\begin{align*}
+    H_{0} &: \mu = 0 & H_{1} &: \mu \neq 0
+\end{align*}
+\item[-]\textbf{Règle de décision :} La statistique calculé est un student et elle est comparée à la distribution bilatérale de la loi de Student qui converge vers une loi normale centrée réduite. Si la statistique calculée est inférieure à 1,96, alors $H_{0}$ est acceptée au risque de 5\%.
+\item[-]\textbf{Application :} Ici $t_{c} = 400 > 1,96$, l'hypothèse de nullité de la moyenne est donc rejetée au risque de 5\%.
 \end{itemize}
-La moyenne du cours du blé n'étant pas nulle, il est possible de conclure que le processus générateur de la chronique est un DS. Pour le rendre stationnaire il est donc
-nécessaire d'appliquer un filtre aux différences premières.
+La moyenne du cours du blé n'étant pas nulle, il est possible de conclure que le processus générateur de la chronique est un DS sans dérive $\Delta x_{t} = a_{t}$. Pour le 
+rendre stationnaire il est donc nécessaire d'appliquer un filtre aux différences premières. Soit $x_{t}$ le cours en log du blé :
 \begin{equation*}
     \Delta x_{t} = x_{t} - x_{t-1}
 \end{equation*}
-\subsubsection*{Le nickel}
+\subsubsection*{$\bullet$ Test de racine unitaire sur le cours nickel}
+%
+La même stratégie (annexe) est utilisée afin de déterminer si le cours du nickel est stationnaire, et dans le cas contraire, identifier le type de non-stationnarité.
+Dans un premier temps, le modèle 3 est estimé, c'est un AR(1) avec tendance et constante. A partir de ce modèle l'hypothèse de présence de racine unitaire est ensuite 
+testée.
+%
+\begin{itemize}
+\item[-]\textbf{ Hypothèse :} 
+\begin{align*}
+    H_{0} &: \phi_{1} = 1  & &\text{Présence de racine unitaire.}\\
+    H_{1} &:|\phi_{1}| < 1   &  &\text{Stationnarité du processus.}
+\end{align*}
+\item[-]\textbf{Statistique de test :} 
+\begin{equation*}
+    t_{c} = \frac{\tilde{\phi}_{1}- 1}{\hat{\sigma}_{\tilde{\phi}_{1}}} = -3,04
+\end{equation*}
+\item[-]\textbf{Règle de décision :} La statistique calculée est comparée au seuil critique lu dans la table de Dickey-Fuller (annexe). Si la statistique calculée est supérieure à ce seuil, alors l'hypothèse de présence de racine unitaire est acceptée.
+\item[-]\textbf{Application :} La statistique de student ajustée lue dans la table de Dickey-Fuller est $t_{ajs} = - 3,51$. Or $t_{c} > t_{ajs}$, $H_{0}$ est acceptée 
+au risque de 5\%, il y a une racine unitaire.
+\end{itemize}
+%
+Il est maintenant nécessaire de tester l'hypothèse jointe pour différencier TS de DS.
+%
+\begin{itemize}
+\item[-]\textbf{Hypothèse :} 
+\begin{equation*}
+    \begin{split}
+        H_{0}^{3} &: (c; b; \phi_{1}) = (c;0;1)\\
+        H_{1}^{3} &: \text{Au moins un des paramètres est différent.}
+    \end{split}
+\end{equation*}
+\item[-]\textbf{Statistique de test :} 
+\begin{equation*}
+    F_{3} = \frac{(SCR_{c}^{3} - SCR_{3})/2}{SCR_{3}/(n-3)} = 4,44
+\end{equation*}
+\item[-]\textbf{Règle de décision :} La statistique calculée est comparée à celle lue dans la table de Dickey-Fuller. Si $F_{3}$ est inférieure à celle lue pour un niveau 
+de 5\%, alors $H_{0}^{3}$ est acceptée.
+\item[-]\textbf{Application :} La statistique lue dans la table de Dickey-Fuller est $\Phi_{3} = 6,73$; or $F_{3} < \Phi_{3}$. L'hypothèse $H_{0}^{3}$ est acceptée au 
+risque de 5\%.
+\end{itemize}
+%
+L'hypothèse jointe $H_{0}^{2}$ est testée.
+%
+\begin{itemize}
+\item[-]\textbf{Hypothèse :} 
+\begin{equation*}
+    \begin{split}
+        H_{0}^{2} &: (c; b; \phi_{1}) = (0;0;1)\\
+        H_{1}^{2} &: \text{Au moins un des paramètres est différent.}
+    \end{split}
+\end{equation*}
+\item[-]\textbf{Statistique de test :}
+\begin{equation*}
+    F_{2} = \frac{(SCR_{c} - SCR_{3})/3}{SCR_{3}/(n-3)} = 3,19
+\end{equation*}
+\item[-]\textbf{Règle de décision :}  Si la statistique $F_{2} < \Phi_{2}$ pour un niveau de test de 5\%, alors $H_{0}^{2}$ est acceptée.
+\item[-]\textbf{Application :} $F_{2} < \Phi_{2} = 5,13 $. Alors $H_{0}^{2}$ est acceptée au risque de 5\%. 
+\end{itemize}
+%
+Le cours du nickel ne peut pas être considéré comme un TS. Par conséquent, il faut estimer le modèle 2. Il convient ensuite de tester l'hypothèse de présence de racine
+unitaire
+%
+\begin{itemize}
+\item[-]\textbf{ Hypothèse :} 
+\begin{align*}
+        H_{0} &: \phi_{1} = 1  & &\text{Présence de racine unitaire.}\\
+        H_{1} &:|\phi_{1}| < 1   &  &\text{Stationnarité du processus.}
+\end{align*}
+\item[-]\textbf{Statistique de test :} 
+\begin{equation*}
+    t_{c} = \frac{\tilde{\phi}_{1}- 1}{\hat{\sigma}_{\tilde{\phi}_{1}}} = -1,81
+\end{equation*}
+\item[-]\textbf{Règle de décision :} Si pour un niveau de test à 5\%, le student calculé est supérieur au student ajusté de Dickey-Fuller alors $H_{0}$ est acceptée.
+\item[-]\textbf{Application :} $t_{c} > t_{ajs} = -2.93$. Alors $H_{0}$ est acceptée au risque de 5\%.
+\end{itemize}
+%
+Afin de valider la présence de racine unitaire ainsi que tester la significativité de la constante, le test d'hypothèse jointe $H_{0}^{1}$ est fait.
+\begin{itemize}
+\item[-]\textbf{Hypothèse :} 
+\begin{equation*}
+    \begin{split}
+        H_{0}^{1} &: (c; \phi_{1}) = (0;1)\\
+        H_{1}^{1} &: \text{Au moins un des paramètres est différent.}
+    \end{split}
+\end{equation*}
+\item[-]\textbf{Statistique de test :}
+\begin{equation*}
+    F_{1} = \frac{(SCR_{c} - SCR_{2})/2}{SCR_{2}/(n-2)} = 2,16
+\end{equation*}
+\item[-]\textbf{Règle de décision :}  Si la statistique $F_{1} < \Phi_{1}$ pour un niveau de test de 5\%, alors $H_{0}^{1}$ est acceptée.
+\item[-]\textbf{Application :} $F_{1} < \Phi_{1} = 4,86 $. Alors $H_{0}^{1}$ est acceptée au risque de 5\%.
+\end{itemize}
+%
+Un test de nullité de la moyenne du cours du nickel est fait :
+\begin{itemize}
+    \item[-]\textbf{Hypothèse :}
+\begin{align*}
+    H_{0} &: \mu = 0 & H_{1} &: \mu \neq 0
+\end{align*}
+\item[-]\textbf{Règle de décision :} Si $t_{c} < U_{0,95}$, alors $H_{0}$ est acceptée au risque de 5\%.
+\item[-]\textbf{Application :} Ici $t_{c} = 340 > 1,96 $. Donc $H_{0}$ est rejetée au risque de 5\%.
+\end{itemize}
+La moyenne du cours du nickel n'est donc pas nulle, d'après le diagramme de stratégie de test de racine unitaire, le processus sous-jacent est un DS sans dérive. Un filtre 
+aux différences premières est appliqué pour le rendre stationnaire.
 \subsubsection{Echantillon 2016-2021}
-\subsubsection*{Le blé}
-\subsubsection*{Le nickel}
+Le même procédé que dans la partie précédente est utilisé pour déterminer si les échantillons incluant la période Covid-19 sont stationnaires ou non, et dans le cas 
+échéant quel est type de non stationnarité.\\[11pt]
+Les séries étant les mêmes que celles testées précédemment seulement rallongées de deux ans, cela laisse à penser que les processus générateurs des échantillons 
+2016-2021 soient aussi des DS sans dérive. Pour éviter toute redondance, les deux tests seront donc synthétisés en un seul.\\[11pt]
+Le modèle 3 est estimé, puis test de racine unitaire $H_{0}$ est fait.%
+\begin{itemize}
+    \item[-]\textbf{Hypothèse :} 
+    \begin{align*}
+        H_{0} &: \text{ Présence de racine unitaire.} & H_{1} &: \text{ Stationnarité du processus.}
+    \end{align*}
+    \item[-]\textbf{Statistique de test :} 
+    \begin{multicols}{2}
+    \centering Blé
+    \begin{align*}
+            t_{c} &= -2,66 & &> & t_{ajs} &= -3,47
+    \end{align*}
+
+    \columnbreak
+
+    \centering Nickel
+    \begin{align*}
+        t_{c} &= -2,73 & &> & t_{ajs} &= -3,47
+    \end{align*}
+    \end{multicols}
+    \item[-]\textbf{Règle de décision :} $H_{0}$ acceptée au risque de 5\% pour les deux. Il y a racine unitaire dans les deux cas.
+    \end{itemize}
+    %
+    Test d'hypothèse jointe $H_{0}^{3}$.
+    %
+    \begin{itemize}
+    \item[-]\textbf{Hypothèse :} 
+    \begin{equation*}
+        H_{0}^{3} : (c; b; \phi_{1}) = (c;0;1)\\
+    \end{equation*}
+    \item[-]\textbf{Statistique de test :} 
+    \begin{multicols}{2}
+        \centering Blé
+        \begin{align*}
+            F_{3} &= 4,27  & &< & \Phi_{3} &= 6,49
+        \end{align*}
+    
+        \columnbreak
+    
+        \centering Nickel
+        \begin{align*}
+            F_{3} &= 3,13 & &< & \Phi_{3} &= 6,49
+        \end{align*}
+    \end{multicols}
+    \item[-]\textbf{Règle de décision :} $F_{3} < \Phi_{3}$ , alors $H_{0}^{3}$ est acceptée au risque de 5\% pour les deux échantillons, il y a racine unitaire et le 
+    paramètre de pente est nulle.
+    \end{itemize}
+    %
+    Test d'hypothèse jointe $H_{0}^{2}$.
+    %
+    \begin{itemize}
+    \item[-]\textbf{Hypothèse :} 
+    \begin{equation*}
+        H_{0}^{2} : (c; b; \phi_{1}) = (0;0;1)\\
+    \end{equation*}
+    \item[-]\textbf{Statistique de test :}
+    \begin{multicols}{2}
+        \centering Blé
+        \begin{align*}
+            F_{2} &= 3,29  & &< & \Phi_{2} &= 4,88
+        \end{align*}
+    
+        \columnbreak
+    
+        \centering Nickel
+        \begin{align*}
+            F_{2} &= 2,86 & &< & \Phi_{2} &= 4,88
+        \end{align*}
+    \end{multicols}  
+    \item[-]\textbf{Règle de décision :} $F_{2} < \Phi_{2}$ , alors $H_{0}^{2}$ est acceptée au risque de 5\% pour les deux échantillons, la constante du modèle n'est pas
+    significative.
+    \end{itemize}
+    %
+    Le modèle 2 est estimé, par la suite, un test de racine unitaire $H_{0}$ est fait.
+    %
+    \begin{itemize}
+    \item[-]\textbf{Hypothèse :} 
+    \begin{align*}
+        H_{0} &: \text{ Présence de racine unitaire.} & H_{1} &: \text{ Stationnarité du processus.}
+    \end{align*}
+    \item[-]\textbf{Statistique de test :} 
+    \begin{multicols}{2}
+    \centering Blé
+    \begin{align*}
+            t_{c} &= -2,66 & &> & t_{ajs} &= -3,47
+    \end{align*}
+
+    \columnbreak
+
+    \centering Nickel
+    \begin{align*}
+        t_{c} &= -2,73 & &> & t_{ajs} &= -3,47
+    \end{align*}
+    \end{multicols}
+    \item[-]\textbf{Règle de décision :} $H_{0}$ acceptée au risque de 5\% pour les deux. Il y a racine unitaire dans les deux cas.
+    \end{itemize}
+    Test d'hypothèse jointe $H_{0}^{1}$.
+    \begin{itemize}
+    \item[-]\textbf{Hypothèse :} 
+    \begin{equation*}
+            H_{0}^{1} : (c; \phi_{1}) = (0;1)\\
+    \end{equation*}
+    \item[-]\textbf{Statistique de test :}
+    \begin{multicols}{2}
+        \centering Blé
+        \begin{align*}
+            F_{1} &= 0,77 & &< & \Phi_{1} &= 4,71
+        \end{align*}
+    
+        \columnbreak
+    
+        \centering Nickel
+        \begin{align*}
+            F_{1} &= 1,26 & &< & \Phi_{1} &= 4,71
+        \end{align*}
+    \end{multicols}  
+    \item[-]\textbf{Règle de décision :}  $F_{1} < \Phi_{1}$ , alors $H_{0}^{1}$ acceptée au risque de 5\% pour les deux échantillons, la constante du modèle n'est pas
+    significative
+    \end{itemize}
+    %
+    Test de nullité de la moyenne
+    \begin{itemize}
+        \item[-]\textbf{Hypothèse :}
+    \begin{align*}
+        H_{0} &: \mu = 0 & H_{0} &: \mu \neq 0
+    \end{align*}
+    \item[-]\textbf{Statistique de test :}
+    \begin{multicols}{2}
+        \centering Blé
+        \begin{equation*}
+                t_{c} = 287,06
+        \end{equation*}
+    
+        \columnbreak
+    
+        \centering Nickel
+        \begin{equation*}
+            t_{c} = 267,5
+        \end{equation*}
+        \end{multicols}
+    \item[-]\textbf{Règle de décision :} $t_{c} > 1,96$, Pour les deux échantillons, $H_{0}$ est rejetée au risque de 5\%, la moyenne n'est pas significative.
+    \end{itemize}
 \subsection{Identification des processus}
 \subsection{Prévision pour 2023}

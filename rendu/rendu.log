@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.28)  12 MAR 2023 14:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.28)  14 MAR 2023 07:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -844,7 +844,7 @@ File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 32.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 35.
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -853,24 +853,24 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
  (rendu.aux (parts/2_analyse.aux) (parts/3_tradi.aux) (parts/4_boxjen.aux))
 \openout1 = `rendu.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -925,7 +925,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 36.
+Package hyperref Info: Link coloring OFF on input line 39.
  (rendu.out) (rendu.out)
 \@outlinefile=\write5
 \openout5 = `rendu.out'.
@@ -945,8 +945,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'rendu.bbl' found.
  (rendu.bbl)
-Package biblatex Info: Reference section=0 on input line 36.
-Package biblatex Info: Reference segment=0 on input line 36.
+Package biblatex Info: Reference section=0 on input line 39.
+Package biblatex Info: Reference segment=0 on input line 39.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -982,17 +982,17 @@ Package biblatex Info: Reference segment=0 on input line 36.
 <img//um3.png, id=210, 194.6472pt x 71.0655pt>
 File: img//um3.png Graphic file (type png)
 <use img//um3.png>
-Package pdftex.def Info: img//um3.png  used on input line 43.
+Package pdftex.def Info: img//um3.png  used on input line 46.
 (pdftex.def)             Requested size: 194.64671pt x 71.0653pt.
 <img//eco.png, id=212, 697.8873pt x 319.1925pt>
 File: img//eco.png Graphic file (type png)
 <use img//eco.png>
-Package pdftex.def Info: img//eco.png  used on input line 43.
+Package pdftex.def Info: img//eco.png  used on input line 46.
 (pdftex.def)             Requested size: 160.5107pt x 73.41272pt.
 <img//ble2.jpg, id=213, 1926.19624pt x 924.45375pt>
 File: img//ble2.jpg Graphic file (type jpg)
 <use img//ble2.jpg>
-Package pdftex.def Info: img//ble2.jpg  used on input line 59.
+Package pdftex.def Info: img//ble2.jpg  used on input line 62.
 (pdftex.def)             Requested size: 597.50787pt x 286.76108pt.
  [1
 
@@ -1009,14 +1009,14 @@ pdfTeX warning: pdflatex (file ./img//eco.png): large interlaced PNG might cause
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=455.24411pt
-* \textheight=674.33032pt
+* \textheight=702.78308pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
-* \topmargin=-23.91173pt
+* \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -1038,7 +1038,7 @@ pdfTeX warning: pdflatex (file ./img//eco.png): large interlaced PNG might cause
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 ...oite de tendance}{31}{subsubsection.B.2.1}
+l.42 ...l de Holt-Winter}{36}{subsubsection.B.2.3}
                                                   % [1
 
 
@@ -1055,14 +1055,14 @@ LaTeX Font Info:    Trying to load font information for T1+cmss on input line 10
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) (tab/2_1_log.tex)
 
-Package caption Warning: \label without proper reference on input line 118.
+Package caption Warning: \label without proper reference on input line 121.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:ble_log' on page 3 undefined on input line 22.
 
 
-Package caption Warning: \label without proper reference on input line 124.
+Package caption Warning: \label without proper reference on input line 127.
 See the caption package documentation for explanation.
 
 
@@ -1070,58 +1070,59 @@ LaTeX Warning: Reference `fig:nickel_log' on page 3 undefined on input line 25.
 
 [3
 
-] (tab/2_3_anova.tex) (tab/2_3_saiso.tex) [4] (tab/2_3_tend.tex) [5]
+] (tab/2_3_anova.tex) (tab/2_3_saiso.tex) [4] (tab/2_3_tend.tex)
 
-Package caption Warning: \label without proper reference on input line 154.
+Package caption Warning: \label without proper reference on input line 157.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:bb_nickel21' on page 6 undefined on input line 93.
+LaTeX Warning: Reference `tab:bb_nickel21' on page 5 undefined on input line 93.
 
+[5]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 113.
-(C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+ (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 
 LaTeX Warning: Reference `tab:desaiso' on page 6 undefined on input line 114.
 
-[6]) [7]
+) [6]
 \openout2 = `parts/3_tradi.aux'.
 
- (parts/3_tradi.tex [8
+ (parts/3_tradi.tex [7
 
 
 
-] (tab/3_1_extra19.tex) (tab/3_1_led19.tex) [9] (tab/3_1_hw19.tex) [10] (tab/3_1_mse.tex) (tab/3_1_prev22.tex) [11] [12] (tab/3_2_prev_ble.tex
+] (tab/3_1_extra19.tex) (tab/3_1_led19.tex) [8] (tab/3_1_hw19.tex) [9] (tab/3_1_mse.tex) (tab/3_1_prev22.tex) [10] [11] (tab/3_2_prev_ble.tex
 LaTeX Font Info:    Font shape `U/eurosym/m/it' in size <12> not available
 (Font)              Font shape `U/eurosym/m/sl' tried instead on input line 4.
-) [13] (tab/3_2_prev_nickel.tex) (tab/3_2_mse.tex) [14]) [15]
+) (tab/3_2_prev_nickel.tex) [12] (tab/3_2_mse.tex)) [13]
 \openout2 = `parts/4_boxjen.aux'.
 
- (parts/4_boxjen.tex [16
+ (parts/4_boxjen.tex [14
 
 
 
-] [17] [18] [19] [20]) [21] (annexe/2_1_hetero_ble.tex)
-Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--105
+] [15] [16] [17] [18] [19] [20] [21]) [22] (annexe/2_1_hetero_ble.tex)
+Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--108
  [][] 
  []
 
 (annexe/2_1_hetero_nickel.tex)
-Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--113
+Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--116
  [][] 
  []
 
-(graphs/ble_log.pgf) (graphs/nickel_log.pgf) [22
+(graphs/ble_log.pgf) (graphs/nickel_log.pgf) [23
 
 
-] (annexe/2_2_bb_ble19.tex) (annexe/2_2_bb_ble21.tex) [23] (annexe/2_2_bb_nickel19.tex) (annexe/2_2_bb_nickel21.tex) (annexe/2_3_anova_ble19.tex) (annexe/2_3_anova_ble21.tex) (annexe/2_3_anova_nickel19.tex) [24] (annexe/2_3_anova_nickel21.tex) (graphs/nickel_bbc.pgf) (annexe/2_4_bb_test.tex) [25] (annexe/2_4_coefsaiso.tex) (annexe/3_1_mco_ble19.tex) [26] (annexe/3_1_mco_nickel19.tex)
-<annexe/3_1_extra_cor_ble19.pdf, id=463, 316.18124pt x 252.945pt>
+] (annexe/2_2_bb_ble19.tex) (annexe/2_2_bb_ble21.tex) [24] (annexe/2_2_bb_nickel19.tex) (annexe/2_2_bb_nickel21.tex) (annexe/2_3_anova_ble19.tex) (annexe/2_3_anova_ble21.tex) (annexe/2_3_anova_nickel19.tex) [25] (annexe/2_3_anova_nickel21.tex) (graphs/nickel_bbc.pgf) (annexe/2_4_bb_test.tex) [26] (annexe/2_4_coefsaiso.tex) (annexe/3_1_mco_ble19.tex) [27] (annexe/3_1_mco_nickel19.tex)
+<annexe/3_1_extra_cor_ble19.pdf, id=465, 316.18124pt x 252.945pt>
 File: annexe/3_1_extra_cor_ble19.pdf Graphic file (type pdf)
 <use annexe/3_1_extra_cor_ble19.pdf>
-Package pdftex.def Info: annexe/3_1_extra_cor_ble19.pdf  used on input line 237.
+Package pdftex.def Info: annexe/3_1_extra_cor_ble19.pdf  used on input line 240.
 (pdftex.def)             Requested size: 316.18047pt x 252.94438pt.
- [27]
+ [28]
 Package epstopdf Info: Source file: <annexe/3_1_extra_hist_ble19.eps>
 (epstopdf)                    date: 2023-03-03 08:54:43
 (epstopdf)                    size: 19308 bytes
@@ -1129,21 +1130,21 @@ Package epstopdf Info: Source file: <annexe/3_1_extra_hist_ble19.eps>
 (epstopdf)                    date: 2023-03-03 09:15:03
 (epstopdf)                    size: 9792 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/3_1_extra_hist_ble19-eps-converted-to.pdf annexe/3_1_extra_hist_ble19.eps>
-(epstopdf)             \includegraphics on input line 243.
+(epstopdf)             \includegraphics on input line 246.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/3_1_extra_hist_ble19-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/3_1_extra_hist_ble19-eps-converted-to.pdf, id=468, 1653.17625pt x 750.805pt>
+<annexe/3_1_extra_hist_ble19-eps-converted-to.pdf, id=470, 1653.17625pt x 750.805pt>
 File: annexe/3_1_extra_hist_ble19-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/3_1_extra_hist_ble19-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/3_1_extra_hist_ble19-eps-converted-to.pdf  used on input line 243.
+Package pdftex.def Info: annexe/3_1_extra_hist_ble19-eps-converted-to.pdf  used on input line 246.
 (pdftex.def)             Requested size: 455.24411pt x 206.75269pt.
-(annexe/3_1_extra_arch_ble19.tex) [28 <./annexe/3_1_extra_cor_ble19.pdf> <./annexe/3_1_extra_hist_ble19-eps-converted-to.pdf>] (annexe/3_1_led_ble19.tex) (annexe/3_1_led_nickel19.tex) (annexe/3_1_hwout_ble19.tex) (annexe/3_1_hwout_nickel19.tex) [29] (annexe/3_2_mco_ble.tex) [30]
-<annexe/3_2_mco_corr_ble.pdf, id=503, 316.18124pt x 262.9825pt>
+(annexe/3_1_extra_arch_ble19.tex) [29 <./annexe/3_1_extra_cor_ble19.pdf> <./annexe/3_1_extra_hist_ble19-eps-converted-to.pdf>] (annexe/3_1_led_ble19.tex) (annexe/3_1_led_nickel19.tex) (annexe/3_1_hwout_ble19.tex) (annexe/3_1_hwout_nickel19.tex) [30] (annexe/3_2_mco_ble.tex) [31]
+<annexe/3_2_mco_corr_ble.pdf, id=505, 316.18124pt x 262.9825pt>
 File: annexe/3_2_mco_corr_ble.pdf Graphic file (type pdf)
 <use annexe/3_2_mco_corr_ble.pdf>
-Package pdftex.def Info: annexe/3_2_mco_corr_ble.pdf  used on input line 303.
+Package pdftex.def Info: annexe/3_2_mco_corr_ble.pdf  used on input line 306.
 (pdftex.def)             Requested size: 316.18047pt x 262.98184pt.
 Package epstopdf Info: Source file: <annexe/3_2_mco_hist_ble.eps>
 (epstopdf)                    date: 2023-03-09 19:07:42
@@ -1152,22 +1153,23 @@ Package epstopdf Info: Source file: <annexe/3_2_mco_hist_ble.eps>
 (epstopdf)                    date: 2023-03-09 19:07:48
 (epstopdf)                    size: 7372 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/3_2_mco_hist_ble-eps-converted-to.pdf annexe/3_2_mco_hist_ble.eps>
-(epstopdf)             \includegraphics on input line 309.
+(epstopdf)             \includegraphics on input line 312.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/3_2_mco_hist_ble-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/3_2_mco_hist_ble-eps-converted-to.pdf, id=504, 1315.91624pt x 585.18625pt>
+<annexe/3_2_mco_hist_ble-eps-converted-to.pdf, id=506, 1315.91624pt x 585.18625pt>
 File: annexe/3_2_mco_hist_ble-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/3_2_mco_hist_ble-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/3_2_mco_hist_ble-eps-converted-to.pdf  used on input line 309.
+Package pdftex.def Info: annexe/3_2_mco_hist_ble-eps-converted-to.pdf  used on input line 312.
 (pdftex.def)             Requested size: 455.24411pt x 202.44308pt.
-[31 <./annexe/3_2_mco_corr_ble.pdf>] (annexe/3_2_mco_homo_ble.tex) (annexe/3_2_mco_nickel.tex) [32 <./annexe/3_2_mco_hist_ble-eps-converted-to.pdf>]
-<annexe/3_2_mco_corr_nickel.pdf, id=528, 316.18124pt x 262.9825pt>
+[32 <./annexe/3_2_mco_corr_ble.pdf>] (annexe/3_2_mco_homo_ble.tex) (annexe/3_2_mco_nickel.tex)
+<annexe/3_2_mco_corr_nickel.pdf, id=519, 316.18124pt x 262.9825pt>
 File: annexe/3_2_mco_corr_nickel.pdf Graphic file (type pdf)
 <use annexe/3_2_mco_corr_nickel.pdf>
-Package pdftex.def Info: annexe/3_2_mco_corr_nickel.pdf  used on input line 333.
+Package pdftex.def Info: annexe/3_2_mco_corr_nickel.pdf  used on input line 336.
 (pdftex.def)             Requested size: 316.18047pt x 262.98184pt.
+ [33 <./annexe/3_2_mco_hist_ble-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <annexe/3_2_mco_hist_nickel.eps>
 (epstopdf)                    date: 2023-03-09 19:23:23
 (epstopdf)                    size: 19563 bytes
@@ -1175,17 +1177,17 @@ Package epstopdf Info: Source file: <annexe/3_2_mco_hist_nickel.eps>
 (epstopdf)                    date: 2023-03-09 19:25:58
 (epstopdf)                    size: 7411 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/3_2_mco_hist_nickel-eps-converted-to.pdf annexe/3_2_mco_hist_nickel.eps>
-(epstopdf)             \includegraphics on input line 339.
+(epstopdf)             \includegraphics on input line 342.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/3_2_mco_hist_nickel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/3_2_mco_hist_nickel-eps-converted-to.pdf, id=529, 1315.91624pt x 585.18625pt>
+<annexe/3_2_mco_hist_nickel-eps-converted-to.pdf, id=532, 1315.91624pt x 585.18625pt>
 File: annexe/3_2_mco_hist_nickel-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/3_2_mco_hist_nickel-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/3_2_mco_hist_nickel-eps-converted-to.pdf  used on input line 339.
+Package pdftex.def Info: annexe/3_2_mco_hist_nickel-eps-converted-to.pdf  used on input line 342.
 (pdftex.def)             Requested size: 455.24411pt x 202.44308pt.
-[33 <./annexe/3_2_mco_corr_nickel.pdf>] (annexe/3_2_mco_homo_nickel.tex) (annexe/3_2_led_ble.tex) (annexe/3_2_led_nickel.tex) [34 <./annexe/3_2_mco_hist_nickel-eps-converted-to.pdf>] (annexe/3_2_hw_ble.tex) (annexe/3_2_hw_nickel.tex) (annexe/4_2_1_mod3_ble.tex) [35] (annexe/4_2_1_mod3cont_ble.tex) [36] (annexe/4_2_1_mod2_ble.tex) (annexe/4_2_1_testmoy_ble.tex) [37] (annexe/4_2_1_mod1_ble.tex) [38] (rendu.aux (parts/2_analyse.aux) (parts/3_tradi.aux) (parts/4_boxjen.aux))
+(annexe/3_2_mco_homo_nickel.tex) [34 <./annexe/3_2_mco_corr_nickel.pdf> <./annexe/3_2_mco_hist_nickel-eps-converted-to.pdf>] (annexe/3_2_led_ble.tex) (annexe/3_2_led_nickel.tex) (annexe/3_2_hw_ble.tex) (annexe/3_2_hw_nickel.tex) [35] (annexe/4_2_1_mod3_ble.tex) [36] (annexe/4_2_1_mod3cont_ble.tex) [37] (annexe/4_2_1_mod2_ble.tex) (annexe/4_2_1_testmoy_ble.tex) [38] (annexe/4_2_1_mod3_nickel.tex) (annexe/4_2_1_mod3cont_nickel.tex) [39] (annexe/4_2_1_mod2_nickel.tex) (annexe/4_2_1_testmoy_nickel.tex) [40] [41] (rendu.aux (parts/2_analyse.aux) (parts/3_tradi.aux) (parts/4_boxjen.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1196,17 +1198,17 @@ Package logreq Info: Writing requests to 'rendu.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30853 strings out of 477843
- 596359 string characters out of 2823126
- 1320305 words of memory out of 3000000
- 48970 multiletter control sequences out of 15000+600000
+ 30879 strings out of 477843
+ 597103 string characters out of 2823126
+ 1320594 words of memory out of 3000000
+ 48981 multiletter control sequences out of 15000+600000
  487573 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,20n,104p,1164b,801s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>{C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymo10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on rendu.pdf (39 pages, 1592528 bytes).
+Output written on rendu.pdf (42 pages, 1605909 bytes).
 PDF statistics:
- 1107 PDF objects out of 1200 (max. 8388607)
- 156 named destinations out of 1000 (max. 500000)
+ 1125 PDF objects out of 1200 (max. 8388607)
+ 162 named destinations out of 1000 (max. 500000)
  520 words of extra memory for PDF output out of 10000 (max. 10000000)
 
