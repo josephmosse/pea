@@ -448,5 +448,30 @@ Le modèle 3 est estimé, puis test de racine unitaire $H_{0}$ est fait.%
         \end{multicols}
     \item[-]\textbf{Règle de décision :} $t_{c} > 1,96$, Pour les deux échantillons, $H_{0}$ est rejetée au risque de 5\%, la moyenne n'est pas significative.
     \end{itemize}
-\subsection{Identification des processus}
+Le résultat est donc le même que celui trouvé précédemment, les processus générateurs du cours du blé et du nickel sur la période 2016-2021 ne sont pas stationnaires sont 
+des DS sans dérive. Il faut appliquer un filtre aux différences premières afin de rendre stationnaire les séries.
+\subsection{Identification, validation et prévision des processus}
+La seconde étape de l'algorithme de Box et Jenkins est l'étape d'identification. En effet dès lors qu'une séries chronologiques a été rendue stationnaire, il est 
+nécessaire d'identifier le processus ARMA le plus apte à s'assimiler aux données empiriques. Pour cela l'identification d'un processus ARMA se fait par la comparaison des 
+fonctions d'autocorrélation et d'autocorrélation partielle de la série à celles de processus ARMA théoriques. En somme, un processus ARMA sera choisi si les FAC et FAP de 
+ce dernier sont semblables à celle observées sur les cours du blé et du nickel (en différences premières).
+\subsubsection{Echantillon 2016-2019}
+Pour le blé, l'étude du corrélogramme (annexe) révèle des coefficients significatif au premier retard de la FAC et de la PAC. Cette configuration pourrait donc faire penser
+à celle d'un ARMA(1,1). Il serait judicieux de considérer la possibilité que le processus puisse être identifié comme un AR(1) ou MA(1). Afin de discriminer le modèle le
+plus pertinent 36 simulations de modèles ARMA sont faites (les ordres des processus allant de 0 à 5, par respect du principe de parcimonie). Le modèle choisi est celui qui
+est le plus apte à répondre à ces trois problématiques : 
+\begin{enumerate}
+    \item Minimisation du critère d'Akaike.
+    \item Significativité des paramètre(s) du modèle.
+    \item Qualité des résidus (non autocorrélation, homoscédasticité, normalité).
+\end{enumerate}
+Grace à la table (annexe), il est rapidement possible de déterminer que le modèle répondant aux problématiques précédentes est un AR(1). En effet, le modèle minimise le 
+critère d'Akaike, son paramètre est significatif et les résidus suivent un bruit blanc gaussien. Le modèle est donc utilisé afin de prévoir l'année 2022.
+\begin{equation*}
+    \Delta x_{t} = \phi_{1} \Delta x_{t-1}
+\end{equation*}
+D'après cette modélisation, le cours du blé en différences premières dépend du cours en différences premières du mois précédent.
+
+\subsubsection{Echantillon 2016-2021}
+
 \subsection{Prévision pour 2023}
