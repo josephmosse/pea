@@ -1,34 +1,125 @@
 \section{Analyse technique et macroéconomique du blé et du nickel}
 \subsection{Présentation des deux matières premières}
 \subsubsection{Le blé meunier}
-L'étude porte en premier lieu sur le cours du contrat à terme de blé de meunerie côté en Euros sur le marché des futures à la bourse
-de Paris (Euronext). Le sous-jacent du contrat doit être du blé d'origine Union Européenne, l'unité de cotation du contrat est de 50
-tonnes. Ce contrat à terme permet aux producteurs et aux acheteurs de blé de se couvrir contre les fluctuations du prix du blé.\\[11pt]
-Le blé meunier est une variété de blé tendre (Triticum aestivum) est la variété de blé la plus couramment cultivée dans les régions 
-tempérées du monde. Le blé meunier est particulièrement apprécié pour sa concentration élevée en gluten, ce dernier donne à
-la pâte de blé une texture élastique et une capacité à lever. La farine faite à partir du blé meunier est majoritairement 
-utilisée afin de fabriquer du pain, des pâtisseries et d'autres denrées a base de blé.\\[11pt]
-Au niveau de l'agriculture mondiale, la culture du blé est l'une des cultures les plus largement cultivées.
-Les principaux producteurs de blé meunier sont la Chine, l'Inde, l'Union européenne et la Russie, les États-Unis, le Canada
-et l'Ukraine.
+Le travail porte tout d'abord le cours du contrat à terme de blé de meunerie, qui est coté en euros sur le marché des futures à la bourse de Paris (Euronext). 
+Le contrat est basé sur du blé d'origine de l'Union Européenne et la taille d'un lot est de 50 tonnes. \\[11pt]
+Le blé meunier est une variété de blé tendre (\textit{Triticum aestivum} ) est la variété de blé la plus couramment cultivée dans les régions tempérées 
+du monde. Le blé meunier est particulièrement apprécié pour sa concentration élevée en gluten, ce dernier donne à la pâte de blé une texture élastique et une capacité à 
+lever. La farine faite à partir du blé meunier est majoritairement utilisée pour la fabrication du pain, pâtisseries et d'autres denrées a base de farine. Célèbre comptine 
+du patrimoine français : meunier tu dors tirée d'une chanson de Léon Raiter et de Fernand Pothier composée au XXème siècle.\\[11pt]
+Au niveau de l'agriculture mondiale, la culture du blé est l'une des céréales les plus largement cultivées avec le riz et le mais. Parmi les principaux
+producteurs de blé : la Chine, l'Inde, la Russie, les États-Unis d'Amérique.\footcite{fao_2021}.
+\begin{figure}[H]
+    \centering
+    \label{fig:ble_prod}
+    \resizebox{0.8\textwidth}{!}{\input{graphs/ble_prod.pgf}}
+    \caption{Principaux pays producteurs de blé (2021)}
+\end{figure}
+Ici une période s'étalant de 2003 à 2022 est choisie afin de dresser des statistiques descriptives sur le cours du contrat a terme sur le blé meunier. 
+\begin{table}[H]
+    \centering
+    \caption{Statistiques descriptives sur le cours du blé de 2003 à 2022}
+    \sffamily
+    \input{tab/1_1_stat_ble.tex}
+\end{table}
+Le prix moyen d'un contrat a terme sur le blé sur les 20 ans est de 185,26 \euro\ pour une écart-type de 57 \euro. Sur la période, le prix minimum 101,50 \euro\ 
+date du mois d'avril 2005. En contrepartie, le prix maximum de 400,75 \euro\ a été atteint en avril 2022, l'étendue entre 2003 et 2022 est donc de 299,25 \euro. 
+\begin{table}[H]
+    \centering
+    \caption{Statistiques sur les rendement mensuels du cours du blé de 2003 à 2022}
+    \sffamily
+    \input{tab/1_1_stat_rendement_ble.tex}
+\end{table}
+Il est aussi intéressant d'analyser les rendements (logarithmiques) du cours. En effet, la moyenne des rendements est quasiment égale à 0 sur les 20 ans, les rendements
+positifs et négatifs se compensent donc entre eux. Avec 7\% de volatilité mensuel, le cours est assez peu volatile. De plus le Skewness étant proche de 0 et le kurtosis 
+proche de 3, la distribution des rendements semble normale, cela semble être confirmé graphiquement par l'histogramme de répartition des rendements.
+\begin{figure}[H]
+    \centering
+    \label{fig:ble_rendement}
+    \resizebox{\textwidth}{!}{\input{graphs/ble_rendement.pgf}}
+    \caption{Distribution des rendements du cours du blé de 2003 à 2022}
+\end{figure}
+\subsubsection{Le Nickel}
+Le second cours matière première choisie dans le cadre de l'analyse est le cours du contrat à terme du nickel côté en Dollars au \textit{London Metal Exchange}. Le 
+sous-jacent doit être du nickel d'une pureté d'au minimum 99,80\% et la taille du lot est de 6 tonnes\footcite{lme_nickel}.\\[11pt]
+Découvert en 1751, le nickel est un élément chimique métallique qui est représenté par le symbole chimique Ni. Il est fréquemment associé au cobalt dans les dépôts 
+miniers, particulièrement apprécié pour ses propriétés physiques et chimiques, en particulier pour sa résistance à la corrosion ou bien sa conductivité électrique/
+thermique. \\[11pt]
+Aujourd'hui le nickel est utilisé dans un nombre important d'industries, en particulier dans la production  
+d'acier, de batteries, de composants électroniques, mais aussi dans la frappe de monnaie, la confection de bijoux ou bien dans la chimie\footcite{about_nickel}.
+\begin{figure}[H]
+    \centering
+    \resizebox{0.8\textwidth}{!}{\input{graphs/nickel_utilisation.pgf}}
+    \caption{Principales utilisations du nickel}
+\end{figure}
+Il est important de souligner qu'il existe un risque potentiel de conflits d'utilisation à long terme, notamment en raison de l'augmentation considérable de l'utilisation 
+du nickel dans les technologies liées à la transition énergétique, en particulier dans la production de batteries. Cette utilisation accrue pourrait épuiser les ressources 
+en nickel et engendrer des conflits géopolitiques.\\[11pt]
+Concernant l'occurrence du nickel, il est relativement répandu sur le globe, les ressources terrestres étant estimées à 300 millions de tonnes avec 60\% correspondent à 
+des dépôts de latérite (roche rouge) et 40\% à des gisements de sulfure. Quand aux réserves, elles sont estimées a 100 millions de tonnes et se 
+situent principalement en Indonésie, en Australie, au Brésil, et en Russie. Enfin, concernant la production de nickel dans le monde, la production en 2022 de nickel était
+de 3,3 millions de tones avec quasiment la moitié produite par l'Indonésie\footcite{info_nickel}.\\[11pt]
+Comme pour le cours du blé, des statistiques sont faite sur une longue période (de 2006 à 2022) pour le cours du contrat sur le nickel.
+\begin{table}[H]
+    \centering
+    \caption{Statistiques descriptives sur le cours du nickel de 2006 à 2022}
+    \sffamily
+    \resizebox{\textwidth}{!}{\input{tab/1_1_stat_nickel.tex}}
+\end{table}
+En moyenne le cours du contrat de nickel sur les 17 ans est de 18 161,44 \$. Son plus bas prix date de mai 2016 tandis que le maximum qu'ait atteint le cours date de 
+avril 2007, l'étendue sur la période est de 41 240\$.
+\begin{table}[H]
+    \centering
+    \caption{Statistiques sur les rendements du cours du nickel de 2006 à 2022}
+    \sffamily
+    \resizebox{\textwidth}{!}{\input{tab/1_1_stat_rendement_nickel.tex}}
+\end{table}
+Ici la volatilité mensuelle du contrat est modérée à 10\%. Le skewness de -0,23 suggère que la distribution est légèrement asymétrique négative, les rendements sont donc plus souvent négatifs cependant le skewness est quand meme proche de 0, et le kurtosis inférieur à 3. Ces résultats peuvent laisser à penser que les rendements sont 
+distribués de manière normale.
+\begin{figure}[H]
+    \centering
+    \resizebox{\textwidth}{!}{\input{graphs/nickel_rendement.pgf}}
+    \caption{Distribution des rendements du cours du nickel de 2006 à 2022}
+\end{figure}
+\subsection{Analyse macroéconomique des cours}
+Un contrat à terme, ou future est un contrat à terme par lequel deux parties s'engagent à acheter ou vendre une quantité déterminée d'un actif sous-jacent (une 
+action ou un indice boursier par exemple ici des matières premières), à une date d'échéance et à un prix convenus à l'avance. Il permet d'anticiper les variations futures 
+d'un actif sous-jacent et peut donc servir à couvrir un portefeuille contre les fluctuations à venir du marché. Il permet aussi de dynamiser les performances d'un 
+portefeuille. Le contrat a terme constitue un engagement ferme, il doit être exécuté à sa date d'échéance par ses contreparties : l'acheteur contrat doit acheter l'actif 
+sous-jacent au prix convenu et le vendeur doit livrer l'actif.\\[11pt]
+Il est possible d'apercevoir de fortes augmentations des cours lors des périodes de crise. En effet, à chaque crise ou détection de crise par les investisseurs, le prix 
+des contrats augmentent, les investisseurs étant plongés dans un climat d'incertitude. Afin d'avoir plus de détails sur les fluctuations, un historique des évènements 
+ayant marqué les deux cours des matières premières est dressé.
+\begin{itemize}
+    \item \textbf{2003 : Sécheresse}\\
+    La France subit un fort climat de sécheresse ce qui réduit les récoltes de blé meunier de 20\% par rapport à 2002. S'ajoute à cela, l'invasion des États-Unis en Irak, 
+    ces deux éléments peuvent expliquer l'augmentation du prix, la sécheresse étant le principal élément explicatif.
+    Le cours du blé était de 110,01 \euro\ en mai 2003 et est passé à 161,56  en octobre 2003 (+46,86\%).
 
-Les contrats à terme sur le blé meunier sont largement négociés sur les marchés internationaux et constituent une composante
-importante du commerce mondial des céréales. Les fluctuations des cours des futures de blé meunier peuvent avoir des implications
-importantes pour les producteurs, les négociants, les meuniers et les consommateurs de produits alimentaires à base de blé.
-
-
-
-Le blé meunier APT est une variété traditionnelle de blé tendre français. Appelée aussi Touselle blanche de Pertuis, 
-identifiée en 1985. Ce blé a été considéré comme une espèce de première valeur alimentaire. Le blé tendre de son nom 
-Triticum aestivum, ou blé panifiable. Le blé tendre est alors le plus cultivé, car il possède un taux de gluten et de 
-protéines supérieur. Ce blé riche en protéine et pauvre en gluten, plaît aux professionnels qui l'utilisent pour la 
-fabrication de brioches et de biscuits.  Et également présent dans la sphère agricole pour l’alimentation animale.
-Le lieu d’origine de ce blé meunier est  Buoux, situé  entre Avignon et Aix-en-Provence. 
-
-Célèbre comptine du patrimoine français : meunier tu dors tirée d’une chanson de Léon Raiter et de Fernand Pothier composée au XXème siècle. Une cloche sonnant à chaque tour permettait au meunier d’évaluer la vitesse de son moulin afin de produire correctement la farine de blé.
-
-Situation délicate ces derniers temps avec l’invasion de l’Ukraine par la Russie stoppant ainsi les productions de blé des deux pays. Ajoutant à cela le manque considérable de pluie, on peut s’attendre à une situation générant une inflation agroalimentaire.
-
-
-\subsection{Analyse macroéconomique}
+    \item \textbf{2007-2008 : Crise des subprimes}
+    \begin{itemize}
+        \item Le blé : Le 1 juin 2006 le cours était de 111,23 \euro\, dès 2007 le cours va augmenter fortement jusqu'à 281,32 \euro\ le 1 février 2008 (+152,92\%).
+        \item Le Nickel :  Tout comme le blé, le cours des contrats futures sur le nickel a été largement impacté par la crise des subprimes. Ce dernier est passé de 14 645 \$\ en février 2006, à 49 675 \$\ en avril 2007 le point culminant pendant la crise des subprimes. Soit une multiplication du cours sur 14 mois de 3,39 fois.
+    \end{itemize}
+    
+    \item \textbf{2010-2013 : Crise de la dette Européenne}
+    \begin{itemize}
+        \item Le blé : La crise de la dette européennes a été longue sur les marchés financiers et à donc longuement impacter le cours du blé.
+        En mai 2010 le cours était de : 132,65 \euro\ et a atteint deux points culminants : en janvier 2011 270,75 \euro\ et en novembre 2012 269,7 \euro\. Preuve 
+        de la persistance du climat d'incertitude.
+        \item Le nickel : Comme un grand nombre de matière première, le nickel a subi l'impact de la crise de la dette souveraine, en effet le cours est passé de 9 837 \$\ en avril 2009 à 28 875 \$\ en février 2011, soit une augmentation de 193,53\%.
+    \end{itemize}
+    \item \textbf{2020-2023 : Crise liée à la pandémie de Covid-19, guerre russo-ukrainienne, et réchauffement climatique}
+    \begin{itemize}
+        \item Le blé : La pandémie de Covid19 et les différents confinements qui lui sont associés ont provoqué des disruptions sur les chaînes de valeur mondiales et par 
+        conséquent sur les marchés aussi. De plus, les récoltes de blé sont menacées par la sécheresse due au réchauffement climatique, et le commerce du blé s'est 
+        retrouvé bouleversé par la guerre en Ukraine, faisant flamber le cours du contrat sur le blé à des prix inégalés (400 \euro).
+        \item Le nickel : Le nickel est surnommé le "métal du diable" de part sa volatilité. En plus des causes citées précédemment la demande est forte augmentation suite à l'engouement autour des véhicules électriques. En 2022 le cours a franchi à nouveau la barre symbolique des 24 000 \$\. Le cours a quadruplé en l'espace de deux ans, il à grimpé de 10 887 \$\ en mars 2020 à 42 100 \$\ en mars 2022.
+    \end{itemize}
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \resizebox{\textwidth}{!}{\input{graphs/cours_historiques.pgf}}
+    \caption{Cours historique des contrats a terme sur blé et nickel}
+\end{figure}
 \subsection{Analyse technique}

@@ -1,7 +1,7 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[left=2cm, right=2cm]{geometry}
+\usepackage{geometry}
 \usepackage{afterpage}
 \usepackage{tikz}
 \usepackage{fancyhdr}
@@ -13,9 +13,10 @@
 \usepackage{multicol}
 \usepackage{caption}
 \usepackage{eurosym}
-\usepackage{biblatex}
+\usepackage[style=verbose]{biblatex}
 \usepackage{multicol}
 \usepackage{color}
+\usepackage{wrapfig}
 \setlength\columnseprule{.5pt}
 \bibliography{biblio.bib}
 
@@ -69,6 +70,7 @@ blé et le nickel}
 \pagenumbering{arabic}
 \pagestyle{fancy}
 \fancyhead{}
+\fancyfoot{}
 \fancyfoot[C]{\thepage}
 \section*{Résumé}
 \renewcommand\contentsname{Sommaire}
@@ -78,7 +80,7 @@ blé et le nickel}
 
 \section*{Introduction}
 
-
+\include{parts/1_macro.tex}
 \include{parts/2_analyse}
 \include{parts/3_tradi}
 \include{parts/4_boxjen.tex}
@@ -92,6 +94,10 @@ faire par sous périodes
 \appendix
 \renewcommand{\thetable}{\thesection.\arabic{table}}
 \renewcommand{\thefigure}{\thesection.\arabic{figure}}
+\section{Analyse macro}
+\setcounter{table}{0}
+\setcounter{figure}{0}
+
 \section{Analyse des séries chronologiques}
 \setcounter{table}{0}
 \setcounter{figure}{0}
@@ -461,4 +467,6 @@ faire par sous périodes
     \includegraphics[]{annexe/4_3_1_cor_dble19.pdf}
     \caption{Corrélograme du cours du blé en différences premieres (2016-2019)}
 \end{figure}
+
+\printbibliography
 \end{document}
