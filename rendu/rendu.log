@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.28)  19 MAR 2023 21:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.28)  20 MAR 2023 13:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -519,25 +519,31 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \TX@delta=\dimen297
 \TX@cols=\count315
 \TX@ftn=\toks41
+) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip68
+\multirow@cntb=\count316
+\multirow@dima=\skip69
+\bigstrutjot=\dimen298
 ) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count316
+\c@tracingmulticols=\count317
 \mult@box=\box71
-\multicol@leftmargin=\dimen298
-\c@unbalance=\count317
-\c@collectmore=\count318
-\doublecol@number=\count319
-\multicoltolerance=\count320
-\multicolpretolerance=\count321
-\full@width=\dimen299
-\page@free=\dimen300
-\premulticols=\dimen301
-\postmulticols=\dimen302
-\multicolsep=\skip68
-\multicolbaselineskip=\skip69
+\multicol@leftmargin=\dimen299
+\c@unbalance=\count318
+\c@collectmore=\count319
+\doublecol@number=\count320
+\multicoltolerance=\count321
+\multicolpretolerance=\count322
+\full@width=\dimen300
+\page@free=\dimen301
+\premulticols=\dimen302
+\postmulticols=\dimen303
+\multicolsep=\skip70
+\multicolbaselineskip=\skip71
 \partial@page=\box72
 \last@line=\box73
-\maxbalancingoverflow=\dimen303
+\maxbalancingoverflow=\dimen304
 \mult@rightbox=\box74
 \mult@grightbox=\box75
 \mult@firstbox=\box76
@@ -578,31 +584,31 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box111
 \@tempa=\box112
 \@tempa=\box113
-\c@minrows=\count322
-\c@columnbadness=\count323
-\c@finalcolumnbadness=\count324
-\last@try=\dimen304
-\multicolovershoot=\dimen305
-\multicolundershoot=\dimen306
+\c@minrows=\count323
+\c@columnbadness=\count324
+\c@finalcolumnbadness=\count325
+\last@try=\dimen305
+\multicolovershoot=\dimen306
+\multicolundershoot=\dimen307
 \mult@nat@firstbox=\box114
 \colbreak@box=\box115
-\mc@col@check@num=\count325
+\mc@col@check@num=\count326
 ) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen307
-\captionmargin=\dimen308
-\caption@leftmargin=\dimen309
-\caption@rightmargin=\dimen310
-\caption@width=\dimen311
-\caption@indent=\dimen312
-\caption@parindent=\dimen313
-\caption@hangindent=\dimen314
+\caption@tempdima=\dimen308
+\captionmargin=\dimen309
+\caption@leftmargin=\dimen310
+\caption@rightmargin=\dimen311
+\caption@width=\dimen312
+\caption@indent=\dimen313
+\caption@parindent=\dimen314
+\caption@hangindent=\dimen315
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count326
-\c@continuedfloat=\count327
+\c@caption@flags=\count327
+\c@continuedfloat=\count328
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 ) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
@@ -612,72 +618,72 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 Package: biblatex 2022/07/12 v3.18b programmable bibliographies (PK/MW)
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count328
+\etb@tempcnta=\count329
 ) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count329
+\lrq@indent=\count330
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count330
-\c@listtotal=\count331
-\c@listcount=\count332
-\c@liststart=\count333
-\c@liststop=\count334
-\c@citecount=\count335
-\c@citetotal=\count336
-\c@multicitecount=\count337
-\c@multicitetotal=\count338
-\c@instcount=\count339
-\c@maxnames=\count340
-\c@minnames=\count341
-\c@maxitems=\count342
-\c@minitems=\count343
-\c@citecounter=\count344
-\c@maxcitecounter=\count345
-\c@savedcitecounter=\count346
-\c@uniquelist=\count347
-\c@uniquename=\count348
-\c@refsection=\count349
-\c@refsegment=\count350
-\c@maxextratitle=\count351
-\c@maxextratitleyear=\count352
-\c@maxextraname=\count353
-\c@maxextradate=\count354
-\c@maxextraalpha=\count355
-\c@abbrvpenalty=\count356
-\c@highnamepenalty=\count357
-\c@lownamepenalty=\count358
-\c@maxparens=\count359
-\c@parenlevel=\count360
-\blx@tempcnta=\count361
-\blx@tempcntb=\count362
-\blx@tempcntc=\count363
-\c@blx@maxsection=\count364
-\blx@maxsegment@0=\count365
-\blx@notetype=\count366
-\blx@parenlevel@text=\count367
-\blx@parenlevel@foot=\count368
-\blx@sectionciteorder@0=\count369
-\blx@sectionciteorderinternal@0=\count370
-\blx@entrysetcounter=\count371
-\blx@biblioinstance=\count372
-\labelnumberwidth=\skip70
-\labelalphawidth=\skip71
-\biblabelsep=\skip72
-\bibitemsep=\skip73
-\bibnamesep=\skip74
-\bibinitsep=\skip75
-\bibparsep=\skip76
-\bibhang=\skip77
+\c@tabx@nest=\count331
+\c@listtotal=\count332
+\c@listcount=\count333
+\c@liststart=\count334
+\c@liststop=\count335
+\c@citecount=\count336
+\c@citetotal=\count337
+\c@multicitecount=\count338
+\c@multicitetotal=\count339
+\c@instcount=\count340
+\c@maxnames=\count341
+\c@minnames=\count342
+\c@maxitems=\count343
+\c@minitems=\count344
+\c@citecounter=\count345
+\c@maxcitecounter=\count346
+\c@savedcitecounter=\count347
+\c@uniquelist=\count348
+\c@uniquename=\count349
+\c@refsection=\count350
+\c@refsegment=\count351
+\c@maxextratitle=\count352
+\c@maxextratitleyear=\count353
+\c@maxextraname=\count354
+\c@maxextradate=\count355
+\c@maxextraalpha=\count356
+\c@abbrvpenalty=\count357
+\c@highnamepenalty=\count358
+\c@lownamepenalty=\count359
+\c@maxparens=\count360
+\c@parenlevel=\count361
+\blx@tempcnta=\count362
+\blx@tempcntb=\count363
+\blx@tempcntc=\count364
+\c@blx@maxsection=\count365
+\blx@maxsegment@0=\count366
+\blx@notetype=\count367
+\blx@parenlevel@text=\count368
+\blx@parenlevel@foot=\count369
+\blx@sectionciteorder@0=\count370
+\blx@sectionciteorderinternal@0=\count371
+\blx@entrysetcounter=\count372
+\blx@biblioinstance=\count373
+\labelnumberwidth=\skip72
+\labelalphawidth=\skip73
+\biblabelsep=\skip74
+\bibitemsep=\skip75
+\bibnamesep=\skip76
+\bibinitsep=\skip77
+\bibparsep=\skip78
+\bibhang=\skip79
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language79
-\c@mincomprange=\count373
-\c@maxcomprange=\count374
-\c@mincompwidth=\count375
+\c@mincomprange=\count374
+\c@maxcomprange=\count375
+\c@mincompwidth=\count376
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -687,88 +693,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'verbose.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count376
-\c@savedafterword=\count377
-\c@annotator=\count378
-\c@savedannotator=\count379
-\c@author=\count380
-\c@savedauthor=\count381
-\c@bookauthor=\count382
-\c@savedbookauthor=\count383
-\c@commentator=\count384
-\c@savedcommentator=\count385
-\c@editor=\count386
-\c@savededitor=\count387
-\c@editora=\count388
-\c@savededitora=\count389
-\c@editorb=\count390
-\c@savededitorb=\count391
-\c@editorc=\count392
-\c@savededitorc=\count393
-\c@foreword=\count394
-\c@savedforeword=\count395
-\c@holder=\count396
-\c@savedholder=\count397
-\c@introduction=\count398
-\c@savedintroduction=\count399
-\c@namea=\count400
-\c@savednamea=\count401
-\c@nameb=\count402
-\c@savednameb=\count403
-\c@namec=\count404
-\c@savednamec=\count405
-\c@translator=\count406
-\c@savedtranslator=\count407
-\c@shortauthor=\count408
-\c@savedshortauthor=\count409
-\c@shorteditor=\count410
-\c@savedshorteditor=\count411
-\c@labelname=\count412
-\c@savedlabelname=\count413
-\c@institution=\count414
-\c@savedinstitution=\count415
-\c@lista=\count416
-\c@savedlista=\count417
-\c@listb=\count418
-\c@savedlistb=\count419
-\c@listc=\count420
-\c@savedlistc=\count421
-\c@listd=\count422
-\c@savedlistd=\count423
-\c@liste=\count424
-\c@savedliste=\count425
-\c@listf=\count426
-\c@savedlistf=\count427
-\c@location=\count428
-\c@savedlocation=\count429
-\c@organization=\count430
-\c@savedorganization=\count431
-\c@origlocation=\count432
-\c@savedoriglocation=\count433
-\c@origpublisher=\count434
-\c@savedorigpublisher=\count435
-\c@publisher=\count436
-\c@savedpublisher=\count437
-\c@language=\count438
-\c@savedlanguage=\count439
-\c@origlanguage=\count440
-\c@savedoriglanguage=\count441
-\c@pageref=\count442
-\c@savedpageref=\count443
-\shorthandwidth=\skip78
-\shortjournalwidth=\skip79
-\shortserieswidth=\skip80
-\shorttitlewidth=\skip81
-\shortauthorwidth=\skip82
-\shorteditorwidth=\skip83
-\locallabelnumberwidth=\skip84
-\locallabelalphawidth=\skip85
-\localshorthandwidth=\skip86
-\localshortjournalwidth=\skip87
-\localshortserieswidth=\skip88
-\localshorttitlewidth=\skip89
-\localshortauthorwidth=\skip90
-\localshorteditorwidth=\skip91
+\c@afterword=\count377
+\c@savedafterword=\count378
+\c@annotator=\count379
+\c@savedannotator=\count380
+\c@author=\count381
+\c@savedauthor=\count382
+\c@bookauthor=\count383
+\c@savedbookauthor=\count384
+\c@commentator=\count385
+\c@savedcommentator=\count386
+\c@editor=\count387
+\c@savededitor=\count388
+\c@editora=\count389
+\c@savededitora=\count390
+\c@editorb=\count391
+\c@savededitorb=\count392
+\c@editorc=\count393
+\c@savededitorc=\count394
+\c@foreword=\count395
+\c@savedforeword=\count396
+\c@holder=\count397
+\c@savedholder=\count398
+\c@introduction=\count399
+\c@savedintroduction=\count400
+\c@namea=\count401
+\c@savednamea=\count402
+\c@nameb=\count403
+\c@savednameb=\count404
+\c@namec=\count405
+\c@savednamec=\count406
+\c@translator=\count407
+\c@savedtranslator=\count408
+\c@shortauthor=\count409
+\c@savedshortauthor=\count410
+\c@shorteditor=\count411
+\c@savedshorteditor=\count412
+\c@labelname=\count413
+\c@savedlabelname=\count414
+\c@institution=\count415
+\c@savedinstitution=\count416
+\c@lista=\count417
+\c@savedlista=\count418
+\c@listb=\count419
+\c@savedlistb=\count420
+\c@listc=\count421
+\c@savedlistc=\count422
+\c@listd=\count423
+\c@savedlistd=\count424
+\c@liste=\count425
+\c@savedliste=\count426
+\c@listf=\count427
+\c@savedlistf=\count428
+\c@location=\count429
+\c@savedlocation=\count430
+\c@organization=\count431
+\c@savedorganization=\count432
+\c@origlocation=\count433
+\c@savedoriglocation=\count434
+\c@origpublisher=\count435
+\c@savedorigpublisher=\count436
+\c@publisher=\count437
+\c@savedpublisher=\count438
+\c@language=\count439
+\c@savedlanguage=\count440
+\c@origlanguage=\count441
+\c@savedoriglanguage=\count442
+\c@pageref=\count443
+\c@savedpageref=\count444
+\shorthandwidth=\skip80
+\shortjournalwidth=\skip81
+\shortserieswidth=\skip82
+\shorttitlewidth=\skip83
+\shortauthorwidth=\skip84
+\shorteditorwidth=\skip85
+\locallabelnumberwidth=\skip86
+\locallabelalphawidth=\skip87
+\localshorthandwidth=\skip88
+\localshortjournalwidth=\skip89
+\localshortserieswidth=\skip90
+\localshorttitlewidth=\skip91
+\localshortauthorwidth=\skip92
+\localshorteditorwidth=\skip93
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -778,19 +784,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2022/07/12 v3.18b biblatex compatibility (PK/MW)
-\c@textcitecount=\count444
-\c@textcitetotal=\count445
-\c@textcitemaxnames=\count446
-\c@biburlbigbreakpenalty=\count447
-\c@biburlbreakpenalty=\count448
-\c@biburlnumpenalty=\count449
-\c@biburlucpenalty=\count450
-\c@biburllcpenalty=\count451
+\c@textcitecount=\count445
+\c@textcitetotal=\count446
+\c@textcitemaxnames=\count447
+\c@biburlbigbreakpenalty=\count448
+\c@biburlbreakpenalty=\count449
+\c@biburlnumpenalty=\count450
+\c@biburlucpenalty=\count451
+\c@biburllcpenalty=\count452
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count452
+\c@smartand=\count453
 )
 Package biblatex Info: Trying to load bibliography style 'verbose'...
 Package biblatex Info: ... file 'verbose.bbx' found.
@@ -804,8 +810,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2022/07/12 v3.18b biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count453
-\c@bbx:relatedtotal=\count454
+\c@bbx:relatedcount=\count454
+\c@bbx:relatedtotal=\count455
 )))
 Package biblatex Info: Trying to load citation style 'verbose'...
 Package biblatex Info: ... file 'verbose.cbx' found.
@@ -830,7 +836,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2022-08-23 L3 programming layer (loader) 
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-08-23 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count455
+\l__color_backend_stack_int=\count456
 \l__pdf_internal_box=\box117
 ))
 Package biblatex Info: ... and expl3
@@ -842,9 +848,9 @@ Package: xparse 2022-06-22 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2022/07/12 v3.18b expl3 case changing code for biblatex
 )) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
-\wrapoverhang=\dimen315
-\WF@size=\dimen316
-\c@WF@wrappedlines=\count456
+\wrapoverhang=\dimen316
+\WF@size=\dimen317
+\c@WF@wrappedlines=\count457
 \WF@box=\box118
 \WF@everypar=\toks42
 Package: wrapfig 2003/01/31  v 3.6
@@ -857,29 +863,29 @@ LaTeX Font Info:    Trying to load font information for T1+ppl on input line 36.
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-\@quotelevel=\count457
-\@quotereset=\count458
+\@quotelevel=\count458
+\@quotereset=\count459
  (rendu.aux (parts/1_macro.aux) (parts/2_analyse.aux) (parts/3_tradi.aux) (parts/4_boxjen.aux))
 \openout1 = `rendu.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -917,16 +923,16 @@ LaTeX Font Info:    ... okay on input line 40.
 
 (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count459
-\scratchdimen=\dimen317
+\scratchcounter=\count460
+\scratchdimen=\dimen318
 \scratchbox=\box119
-\nofMPsegments=\count460
-\nofMParguments=\count461
+\nofMPsegments=\count461
+\nofMParguments=\count462
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count462
-\MPscratchDim=\dimen318
-\MPnumerator=\count463
-\makeMPintoPDFobject=\count464
+\MPscratchCnt=\count463
+\MPscratchDim=\dimen319
+\MPnumerator=\count464
+\makeMPintoPDFobject=\count465
 \everyMPtoPDFconversion=\toks44
 ) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -934,7 +940,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 40.
+Package hyperref Info: Link coloring OFF on input line 41.
  (rendu.out) (rendu.out)
 \@outlinefile=\write5
 \openout5 = `rendu.out'.
@@ -955,8 +961,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'rendu.bbl' found.
  (rendu.bbl)
-Package biblatex Info: Reference section=0 on input line 40.
-Package biblatex Info: Reference segment=0 on input line 40.
+Package biblatex Info: Reference section=0 on input line 41.
+Package biblatex Info: Reference segment=0 on input line 41.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -992,17 +998,17 @@ Package biblatex Info: Reference segment=0 on input line 40.
 <img//um3.png, id=234, 194.6472pt x 71.0655pt>
 File: img//um3.png Graphic file (type png)
 <use img//um3.png>
-Package pdftex.def Info: img//um3.png  used on input line 47.
+Package pdftex.def Info: img//um3.png  used on input line 48.
 (pdftex.def)             Requested size: 194.64671pt x 71.0653pt.
 <img//eco.png, id=236, 697.8873pt x 319.1925pt>
 File: img//eco.png Graphic file (type png)
 <use img//eco.png>
-Package pdftex.def Info: img//eco.png  used on input line 47.
+Package pdftex.def Info: img//eco.png  used on input line 48.
 (pdftex.def)             Requested size: 160.5107pt x 73.41272pt.
 <img//ble2.jpg, id=237, 1926.19624pt x 924.45375pt>
 File: img//ble2.jpg Graphic file (type jpg)
 <use img//ble2.jpg>
-Package pdftex.def Info: img//ble2.jpg  used on input line 63.
+Package pdftex.def Info: img//ble2.jpg  used on input line 64.
 (pdftex.def)             Requested size: 597.50787pt x 286.76108pt.
  [1
 
@@ -1048,7 +1054,7 @@ pdfTeX warning: pdflatex (file ./img//eco.png): large interlaced PNG might cause
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.41 ...oite de tendance}{35}{subsubsection.C.1.1}
+l.41 ...oite de tendance}{37}{subsubsection.C.1.1}
                                                   % [1
 
 
@@ -1137,12 +1143,7 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <9.5> not available
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <15> not available
 (Font)              size <14.4> substituted on input line 185.
 
-) [4] (tab/1_1_stat_nickel.tex) (tab/1_1_stat_rendement_nickel.tex) [5] (graphs/nickel_rendement.pgf) [6]
-Overfull \hbox (7.59117pt too wide) in paragraph at lines 112--113
-[]\T1/cmr/bx/n/12 2020-2023 : Crise liée à la pandémie de Covid-19, guerre russo-ukrainienne,
- []
-
-(graphs/cours_historiques.pgf
+) [4] (tab/1_1_stat_nickel.tex) (tab/1_1_stat_rendement_nickel.tex) [5] (graphs/nickel_rendement.pgf) (graphs/cours_historiques.pgf
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 417.
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1184,82 +1185,59 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <20> not available
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13.99994> not available
 (Font)              size <14.4> substituted on input line 1021.
 
-) [7]) [8]
+) [6]
+Overfull \hbox (7.59117pt too wide) in paragraph at lines 116--124
+[]\T1/cmr/bx/n/12 2020-2023 : Crise liée à la pandémie de Covid-19, guerre russo-ukrainienne,
+ []
+
+[7]) [8]
 \openout2 = `parts/2_analyse.aux'.
 
- (parts/2_analyse.tex (tab/2_1_log.tex)
-
-Package caption Warning: \label without proper reference on input line 124.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:ble_log' on page 9 undefined on input line 22.
-
-
-Package caption Warning: \label without proper reference on input line 130.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:nickel_log' on page 9 undefined on input line 25.
-
-[9
+ (parts/2_analyse.tex (tab/2_1_log.tex) [9
 
 
 
-] (tab/2_3_anova.tex) (tab/2_3_saiso.tex) [10] (tab/2_3_tend.tex)
-
-Package caption Warning: \label without proper reference on input line 160.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:bb_nickel21' on page 11 undefined on input line 93.
-
-[11]
-
-LaTeX Warning: Reference `tab:desaiso' on page 12 undefined on input line 114.
-
-) [12]
+] (tab/2_3_anova.tex) (tab/2_3_saiso.tex) [10] (tab/2_3_tend.tex) [11] (graphs/nickel_desaiso.pgf) [12]) [13]
 \openout2 = `parts/3_tradi.aux'.
 
- (parts/3_tradi.tex [13
+ (parts/3_tradi.tex [14
 
 
 
-] (tab/3_1_extra19.tex) (tab/3_1_led19.tex) [14] (tab/3_1_hw19.tex) [15] (tab/3_1_mse.tex) (tab/3_1_prev22.tex) [16] [17] (tab/3_2_prev_ble.tex
+] (tab/3_1_extra19.tex) (tab/3_1_led19.tex) [15] (tab/3_1_hw19.tex) [16] (tab/3_1_mse.tex) (tab/3_1_prev22.tex) [17] [18] (tab/3_2_prev_ble.tex
 LaTeX Font Info:    Font shape `U/eurosym/m/it' in size <12> not available
 (Font)              Font shape `U/eurosym/m/sl' tried instead on input line 4.
-) (tab/3_2_prev_nickel.tex) [18] (tab/3_2_mse.tex)) [19]
+) [19] (tab/3_2_prev_nickel.tex) (tab/3_2_mse.tex) [20]) [21]
 \openout2 = `parts/4_boxjen.aux'.
 
- (parts/4_boxjen.tex [20
+ (parts/4_boxjen.tex [22
 
 
 
-] [21] [22] [23] [24] [25] [26] [27]
+] [23] [24] [25] [26] [27] [28] [29]
 Overfull \hbox (44.6129pt too wide) in paragraph at lines 454--458
 \T1/cmr/m/n/12 cela l'identification d'un pro-ces-sus ARMA se fait par la com-para-i-son des fonc-tions d'autocorrélation
  []
 
-[28]) [29] (annexe/2_1_hetero_ble.tex)
-Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--111
+[30]) [31] (annexe/2_1_hetero_ble.tex)
+Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--112
  [][] 
  []
 
 (annexe/2_1_hetero_nickel.tex)
-Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--119
+Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--120
  [][] 
  []
 
-(graphs/ble_log.pgf) (graphs/nickel_log.pgf) [30
+(graphs/ble_log.pgf) (graphs/nickel_log.pgf) [32
 
 
-] (annexe/2_2_bb_ble19.tex) (annexe/2_2_bb_ble21.tex) [31] (annexe/2_2_bb_nickel19.tex) (annexe/2_2_bb_nickel21.tex) (annexe/2_3_anova_ble19.tex) (annexe/2_3_anova_ble21.tex) (annexe/2_3_anova_nickel19.tex) [32] (annexe/2_3_anova_nickel21.tex) (graphs/nickel_bbc.pgf) (annexe/2_4_bb_test.tex) [33] (annexe/2_4_coefsaiso.tex) (annexe/3_1_mco_ble19.tex) [34] (annexe/3_1_mco_nickel19.tex)
-<annexe/3_1_extra_cor_ble19.pdf, id=567, 316.18124pt x 252.945pt>
+] (annexe/2_2_bb_ble19.tex) (annexe/2_2_bb_ble21.tex) [33] (annexe/2_2_bb_nickel19.tex) (annexe/2_2_bb_nickel21.tex) (annexe/2_3_anova_ble19.tex) (annexe/2_3_anova_ble21.tex) (annexe/2_3_anova_nickel19.tex) [34] (annexe/2_3_anova_nickel21.tex) (graphs/nickel_bbc.pgf) [35] (annexe/2_4_bb_test.tex) (annexe/2_4_coefsaiso.tex) [36] (annexe/3_1_mco_ble19.tex) (annexe/3_1_mco_nickel19.tex) [37]
+<annexe/3_1_extra_cor_ble19.pdf, id=644, 316.18124pt x 252.945pt>
 File: annexe/3_1_extra_cor_ble19.pdf Graphic file (type pdf)
 <use annexe/3_1_extra_cor_ble19.pdf>
-Package pdftex.def Info: annexe/3_1_extra_cor_ble19.pdf  used on input line 243.
+Package pdftex.def Info: annexe/3_1_extra_cor_ble19.pdf  used on input line 259.
 (pdftex.def)             Requested size: 316.18047pt x 252.94438pt.
- [35]
 Package epstopdf Info: Source file: <annexe/3_1_extra_hist_ble19.eps>
 (epstopdf)                    date: 2023-03-03 08:54:43
 (epstopdf)                    size: 19308 bytes
@@ -1267,22 +1245,23 @@ Package epstopdf Info: Source file: <annexe/3_1_extra_hist_ble19.eps>
 (epstopdf)                    date: 2023-03-03 09:15:03
 (epstopdf)                    size: 9792 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/3_1_extra_hist_ble19-eps-converted-to.pdf annexe/3_1_extra_hist_ble19.eps>
-(epstopdf)             \includegraphics on input line 249.
+(epstopdf)             \includegraphics on input line 266.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/3_1_extra_hist_ble19-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/3_1_extra_hist_ble19-eps-converted-to.pdf, id=572, 1653.17625pt x 750.805pt>
+<annexe/3_1_extra_hist_ble19-eps-converted-to.pdf, id=645, 1653.17625pt x 750.805pt>
 File: annexe/3_1_extra_hist_ble19-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/3_1_extra_hist_ble19-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/3_1_extra_hist_ble19-eps-converted-to.pdf  used on input line 249.
+Package pdftex.def Info: annexe/3_1_extra_hist_ble19-eps-converted-to.pdf  used on input line 266.
 (pdftex.def)             Requested size: 455.24411pt x 206.75269pt.
-(annexe/3_1_extra_arch_ble19.tex) [36 <./annexe/3_1_extra_cor_ble19.pdf> <./annexe/3_1_extra_hist_ble19-eps-converted-to.pdf>] (annexe/3_1_led_ble19.tex) (annexe/3_1_led_nickel19.tex) (annexe/3_1_hwout_ble19.tex) (annexe/3_1_hwout_nickel19.tex) [37] (annexe/3_2_mco_ble.tex) [38]
-<annexe/3_2_mco_corr_ble.pdf, id=607, 316.18124pt x 262.9825pt>
+[38 <./annexe/3_1_extra_cor_ble19.pdf>] (annexe/3_1_extra_arch_ble19.tex) (annexe/3_1_led_ble19.tex) [39 <./annexe/3_1_extra_hist_ble19-eps-converted-to.pdf>] (annexe/3_1_led_nickel19.tex) (annexe/3_1_hwout_ble19.tex) (annexe/3_1_hwout_nickel19.tex) [40] (annexe/3_2_mco_ble.tex)
+<annexe/3_2_mco_corr_ble.pdf, id=684, 316.18124pt x 262.9825pt>
 File: annexe/3_2_mco_corr_ble.pdf Graphic file (type pdf)
 <use annexe/3_2_mco_corr_ble.pdf>
-Package pdftex.def Info: annexe/3_2_mco_corr_ble.pdf  used on input line 309.
+Package pdftex.def Info: annexe/3_2_mco_corr_ble.pdf  used on input line 349.
 (pdftex.def)             Requested size: 316.18047pt x 262.98184pt.
+ [41]
 Package epstopdf Info: Source file: <annexe/3_2_mco_hist_ble.eps>
 (epstopdf)                    date: 2023-03-09 19:07:42
 (epstopdf)                    size: 18545 bytes
@@ -1290,23 +1269,23 @@ Package epstopdf Info: Source file: <annexe/3_2_mco_hist_ble.eps>
 (epstopdf)                    date: 2023-03-09 19:07:48
 (epstopdf)                    size: 7372 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/3_2_mco_hist_ble-eps-converted-to.pdf annexe/3_2_mco_hist_ble.eps>
-(epstopdf)             \includegraphics on input line 315.
+(epstopdf)             \includegraphics on input line 356.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/3_2_mco_hist_ble-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/3_2_mco_hist_ble-eps-converted-to.pdf, id=608, 1315.91624pt x 585.18625pt>
+<annexe/3_2_mco_hist_ble-eps-converted-to.pdf, id=692, 1315.91624pt x 585.18625pt>
 File: annexe/3_2_mco_hist_ble-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/3_2_mco_hist_ble-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/3_2_mco_hist_ble-eps-converted-to.pdf  used on input line 315.
+Package pdftex.def Info: annexe/3_2_mco_hist_ble-eps-converted-to.pdf  used on input line 356.
 (pdftex.def)             Requested size: 455.24411pt x 202.44308pt.
-[39 <./annexe/3_2_mco_corr_ble.pdf>] (annexe/3_2_mco_homo_ble.tex) (annexe/3_2_mco_nickel.tex)
-<annexe/3_2_mco_corr_nickel.pdf, id=621, 316.18124pt x 262.9825pt>
+(annexe/3_2_mco_homo_ble.tex) [42 <./annexe/3_2_mco_corr_ble.pdf> <./annexe/3_2_mco_hist_ble-eps-converted-to.pdf>] (annexe/3_2_mco_nickel.tex)
+<annexe/3_2_mco_corr_nickel.pdf, id=711, 316.18124pt x 262.9825pt>
 File: annexe/3_2_mco_corr_nickel.pdf Graphic file (type pdf)
 <use annexe/3_2_mco_corr_nickel.pdf>
-Package pdftex.def Info: annexe/3_2_mco_corr_nickel.pdf  used on input line 339.
+Package pdftex.def Info: annexe/3_2_mco_corr_nickel.pdf  used on input line 379.
 (pdftex.def)             Requested size: 316.18047pt x 262.98184pt.
- [40 <./annexe/3_2_mco_hist_ble-eps-converted-to.pdf>]
+ [43]
 Package epstopdf Info: Source file: <annexe/3_2_mco_hist_nickel.eps>
 (epstopdf)                    date: 2023-03-09 19:23:23
 (epstopdf)                    size: 19563 bytes
@@ -1314,53 +1293,50 @@ Package epstopdf Info: Source file: <annexe/3_2_mco_hist_nickel.eps>
 (epstopdf)                    date: 2023-03-09 19:25:58
 (epstopdf)                    size: 7411 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/3_2_mco_hist_nickel-eps-converted-to.pdf annexe/3_2_mco_hist_nickel.eps>
-(epstopdf)             \includegraphics on input line 345.
+(epstopdf)             \includegraphics on input line 386.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/3_2_mco_hist_nickel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/3_2_mco_hist_nickel-eps-converted-to.pdf, id=634, 1315.91624pt x 585.18625pt>
+<annexe/3_2_mco_hist_nickel-eps-converted-to.pdf, id=718, 1315.91624pt x 585.18625pt>
 File: annexe/3_2_mco_hist_nickel-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/3_2_mco_hist_nickel-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/3_2_mco_hist_nickel-eps-converted-to.pdf  used on input line 345.
+Package pdftex.def Info: annexe/3_2_mco_hist_nickel-eps-converted-to.pdf  used on input line 386.
 (pdftex.def)             Requested size: 455.24411pt x 202.44308pt.
-(annexe/3_2_mco_homo_nickel.tex) [41 <./annexe/3_2_mco_corr_nickel.pdf> <./annexe/3_2_mco_hist_nickel-eps-converted-to.pdf>] (annexe/3_2_led_ble.tex) (annexe/3_2_led_nickel.tex) (annexe/3_2_hw_ble.tex) (annexe/3_2_hw_nickel.tex) [42] (annexe/4_2_1_mod3_ble.tex) [43] (annexe/4_2_1_mod3cont_ble.tex) [44] (annexe/4_2_1_mod2_ble.tex) (annexe/4_2_1_testmoy_ble.tex) [45] (annexe/4_2_1_mod3_nickel.tex) (annexe/4_2_1_mod3cont_nickel.tex) [46] (annexe/4_2_1_mod2_nickel.tex) (annexe/4_2_1_testmoy_nickel.tex) [47]
-<annexe/4_3_1_cor_dble19.pdf, id=691, 316.18124pt x 262.9825pt>
+(annexe/3_2_mco_homo_nickel.tex) [44 <./annexe/3_2_mco_corr_nickel.pdf> <./annexe/3_2_mco_hist_nickel-eps-converted-to.pdf>] (annexe/3_2_led_ble.tex) (annexe/3_2_led_nickel.tex) (annexe/3_2_hw_ble.tex) (annexe/3_2_hw_nickel.tex) [45] (annexe/4_2_1_mod3_ble.tex) [46] (annexe/4_2_1_mod3cont_ble.tex) [47] (annexe/4_2_1_mod2_ble.tex) (annexe/4_2_1_testmoy_ble.tex) [48] (annexe/4_2_1_mod3_nickel.tex) (annexe/4_2_1_mod3cont_nickel.tex) [49] (annexe/4_2_1_mod2_nickel.tex) (annexe/4_2_1_testmoy_nickel.tex) [50]
+<annexe/4_3_1_cor_dble19.pdf, id=775, 316.18124pt x 262.9825pt>
 File: annexe/4_3_1_cor_dble19.pdf Graphic file (type pdf)
 <use annexe/4_3_1_cor_dble19.pdf>
-Package pdftex.def Info: annexe/4_3_1_cor_dble19.pdf  used on input line 467.
+Package pdftex.def Info: annexe/4_3_1_cor_dble19.pdf  used on input line 507.
 (pdftex.def)             Requested size: 316.18047pt x 262.98184pt.
 
-Overfull \hbox (4.20241pt too wide) in paragraph at lines 472--472
+Overfull \hbox (4.20241pt too wide) in paragraph at lines 513--513
 [][]\T1/cmr/m/n/12 Institute, Nickel. \T1/cmr/m/it/12 About nickel and its ap-pli-ca-tions\T1/cmr/m/n/12 . 2021. \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / nickelinstitute .
  []
 
-[48 <./annexe/4_3_1_cor_dble19.pdf>] (rendu.aux (parts/1_macro.aux) (parts/2_analyse.aux) (parts/3_tradi.aux) (parts/4_boxjen.aux))
+[51 <./annexe/4_3_1_cor_dble19.pdf>] [52] (rendu.aux (parts/1_macro.aux) (parts/2_analyse.aux) (parts/3_tradi.aux) (parts/4_boxjen.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.72pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `rendu.out' has not changed.
-(rerunfilecheck)             Checksum: 652BECE1E8395D240B1467B248B8B431;11243.
+(rerunfilecheck)             Checksum: 7B7021AAA187439C505EF88BE226AD5B;11169.
 Package logreq Info: Writing requests to 'rendu.run.xml'.
 \openout1 = `rendu.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31418 strings out of 477843
- 608690 string characters out of 2823126
- 1325995 words of memory out of 3000000
- 49419 multiletter control sequences out of 15000+600000
+ 31533 strings out of 477843
+ 610824 string characters out of 2823126
+ 1325981 words of memory out of 3000000
+ 49497 multiletter control sequences out of 15000+600000
  499656 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,20n,104p,1164b,1541s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss2074.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2074.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1728.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>{C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymo10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on rendu.pdf (49 pages, 1809296 bytes).
+ 100i,17n,104p,1164b,1541s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss2074.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2074.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1728.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>{C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymo10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on rendu.pdf (53 pages, 1857900 bytes).
 PDF statistics:
- 1586 PDF objects out of 1728 (max. 8388607)
- 201 named destinations out of 1000 (max. 500000)
+ 1724 PDF objects out of 1728 (max. 8388607)
+ 231 named destinations out of 1000 (max. 500000)
  573 words of extra memory for PDF output out of 10000 (max. 10000000)
 

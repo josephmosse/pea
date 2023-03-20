@@ -1,9 +1,20 @@
 \section{Analyse de la saisonnalité et de la tendance}
 Les méthodes traditionnelles de prévision, reposent sur la décomposition des différentes composantes d'une série temporelle. Ici il s'agira donc
 ici d'analyser ces différentes composantes (c'est à dire la tendance et la saisonnalité).\\[11pt]
-Afin de pouvoir travailler sur la série, il est nécessaire de réduire les  fluctuations importantes de la série. Pour cela des test ARCH sont fait sur les 
-séries initiales afin de déterminer si il y a homoscédasticité dans la distribution. L'hypothèse nulle et alternative sont :
-\archtest{41}{27,31}{14,07}
+Afin de pouvoir travailler sur la série, il est nécessaire de réduire les fluctuations importantes de la série. Pour cela un test ARCH est fait pour chacune des 
+séries afin de déterminer si il y a homoscédasticité dans leur distribution. L'hypothèse nulle et alternative sont :
+\begin{equation*}
+    \begin{split}
+        H_{0} &: \text{Homoscédasticité} \\
+        H_{1} &: \text{Hétéroscédasticité}
+    \end{split}
+\end{equation*}
+\textbf{Statistique de test :} 
+    \begin{equation*}
+        LM = n \times R^{2} \sim \rchi^{2}_{0,95} \, (p)
+    \end{equation*}
+\textbf{Règle de décision :} La statistique du multiplicateur de Lagrange est comparée au quantile à 95\% de la distribution du Khi-deux ayant pour degrés de liberté 7. 
+Dans le cas suivant : $\rchi^{2}_{0,95}\,(7) = 14,067$\footnote{Voir annexe~\ref{appendix:arch_test} p.\pageref{appendix:arch_test}}.
 \begin{table}[H]
     \centering
     \caption{Résultats du test ARCH}
@@ -13,25 +24,22 @@ séries initiales afin de déterminer si il y a homoscédasticité dans la distr
 Ici, pour toutes les séries, la statistique $LM$ est supérieur au seuil, l'hypothèse $H_{0}$ est  rejetée au risque de $5\%$. Les cours du blé et du nickel
 présentent donc de l'hétéroscédasticité. Afin d'amoindrir ces fluctuations importantes, une transformation logarithmique est faite sur chacune des séries. Les séries 
 transformées serviront donc pour le reste du travail.
-\subsection{Détection de saisonnalité et de tendance}\label{graph}
+\subsection{Détection de saisonnalité et de tendance}
 \subsubsection{Analyse graphique}
-Dans un premier temps, une étude intuitive peut être faite. Il s'agira donc ici d'analyser graphiquement chacune des chroniques afin 
-de déterminer de façon préliminaire, si les cours du blé et du nickel sont sujet à de la saisonnalité, et/ou de la tendance.\\[11pt]
-Pour le cours du blé, il est possible de déceler légère une tendance a la hausse de 2016 à 2019. Cette tendance s'accentue si 2020 et 2021 
-sont inclus. Pour ce qui est de la saisonnalité, il semble impossible de déterminer que la série possède une quelconque saisonnalité
-\textit{(figure~\ref{fig:ble_log} p.~\pageref{fig:ble_log})}.\\[11pt]
-Dans le cas du nickel, une tendance haussière se démarque (tout échantillon confondu). Quant à la saisonnalité, sur l'échantillon 2016-2019, 
-la série ne semble pas saisonnière. Cependant sur l'échantillon 2016-2021, la série peut sembler saisonnière par périodes de un an.
-\textit{(figure~\ref{fig:nickel_log} p.~\pageref{fig:nickel_log})}.\\[11pt]
+Dans un premier temps, une étude intuitive peut être faite. Il s'agira donc ici d'analyser graphiquement chacune des chroniques afin de déterminer de façon préliminaire, si les cours du blé et du nickel sont sujet à de la saisonnalité, et/ou à une tendance.\\[11pt]
+Pour le cours du blé, il est possible de déceler légère une tendance a la hausse de 2016 à 2019. Cette tendance s'accentue si 2020 et 2021 sont inclus. Pour ce qui est de
+ la saisonnalité, il semble impossible de déterminer que la série possède une quelconque saisonnalité\footnote{Voir figure~\ref
+{fig:ble_log} p.~\pageref{fig:ble_log}}.\\[11pt]
+Dans le cas du nickel, une tendance haussière se démarque (tout échantillon confondu). Quant à la saisonnalité, sur l'échantillon 2016-2019, la série ne semble pas 
+saisonnière. Cependant sur l'échantillon 2016-2021, la série peut sembler saisonnière par périodes de un an\footnote{Voir figure~\ref{fig:nickel_log} p.~\pageref{fig:nickel_log}}.\\[11pt]
 Les deux séries semblent donc se comporter de manière similaire : faible tendance haussière, ainsi que non saisonnières. 
 \subsubsection{Analyse de la variance et test de Fisher}
-Afin de confirmer les intuitons développées en ~\ref{graph} une analyse de la variance et le test de Fisher sur la tendance et de 
-saisonnalité doivent être menés. La détection de la saisonnalité est essentielle, car les méthodes de prévision traditionnelles
-ne peuvent être que menées sur des séries non saisonnières ou bien désaisonnalisées.\\[11pt]
-L'analyse de la variance est basée sur les moyennes calculées dans le tableau de Buys Ballot. En effet afin d'analyser la saisonnalité, 
-il reviendra a étudier l'influence du facteur colonne (variance des mois) et pour la tendance, l'influence du facteur ligne (variance des années).
-Après calculs \textit{(Cf-\ref{appendix:anova} p.\pageref{appendix:anova})}, les différentes variances sont affichées dans le tableau ci-dessous.
-
+Afin de confirmer les intuitons développées dans la sous partie précédente, une analyse de la variance et le test de Fisher sur la tendance et de saisonnalité doivent être 
+menés. La détection de la saisonnalité est essentielle, car les méthodes de prévision traditionnelles ne peuvent être que menées sur des séries non saisonnières ou bien 
+désaisonnalisées.\\[11pt]
+L'analyse de la variance est basée sur les moyennes calculées dans le tableau de Buys Ballot\footnote{Voir annexe~\ref{appendix:bb} p.\pageref{appendix:bb}}. En effet 
+afin d'analyser la saisonnalité, il reviendra a étudier l'influence du facteur colonne (variance des mois) et pour la tendance, l'influence du facteur ligne (variance des 
+années). Après calculs \footnote{Voir annexe \ref{appendix:anova} p.\pageref{appendix:anova}}, les différentes variances sont affichées dans le tableau ci-dessous.
 \begin{table}[H]
     \centering
     \caption{Analyse de la variance}
@@ -41,15 +49,13 @@ Après calculs \textit{(Cf-\ref{appendix:anova} p.\pageref{appendix:anova})}, le
 
 Enfin grace aux variances, le test de fisher peut être effectué.
 \subsubsection*{Test de Fisher de détection de saisonnalité}
-Il s'agira ici de tester l'influence du facteur colonne en comparant la variance période à la variance résiduelle
-,afin de déterminer si les séries sont saisonnières.
+Il s'agira ici de tester l'influence du facteur colonne en comparant la variance période à la variance résiduelle ,afin de déterminer si les séries sont saisonnières.
 \test{Pas d'influence du facteur colonne (pas de saisonnalité)}
     {Influence du facteur colonne (saisonnalité)}
     {F_{c} = \frac{V_{P}}{V_{R}} \sim F_{0,95}((n-1), (n-1)(p-1))}
-La statistique calculée ($F_{c}$) est ensuite comparée au quantile à $95\%$ de la distribution $F$ de
-Fisher avec comme degrés de liberté $(p-1)$ et $(n-1)(p-1)$, où $n$ représente le nombre d'année
-et $p$ le nombre de périodes. Si la statistique empirique est supérieure au quantile,
-alors $ H_{0} $ est rejetée, la série est saisonnière. Après calculs :
+La statistique calculée ($F_{c}$) est ensuite comparée au quantile à $95\%$ de la distribution $F$ de Fisher avec comme degrés de liberté $(p-1)$ et $(n-1)(p-1)$, où $n$ 
+représente le nombre d'année et $p$ le nombre de périodes. Si la statistique empirique est supérieure au quantile, alors $ H_{0} $ est rejetée, la série est saisonnière. 
+Après calculs :
 \begin{table}[H]
     \centering
     \caption{Test de Fisher (saisonnalité)}
@@ -60,7 +66,7 @@ Ici, les statistique calculée sont toutes inférieures au seuil, sauf pour l'é
 du nickel.  Ainsi, l'hypothèse $H_{0}$ est acceptée au risque de $5\%$ pour les deux échantillons du blé
 et pour l'échantillon (2016-2019) du nickel. En revanche elle est rejetée pour l'échantillon (2016-2021) du nickel.\\[11pt]
 Pour ses deux échantillons, la série du blé n'est donc pas saisonnière, il en est de même pour le premier échantillon de la série du nickel. 
-Par contre, l'échantillon (2016-2021) du nickel est lui saisonnier, il faudra donc à la suite 
+Par contre, l'échantillon (2016-2021) du nickel est lui saisonnier, il faudra donc par la suite 
 déterminer son type de saisonnalité (déterministe ou aléatoire), puis son type de schéma de décomposition
 (additif ou multiplicatif) et finalement désaisonnaliser la série afin de pouvoir utiliser les méthodes de prévision.
 \subsubsection*{Test de Fisher de détection de tendance}
@@ -83,32 +89,45 @@ $H_{0}$ est bien plus supérieure sur les échantillons (2016-2021) que sur les 
 cela confirme l'intuition dégagée de l'analyse graphique.
 
 \subsection{Désaisonnalisation de l'échantillon 2016-2021 du nickel}
-Comme vu précédemment l'échantillon (2016-2021) du Nickel possède de la saisonnalité, il est donc indispensable d'étudier, puis de corriger la saisonnalité. 
+Comme vu précédemment l'échantillon (2016-2021) du Nickel est saisonnier, il est donc indispensable d'étudier, puis de corriger la saisonnalité. 
 \subsubsection{Type de saisonnalité et sélection du schéma de décomposition}
 Dans un premier temps le type de saisonnalité doit être défini, en effet la saisonnalité peut être déterministe ou bien aléatoire. Pour cela chaque ligne du tableau de 
 Buys-Ballot de l'échantillon concerné est classée par ordre croissant. De plus pour faciliter la lecture, chaque mois s'est vu attribué une couleur appartenant à
-un gradient rouge (\textit{tableau~\ref{tab:bbc} p.\pageref{tab:bbc} }). Il est donc rapidement possible de remarquer que la saisonnalité n'est pas répétitive,
+un gradient rouge\footnote{Voir tableau~\ref{tab:bbc} p.\pageref{tab:bbc} }. Il est donc rapidement possible de remarquer que la saisonnalité n'est pas répétitive,
 elle est donc aléatoire. Il faudra donc désaisonnaliser la série par méthode Census.\\[11pt] 
-Il est par la suite nécessaire de selection le schéma de décomposition de la chronique, un test de Buys-Ballot est donc fait. Le test se base sur les résultats du tableau
-de Buys-ballot (\textit{tableau~\ref{tab:bb_nickel21}}), le test consiste à tester la significativité de la pente du modèle suivant : 
+Il est par la suite nécessaire de sélectionner le schéma de décomposition de la chronique, un test de Buys-Ballot est donc fait. Le test se base sur les résultats du 
+tableau de Buys-ballot\footnote{Voir tableau~\ref{tab:bb_nickel21} p.\pageref{tab:bb_nickel21}}, le test consiste à tester la significativité de la pente du modèle 
+suivant : 
 $\sigma_{i\cdot} = \beta x_{i\cdot} + \alpha + \varepsilon_{i}$ \\[11pt]
 Les hypothèses du test sont :
-\test{$H_{0} : \beta = 0 $ Le schéma de décomposition est additif.}
-{$H_{1} : \beta \neq 0 $ Le schéma de décomposition est multiplicatif.}
-{t_{c} = \frac{\hat{\beta}}{\hat{\sigma}_{\hat{\beta}}}\sim t_{0,975}(n-2)}
+\begin{align*}
+        H_{0} &: \beta = 0 & &\text{Le schéma de décomposition est additif.} \\
+        H_{1} &: \beta \neq 0 &  &\text{Le schéma de décomposition est multiplicatif.}
+\end{align*}
+\textbf{Statistique de test :}
+\begin{equation*}
+    t_{c} = \frac{\hat{\beta}}{\hat{\sigma}_{\hat{\beta}}}\sim t_{0,975}(n-2)
+\end{equation*}
 Si la statistique calculée en valeur absolue est inférieure au quantile à $97,5\%$ de la distribution bilatérale de Student avec comme degrés de liberté $ n-2 = 4$. 
-Après calculs (tableau~\ref{tab:bb_test} p.~\pageref{tab:bb_test}) :
+Après calculs\footnote{Voir tableau~\ref{tab:bb_test} p.~\pageref{tab:bb_test}}:
 \begin{align*}
     |t_{c}| &= 0,7701  & t_{0,975}(4) &= 2,7764
 \end{align*}
 Ici la statistique calculée est inférieure au Student lu dans la table de la distribution théorique, $H_{0}$ est donc rejetée au risque de $5\%$. Le schéma de décomposition
-de la série est un schéma additif. L'échantillon (2016-2021) du nickel peut être modélisé de la sorte : $ x_{t} = E_{t} + S_{t} + R_{t}$.
+de la série est un schéma additif. L'échantillon (2016-2021) du nickel peut être modélisé de la sorte :
+\begin{equation*}
+    x_{t} = E_{t} + S_{t} + R_{t}
+\end{equation*}
 \subsubsection{Désaisonnalisation de l'échantillon par méthode Census}
 Maintenant que le type de saisonnalité, ainsi que le schéma de décomposition de la série sont connus, la série doit être corrigée des variations saisonnières. La 
 désaisonnalisation vise à supprimer la composante saisonnière sans impacter les autres composantes de la série. Ici, la saisonnalité étant aléatoire, la méthode Census
 est utilisée.\\[11pt]
-La première itération de la méthode Census, à été développée par l'économiste J.Shiskin alors qu'il était chercheur au Bureau of Census. La méthode à par la suite été 
-largement améliorée au cours du temps, pour arriver aujourd'hui à la version X-13-ARIMA. Cette méthode consiste en une itération de moyennes mobiles permettant d'estimer
-les différentes composantes d'une série.\\[11pt]
-Ici la méthode X-13 est utilisée et les coefficients saisonniers sont calculés et soustraits à la série de base par le logiciel \texttt{EViews} 
-(tableau ~\ref{tab:desaiso}). La série désaisonnalisée (SLNICKEL 21) sera donc utilisée pour le reste du travail.
+La première itération de la méthode Census, à été développée par l'économiste J.Shiskin alors qu'il était chercheur au \textit{Bureau of Census} . La méthode à par la 
+suite été largement améliorée au cours du temps, pour arriver aujourd'hui à la version X-13-ARIMA. Cette méthode consiste en une itération de moyennes mobiles permettant 
+d'estimer les différentes composantes d'une série.\\[11pt]
+Ici la méthode X-13 est utilisée et les coefficients saisonniers sont calculés\footnote{Voir tableau~\ref{tab:coef_saiso} p.~\pageref{tab:coef_saiso}} et soustraits à la série de base par le logiciel \texttt{EViews} . La série désaisonnalisée sera donc utilisée pour le reste du travail.
+\begin{figure}[H]
+    \centering
+    \input{graphs/nickel_desaiso.pgf}
+    \caption{Désaisonnalisation par méthode Census du cours en log du nickel (2016-2021)}
+\end{figure}

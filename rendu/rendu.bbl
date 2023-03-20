@@ -125,6 +125,39 @@
       \verb https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-nickel.pdf
       \endverb
     \endentry
+    \entry{terraza}{book}{}
+      \name{author}{1}{}{%
+        {{hash=17129d8fdc7916cde09b7a4457b976b2}{%
+           family={Terraza},
+           familyi={T\bibinitperiod},
+           given={Régis\bibnamedelimb Bourbonnais\bibnamedelimb \&\bibnamedelima Michel},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim \\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Dunod}%
+      }
+      \strng{namehash}{17129d8fdc7916cde09b7a4457b976b2}
+      \strng{fullhash}{17129d8fdc7916cde09b7a4457b976b2}
+      \strng{bibnamehash}{17129d8fdc7916cde09b7a4457b976b2}
+      \strng{authorbibnamehash}{17129d8fdc7916cde09b7a4457b976b2}
+      \strng{authornamehash}{17129d8fdc7916cde09b7a4457b976b2}
+      \strng{authorfullhash}{17129d8fdc7916cde09b7a4457b976b2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Analyse des séries temporelles}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.3917/dunod.bourb.2016.01
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3917/dunod.bourb.2016.01
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3917/dunod.bourb.2016.01
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

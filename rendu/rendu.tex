@@ -9,7 +9,7 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{float}
-\usepackage{booktabs, tabularx}
+\usepackage{booktabs, tabularx, multirow}
 \usepackage{multicol}
 \usepackage{caption}
 \usepackage{eurosym}
@@ -36,6 +36,7 @@
 \DeclareFixedFont{\titlefont}{T1}{ppl}{b}{n}{1.2cm}
 \DeclareFixedFont{\subtitlefont}{T1}{ppl}{m}{n}{0.6cm}
 \DeclareFixedFont{\namefont}{T1}{ppl}{m}{n}{0.6cm}
+
 
 \begin{document}
 \afterpage{\restoregeometry}
@@ -101,118 +102,134 @@ faire par sous périodes
 \section{Analyse des séries chronologiques}
 \setcounter{table}{0}
 \setcounter{figure}{0}
-\subsection{Stabilité de la variance}\label{appendix:hetero}
+\subsection{Test ARCH}\label{appendix:arch_test}
 \begin{table}[H]
     \centering
     \caption{Test ARCH pour la série Blé}
-    \sffamily
     \label{tab:hetero_ble}
+    \sffamily
     \input{annexe/2_1_hetero_ble.tex}
 \end{table}
 
 \begin{table}[H]
     \centering
     \caption{Test ARCH pour la série Nickel}
-    \sffamily
     \label{tab:hetero_nickel}
+    \sffamily
     \input{annexe/2_1_hetero_nickel.tex}
 \end{table}
 
-\subsection{Analyse graphique}\label{appendix:loggraph}
+\subsection{Analyse graphique}
 \begin{figure}[H]
     \centering
-    \label{fig:ble_log}
     \resizebox{0.8\textwidth}{!}{\input{graphs/ble_log.pgf}}
     \caption{Cours du blé (en logarithme)}
+    \label{fig:ble_log}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \label{fig:nickel_log}
     \resizebox{0.8\textwidth}{!}{\input{graphs/nickel_log.pgf}}
     \caption{Cours du nickel (en logarithme)}
+    \label{fig:nickel_log}
 \end{figure}
 \subsection{Analyse de la variance}
 \subsubsection{Tableau de Buys-Ballot}\label{appendix:bb}
 \begin{table}[H]
-    \sffamily
     \centering
+    \caption{Tableau de Buys-Ballot du blé (2016-2019) }
     \label{tab:bb_ble19}
+    \sffamily
     \resizebox{\textwidth}{!}{\input{annexe/2_2_bb_ble19.tex}}
-    \caption{Tableau de Buys-Ballot du blé (échantillon 2016-2019) }
 \end{table}
 \begin{table}[H]
-    \sffamily
     \centering
+    \caption{Tableau de Buys-Ballot du blé (2016-2021) }
     \label{tab:bb_ble21}
+    \sffamily
     \resizebox{\textwidth}{!}{\input{annexe/2_2_bb_ble21.tex}}
-    \caption{Tableau de Buys-Ballot du blé (échantillon 2016-2021) }
 \end{table}
 \begin{table}[H]
-    \sffamily
     \centering
+    \caption{Tableau de Buys-Ballot du nickel (2016-2019) }
     \label{tab:bb_nickel19}
+    \sffamily
     \resizebox{\textwidth}{!}{\input{annexe/2_2_bb_nickel19.tex}}
-    \caption{Tableau de Buys-Ballot du nickel (échantillon 2016-2019) }
 \end{table}
 \begin{table}[H]
-    \sffamily
     \centering
+    \caption{Tableau de Buys-Ballot du nickel (2016-2021) }
     \label{tab:bb_nickel21}
+    \sffamily
     \resizebox{\textwidth}{!}{\input{annexe/2_2_bb_nickel21.tex}}
-    \caption{Tableau de Buys-Ballot du nickel (échantillon 2016-2021) }
 \end{table}
 \subsubsection{ANOVA}\label{appendix:anova}
 \begin{table}[H]
-    \sffamily
     \centering
-    \label{tab:anova_ble19}
-    \input{annexe/2_3_anova_ble19.tex}
     \caption{Tableau d'analyse de la variance du blé (2016-2019) }
+    \label{tab:anova_ble19}
+    \sffamily
+    \input{annexe/2_3_anova_ble19.tex}
 \end{table}
 \begin{table}[H]
-    \sffamily
     \centering
-    \label{tab:anova_ble21}
-    \input{annexe/2_3_anova_ble21.tex}
     \caption{Tableau d'analyse de la variance du blé (2016-2021) }
+    \label{tab:anova_ble21}
+    \sffamily
+    \input{annexe/2_3_anova_ble21.tex}
 \end{table}
 \begin{table}[H]
-    \sffamily
     \centering
-    \label{tab:anova_nickel19}
-    \input{annexe/2_3_anova_nickel19.tex}
     \caption{Tableau d'analyse de la variance du nickel (2016-2019) }
+    \label{tab:anova_nickel19}
+    \sffamily
+    \input{annexe/2_3_anova_nickel19.tex}
 \end{table}
 \begin{table}[H]
-    \sffamily
     \centering
-    \label{tab:anova_nickel21}
-    \input{annexe/2_3_anova_nickel21.tex}
     \caption{Tableau d'analyse de la variance du nickel (2016-2021) }
+    \label{tab:anova_nickel21}
+    \sffamily
+    \input{annexe/2_3_anova_nickel21.tex}
 \end{table}
-
+\begin{table}[htpb]
+    \centering
+    \caption[test]{Analyse de la variance\footnotemark }
+    \label{tab:anova}
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{lccl}
+        \toprule
+        Somme des carrés & Degré de liberté & Désignation & Variance\\
+        \midrule
+        $S_{p} = N \sum\limits_{j}(x_{\cdot j}- x_{\cdot \cdot})^2$ & $p-1$ & Variance Période & $V_{p} = \frac{S_{p}}{p-1}$ \\
+        $S_{A} = P \sum\limits_{i}(x_{i \cdot}- x_{\cdot \cdot})^2$ & $N-1$ & Variance Année & $V_{A} = \frac{S_{A}}{N-1}$ \\
+        $S_{R} = \sum_{i} \sum\limits_{j}(x_{ij}-x_{i\cdot}-x_{\cdot j} + x_{\cdot \cdot})^2$ & $(p-1)(N-1)$ & Variance Résidu & $V_{R} = \frac{S_{R}}{(p-1)(N-1)}$ \\
+        $S_{T} $ & $N\times p-1$ & Variance Totale & $V_{T} = \frac{S_{T}}{N\times p-1}$ \\
+        \bottomrule
+    \end{tabular}}
+\end{table}
+\footcitetext{terraza}
 \subsection{Désaisonnalisation de l'échantillon (2016-2021) du Nickel}
 \begin{table}[H]
     \centering
     \caption{Tableau de Buys-Ballot classé du Nickel (2019-2021)}
-    \sffamily
     \label{tab:bbc}
+    \sffamily
     \resizebox{\textwidth}{!}{\input{graphs/nickel_bbc.pgf}}
 \end{table}
 
 \begin{table}[H]
     \centering
     \caption{Estimation par les MCO du test de Buys-Ballot sur le Nickel (2019-2021)}
-    \sffamily
     \label{tab:bb_test}
+    \sffamily
     \input{annexe/2_4_bb_test.tex}
 \end{table}
 
 \begin{table}[H]
     \centering
     \caption{Coefficients saisonniers prévisionnels pour 2022 du nickel}
-    \sffamily
     \label{tab:coef_saiso}
+    \sffamily
     \input{annexe/2_4_coefsaiso.tex}
 \end{table}
 
@@ -220,28 +237,28 @@ faire par sous périodes
 \setcounter{table}{0}
 \setcounter{figure}{0}
 \subsection{Échantillon 2016-2019}
-\subsubsection{Extrapolation d'une droite de tendance}
+\subsubsection{Extrapolation d'une droite de tendance}\label{appendix:extra_19}
 \begin{table}[H]
     \centering
     \caption{Estimation par les MCO de l'échantillon 2016-2019 du blé}
-    \sffamily
     \label{tab:mco_ble19}
+    \sffamily
     \input{annexe/3_1_mco_ble19.tex}
 \end{table}
 
 \begin{table}[H]
     \centering
     \caption{Estimation par les MCO de l'échantillon 2016-2019 du nickel}
-    \sffamily
     \label{tab:mco_nickel19}
+    \sffamily
     \input{annexe/3_1_mco_nickel19.tex}
 \end{table}
 
 \begin{figure}[H]
     \centering
-    \label{fig:extra_cor_ble19}
     \includegraphics[]{annexe/3_1_extra_cor_ble19.pdf}
     \caption{Corrélograme des résidus des MCO de l'échantillon 2016-2019 du blé}
+    \label{fig:extra_cor_ble19}
 \end{figure}
 
 \begin{figure}[H]
@@ -254,60 +271,84 @@ faire par sous périodes
 \begin{table}[H]
     \centering
     \caption{Test ARCH sur les résidus des MCO de l'échantillon 2016-2019 du blé}
+    \label{tab:extra_arch_ble19}
     \sffamily
     \input{annexe/3_1_extra_arch_ble19.tex}
-    \label{tab:extra_arch_ble19}
 \end{table}
-
-\subsubsection{Lissage exponentiel double}
+\subsubsection{Lissage exponentiel double}\label{appendix:led_19}
+\begin{table}[H]
+    \caption[led]{Détail des calculs du lissage exponentiel double\footnotemark }
+    \label{tab:led}
+    \begin{align*}
+        &\hat{x}_{t} = \lambda x_{t-1} + (1 - \lambda)\hat{x}_{t-1} & &\text{Calcul du LES}\\
+        &\hat{\hat{x}}_{t} = \lambda \hat{x}_{t} + (1 - \lambda)\hat{\hat{x}}_{t-1} & &\text{Calcul du LED}\\
+        &a_{t} = 2\hat{x}_t - \hat{\hat{x}}_{t} & & \\
+        &b_{t} = \frac{1}{\overline{\lambda}} (\hat{x}_{t} - \hat{\hat{x}}_{t}) & &\text{Avec  } \overline{\lambda}= \frac{1-\lambda}{\lambda}\\
+        &x_{t-1, t}^{p} = a_{t} + b_{t} & & \text{Calcul des valeurs prévues pour $t=2,\dots,n+1$}\\
+        &x_{n, n+h}^{p} = a_{n+1} + b_{n+1} \times h & & \text{Calcul des valeurs prévues pour $h=2,3,\dots$}\\
+    \end{align*}
+\end{table}
+\footcitetext{terraza}
 \begin{table}[H]
     \centering
     \caption{Constante de lissage LED blé (2016-2019)}
+    \label{tab:led_ble19}
     \sffamily
     \input{annexe/3_1_led_ble19.tex}
-    \label{tab:led_ble19}
 \end{table}
 
 \begin{table}[H]
     \centering
     \caption{Constante de lissage LED nickel (2016-2019)}
+    \label{tab:led_nickel19}
     \sffamily
     \input{annexe/3_1_led_nickel19.tex}
-    \label{tab:led_nickel19}
 \end{table}
 
-\subsubsection{Lissage exponentiel de Holt-Winter}
+\subsubsection{Lissage exponentiel de Holt-Winters}\label{appendix:hw_19}
+\begin{table}[H]
+    \caption[hw]{Détail des calculs du lissage de Holt et Winters pour schéma additif \footnotemark}
+    \label{tab:hw}
+    \begin{align*}
+        &a_{t} = \alpha(x_{t} - S_{t-p}) + (1-\alpha)(a_{t-1} + b_{t-1}) & &\text{Lissage de la moyenne}\\
+        &b_{t}= \beta (a_{t}-a_{t-1}) + (1-\beta) b_{t-1} & &\text{Lissage de la tendance}\\
+        &S_{t} = \gamma (x_{t}-a_{t}) + (1-\gamma) S_{t-p} & &\text{Lissage de la Saisonnalité}\\
+        &\hat{x}_{t+h} = (a_{t} + h \cdot b_{t}) + S_{t-p+h} & & 1\leq h \leq p \\
+        &\hat{x}_{t+h} = (a_{t} + h \cdot b_{t}) + S_{t-2p+h} & & p+1 \leq h \leq 2p\\
+    \end{align*}
+\end{table}
+\footcitetext{terraza}
 \begin{table}[H]
     \centering
     \caption{Constantes de lissage HW blé (2016-2019)}
+    \label{tab:hwout_ble19}
     \sffamily
     \input{annexe/3_1_hwout_ble19.tex}
-    \label{tab:hwout_ble19}
 \end{table}
 \begin{table}[H]
     \centering
     \caption{Constantes de lissage HW nickel (2016-2019)}
+    \label{tab:hwout_nickel19}
     \sffamily
     \input{annexe/3_1_hwout_nickel19.tex}
-    \label{tab:hwout_nickel19}
 \end{table}
 
 
 \subsection{Échantillon 2016-2021}
-\subsubsection{Extrapolation d'une droite de tendance}
+\subsubsection{Extrapolation d'une droite de tendance}\label{appendix:extra_21}
 \begin{table}[H]
     \centering
     \caption{Estimation par les MCO de l'échantillon 2016-2021 du blé}
-    \sffamily
     \label{tab:mco_ble21}
+    \sffamily
     \input{annexe/3_2_mco_ble.tex}
 \end{table}
 
 \begin{figure}[H]
     \centering
-    \label{fig:mco_cor_ble21}
     \includegraphics[]{annexe/3_2_mco_corr_ble.pdf}
     \caption{Corrélograme des résidus des MCO de l'échantillon 2016-2021 du blé}
+    \label{fig:mco_cor_ble21}
 \end{figure}
 
 \begin{figure}[H]
@@ -320,24 +361,24 @@ faire par sous périodes
 \begin{table}[H]
     \centering
     \caption{Test ARCH sur les résidus des MCO de l'échantillon 2016-2021 du blé}
+    \label{tab:mco_homo_ble19}
     \sffamily
     \input{annexe/3_2_mco_homo_ble.tex}
-    \label{tab:mco_homo_ble19}
 \end{table}
 
 \begin{table}[H]
     \centering
     \caption{Estimation par les MCO de l'échantillon 2016-2021 du nickel}
-    \sffamily
     \label{tab:mco_nickel21}
+    \sffamily
     \input{annexe/3_2_mco_nickel.tex}
 \end{table}
 
 \begin{figure}[H]
     \centering
-    \label{fig:mco_cor_nickel21}
     \includegraphics[]{annexe/3_2_mco_corr_nickel.pdf}
     \caption{Corrélograme des résidus des MCO de l'échantillon 2016-2021 du nickel}
+    \label{fig:mco_cor_nickel21}
 \end{figure}
 
 \begin{figure}[H]
@@ -350,42 +391,42 @@ faire par sous périodes
 \begin{table}[H]
     \centering
     \caption{Test ARCH sur les résidus des MCO de l'échantillon 2016-2021 du nickel}
+    \label{tab:mco_homo_nickel19}
     \sffamily
     \input{annexe/3_2_mco_homo_nickel.tex}
-    \label{tab:mco_homo_nickel19}
 \end{table}
 
-\subsubsection{Lissage exponentiel double}
+\subsubsection{Lissage exponentiel double}\label{appendix:led_21}
 \begin{table}[H]
     \centering
     \caption{Constante de lissage LED blé (2016-2021)}
+    \label{tab:led_ble21}
     \sffamily
     \input{annexe/3_2_led_ble.tex}
-    \label{tab:led_ble21}
 \end{table}
 
 \begin{table}[H]
     \centering
     \caption{Constante de lissage LED nickel (2016-2021)}
+    \label{tab:led_nickel21}
     \sffamily
     \input{annexe/3_2_led_nickel.tex}
-    \label{tab:led_nickel21}
 \end{table}
 
-\subsubsection{Lissage exponentiel de Holt-Winter}
+\subsubsection{Lissage exponentiel de Holt-Winters}\label{appendix:hw_21}
 \begin{table}[H]
     \centering
     \caption{Constantes de lissage HW blé (2016-2021)}
+    \label{tab:hw_ble}
     \sffamily
     \input{annexe/3_2_hw_ble.tex}
-    \label{tab:hw_ble}
 \end{table}
 \begin{table}[H]
     \centering
     \caption{Constantes de lissage HW nickel (2016-2021)}
+    \label{tab:hw_nickel}
     \sffamily
     \input{annexe/3_2_hw_nickel.tex}
-    \label{tab:hw_nickel}
 \end{table}
 
 \section{Prévision selon la méthodologie de Box-Jenkins}
@@ -397,75 +438,75 @@ faire par sous périodes
 \begin{table}[H]
     \centering
     \caption{Estimation du modèle 3 pour le blé (2016-2019)}
+    \label{tab:mod3_ble19}
     \sffamily
     \input{annexe/4_2_1_mod3_ble.tex}
-    \label{tab:mod3_ble19}
 \end{table}
 
 \begin{table}[H]
     \centering
     \caption{Estimation du modèle 3 contraint sous $H_{0}^{3}$ pour le blé (2016-2019)}
+    \label{tab:mod3cont_ble19}
     \sffamily
     \input{annexe/4_2_1_mod3cont_ble.tex}
-    \label{tab:mod3cont_ble19}
 \end{table}
 
 \begin{table}[H]
     \centering
     \caption{Estimation du modèle 2 pour le blé (2016-2019)}
+    \label{tab:mod2_ble19}
     \sffamily
     \input{annexe/4_2_1_mod2_ble.tex}
-    \label{tab:mod2_ble19}
 \end{table}
 
 \begin{table}[H]
     \centering
     \caption{Test de nullité de la moyenne du cours du blé (2016-2019)}
+    \label{tab:testmoy_ble19}
     \sffamily
     \input{annexe/4_2_1_testmoy_ble.tex}
-    \label{tab:testmoy_ble19}
 \end{table}
 
 \subsubsection*{Nickel}
 \begin{table}[H]
     \centering
     \caption{Estimation du modèle 3 pour le nickel (2016-2019)}
+    \label{tab:mod3_nickel19}
     \sffamily
     \input{annexe/4_2_1_mod3_nickel.tex}
-    \label{tab:mod3_nickel19}
 \end{table}
 
 \begin{table}[H]
     \centering
     \caption{Estimation du modèle 3 contraint sous $H_{0}^{3}$ pour le nickel (2016-2019)}
+    \label{tab:mod3cont_nickel19}
     \sffamily
     \input{annexe/4_2_1_mod3cont_nickel.tex}
-    \label{tab:mod3cont_nickel19}
 \end{table}
 
 \begin{table}[H]
     \centering
     \caption{Estimation du modèle 2 pour le blé (2016-2019)}
+    \label{tab:mod2_nickel19}
     \sffamily
     \input{annexe/4_2_1_mod2_nickel.tex}
-    \label{tab:mod2_nickel19}
 \end{table}
 
 \begin{table}[H]
     \centering
     \caption{Test de nullité de la moyenne du cours du nickel (2016-2019)}
+    \label{tab:testmoy_nickel19}
     \sffamily
     \input{annexe/4_2_1_testmoy_nickel.tex}
-    \label{tab:testmoy_nickel19}
 \end{table}
 
 \subsection{Identification, validation, prévision}
 
 \begin{figure}[H]
     \centering
-    \label{fig:cor_dble19}
     \includegraphics[]{annexe/4_3_1_cor_dble19.pdf}
     \caption{Corrélograme du cours du blé en différences premieres (2016-2019)}
+    \label{fig:cor_dble19}
 \end{figure}
 
 \printbibliography
