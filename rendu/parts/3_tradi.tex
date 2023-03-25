@@ -1,7 +1,7 @@
 \section{Prévision par le méthodes traditionnelles}\label{sec:tradi}
-Une fois que toutes les séries ont été amplement analysées, transformées, et si besoin, corrigées des variations saisonnières, il alors est possible d'appliquer des 
+Une fois que toutes les séries ont été amplement analysées, transformées, et si besoin, corrigées des variations saisonnières, il est alors possible d'appliquer des 
 méthodes de prévision traditionnelles. Le choix d'une méthode de prévision depend du caractère déterministe (ou aléatoire) de l'extra-saisonnalité et de la saisonnalité de
-la série a prévoir. \\[11pt]
+la série à prévoir. \\[11pt]
 Dans le cadre de l'analyse du cours du blé et du nickel, il a précédemment été montré que les deux échantillons du blé, ainsi que l'échantillon 2016-2019 
 du nickel ne présentaient pas de saisonnalité, pour ces séries-là donc, seule la nature de la composante extra-saisonnière est à prendre en compte. Concernant cette 
 dernière, elle est déterministe pour les trois séries citées étant donné qu'elles possèdent toutes une tendance. Dans ce cas-là, en théorie la méthode de prévision à 
@@ -164,7 +164,7 @@ Les valeurs prévues du cours du blé en 2020 par les trois méthodes sont calcu
     \sffamily
     \input{tab/3_2_prev_ble.tex}
 \end{table}
-Il est dans un premier temps ici facilement remarquable que les modèles traditionnels ont relativement du mal a prévoir l'année 2022, hautement volatile dû à l'invasion 
+Il est dans un premier temps ici facilement remarquable que les modèles traditionnels ont relativement du mal à prévoir l'année 2022, hautement volatile dû à l'invasion 
 Russe en Ukraine, le critère MSE permettra donc de discriminer la meilleure méthode. \\[11pt]
 Les valeurs du nickel sont pareillement calculées et dans le tableau ci dessous :
 \begin{table}[H]
@@ -195,7 +195,7 @@ Ces méthodes seront comparées dans la prochaine partie aux prévisions obtenue
 [11pt]
 En théorie, si aucune information n'est perdue lors de la prévision, les résidus des deux prévisions devraient se comporter statistiquement comme un bruit blanc normal. 
 Les différents tests sur les résidus sont fait\footnote{Voir annexe~\ref{appendix:traditest} p.~\pageref{appendix:traditest}}.
-\subsection*{Test d'absence d'autocorrélation des résidus}
+\subsubsection*{Test d'absence d'autocorrélation des résidus}
 Le test utilisé est le test de Ljung-Box, ce test permet de vérifier si les résidus d'un modèle de série temporelle présentent une corrélation significative jusqu'à un 
 certain ordre $k$. Il utilise les autocorrélations des résidus jusqu'à un nombre donné de retards $k$ et les compare à une distribution du chi-deux pour évaluer la 
 significativité de la corrélation. \textbf{Spécification du test :} 
@@ -204,12 +204,12 @@ significativité de la corrélation. \textbf{Spécification du test :}
         H_{1} &: \text{ Autocorrélation à l'ordre $k$.}
     \end{align*}
 \textbf{Statistique de test :} 
-    \begin{equation*}
+\begin{equation*}
         Q = n(n+2)\sum_{k=1}^h\frac{\hat{\rho}^2_k}{n-k} \sim \rchi^{2}_{0,95}(k)
-    \end{equation*}
+\end{equation*}
 \textbf{Règle de décision :} Si la valeur de la statistique Q est inférieur au seuil lu dans la table du khi-deux alors $H_{0}$ est acceptée au risque de 5\%, il y a autocorrélation à l'ordre $k$.\\
 Ici pour le blé et le nickel, les corrélogrammes montrent que pour n'importe quel nombre de retards $k$, la probabilités d'accepter $H_{0}$ est inférieures à 5\%. $H_{0}$ est donc rejetée au risque de 5\%,  il y a autocorrélation des résidus pour les deux modèles\\
-\subsection*{Test d'homoscédasticité}
+\subsubsection*{Test d'homoscédasticité}
 Le test utilisé est le test ARCH, il permet de tester si les résidus d'un modèle sont homoscédastiques. Le test consiste à réaliser une régression auxiliaire des carrés des résidus, en les retardant d'un certain nombre de périodes, puis tester la significativité des paramètres de la regression grace à un test $F$ ou un test $LM$.\\
 \textbf{Spécification du test :} 
     \begin{align*}
@@ -222,7 +222,7 @@ Le test utilisé est le test ARCH, il permet de tester si les résidus d'un mod�
     \end{align*}
 \textbf{Règle de décision :} la statistique $LM$ est comparée au quantile lu dans la table du khi-deux pour un niveau de test à 5\%, ici $\rchi^{2}_{0,95}(7) = 14.07$. Si elle est inférieure, alors $H_{0}$ est acceptée au risque de $5\%$ \\ 
 Ici pour les deux modèles $LM$ est supérieure, $H_{0}$ est alors rejetée au risque de 5\% pour les deux, Les résidus des modèles de prévision du blé et du nickel sont hétéroscédastiques.
-\subsection*{Test de normalité}
+\subsubsection*{Test de normalité}
 Le test utilisé est le test de Jarque-Bera, le test vérifie si une distribution est normalement distribué. Ce test est basé sur une mesure de l'asymétrie et de l'aplatissement de la distribution, appelée le statistique de Jarque-Bera ($JB$).\\
 \textbf{Spécification du test :} 
     \begin{align*}
@@ -236,7 +236,7 @@ Le test utilisé est le test de Jarque-Bera, le test vérifie si une distributio
 Où $S$ est le coefficient d'asymétrie (\textit{skewness}) et $K$ le coefficient d'aplatissement (\textit{kurtosis}).\\
 \textbf{Règle de décision} : La statistique $JB$ est comparée au quantile à 95\% de la distribution de khi-deux ayant pour degrés de libérté 2, ici $\sim \rchi^{2}_{0,95}
 (2) = 5,99$. Si la statistique est inférieure au seuil critique $H_{0}$ est acceptée au risque de 5\%.\\
-Ici dans les deux cas la statistique de Jarque-Bera est largement supérieur à 5,99, $H_{0}$ est donc rejetée pour les résidus du le blé et le nickel, ils ne suivent pas 
+Ici dans les deux cas la statistique de $JB$ est largement supérieur à 5,99, $H_{0}$ est donc rejetée pour les résidus du le blé et le nickel, ils ne suivent pas 
 une distribution normale normalité.\\[11pt]
 Les résidus des prévisions sont hétéroscédastiques, autocorrélés et ne sont pas normalement distribués. Ils ne suivent donc pas un bruit blanc, une partie de 
 l'information est donc perdue lors de la prévision.

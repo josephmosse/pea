@@ -6,7 +6,7 @@ donc perdue, mal modélisée par les lissages ou extrapolations. Une autre class
 cours du blé et du nickel : les processus aléatoires ARMA.\\[11pt]
 La démocratisation de l'utilisation des processus aléatoires dans le domaine de la modélisation économique remonte aux années 1970. À cette époque, deux statisticiens, 
 George Box et Gwilym Jenkins mettent au point une méthode itérative de prévision de séries temporelles basée sur les processus aléatoires ARMA. \\[11pt]
-La première étape de cet algorithme est de transformer la série de base, c'est à dire procéder a une transformation logarithmique en cas de fortes variations, corriger les 
+La première étape de cet algorithme est de transformer la série de base, c'est à dire procéder à une transformation logarithmique en cas de fortes variations, corriger les 
 variations saisonnières en cas de saisonnalité, et finalement corriger la tendance si il y en à une. Cette étape de transformation vise donc à rendre stationnaire une 
 série temporelle pour que ses caractéristiques se rapprochent le plus à celles d'un processus ARMA. En effet, la méthodologie de Box et Jenkins est bâtie sur la 
 modélisation de chroniques stationnaires, or les séries économiques ou financières sont rarement la réalisation de de processus aléatoires stationnaires. Il faut donc 
@@ -82,7 +82,7 @@ D'autre part, la statistique de Student ajustée lue dans la table de Dickey-Ful
 l'hypothèse $H_{0}$ est acceptée au risque de 5\%, il y a présence de racine unitaire.
 \end{itemize}
 %
-Afin de distinguer TS de DS, il faut a présent tester l'hypothèse jointe $H_{0}^{3}$
+Afin de distinguer TS de DS, il faut à présent tester l'hypothèse jointe $H_{0}^{3}$
 %
 \begin{itemize}
 \item[-]\textbf{Spécification du test :} 
@@ -459,12 +459,12 @@ sont des DS sans dérive. Il faut appliquer un filtre aux différences première
 \subsection{Identification, validation et prévision des processus}
 La seconde étape de l'algorithme de Box et Jenkins est l'étape d'identification. En effet dès lors qu'un série chronologique a été rendue stationnaire, il est
 nécessaire d'identifier le processus ARMA le plus apte à s'assimiler aux données empiriques. 
-Pour cela l'identification d'un processus ARMA se fait par la comparaison des fonctions d' autocorrélation et d'autocorrélation partielle de la série à celles de processus 
+Pour cela l'identification d'un processus ARMA se fait par la comparaison des fonctions d'autocorrélation et d'autocorrélation partielle de la série à celles de processus 
 ARMA théoriques. En somme, un processus ARMA sera choisi si les FAC et FAP de ce dernier sont semblables à celle observées sur les cours du blé et du nickel (en 
 différences premières).\\[11pt]
 Cependant, avant d'analyser les fonctions d'autocorrélation, il est courant de réaliser un test BDS sur une série stationnaire afin de déterminer si elle est 
 indépendante statistiquement et identiquement distribué (\textit{i.i.d}). En effet si la série est indépendante et \textit{i.i.d}, sa modélisation par processus aléatoire 
-ARMA est impossible.Le test est fait pour les quatres échantillons\footnote{Voir annexe~\ref{appendix:bds} p.~\pageref{appendix:bds}}.\\
+ARMA est impossible. Le test est fait pour les quatres échantillons\footnote{Voir annexe~\ref{appendix:bds} p.~\pageref{appendix:bds}}.\\
 \textbf{Spécification du test :} 
 \begin{equation*}
     H_{0} : \text{ La chronique est indépendant et \textit{i.i.d}}
@@ -529,7 +529,7 @@ théorique le plus proche de cette série est donc un ARMA(1,1) ou AR(1) ou MA(1
 thermique\footnote{Voir figure~\ref{fig:arma_heatmap_21} p.~\pageref{fig:arma_heatmap_21}} générée indique le processus ARMA répondant aux problématiques exprimées 
 précédemment. Il s'agit (comme pour l'échantillon 2016-2019) d'un AR(1), en effet c'est le modèle qui minimise le critère d'Akaike parmi les autres, le paramètre est
 significatif au seuil de 5\%, et les résidus suivent un bruit blanc normal\footnote{Voir annexe~\ref{appendix:valid21} p.~\pageref{appendix:valid21}}.\\[11pt]
-Comme pour le modèle précédent, les rendements log du cours du blé a l'instant $t$ dépendent de ceux du mois précédent.
+Comme pour le modèle précédent, les rendements log du cours du blé à l'instant $t$ dépendent de ceux du mois précédent.
 \begin{equation*}
     \begin{split}
         \Delta x_{t} &= \phi_{1} \Delta x_{t-1} \\
@@ -543,7 +543,7 @@ Encore une fois, le coefficient étant assez bas, la prévision risque d'être p
     \sffamily
     \input{tab/4_3_2_prev.tex}
 \end{table}
-De fait, la prévision ne varie que en centimes d'euros les quatres premiers mois, jusqu'a devenir constante a partir du cinquième.
+De fait, la prévision ne varie que en centimes d'euros les quatres premiers mois, jusqu'à devenir constante à partir du cinquième.
 \subsubsection{Choix de la meilleure méthode}
 Les prévisions obtenues à travers la méthode de Box et Jenkins ne semblent pas très exactes. En effet, les prévisions obtenues dans les deux cas sont constantes, ce
 scénario semble peu envisageable dans la mesure où dans un contexte de guerre ou bien de réchauffement climatique, le cours du blé ne peut pas stagner. Cependant, il est
@@ -578,7 +578,7 @@ Concernant le blé, il s'agit de comparer la prévision grace à un AR(1) sur l'
 \end{table}
 Ici, la meilleure méthode la méthode minimisant le critère MSE est la méthode traditionnelle du \textbf{lissage exponentiel double sur l'échantillon 2016-2019} . Cette 
 méthode est donc retenue afin de prévoir le cours du blé en 2023.\\[11pt]
-Finalement, les prévisions pour l'années 2023 du cours des contrats a terme du blé et du Nickel sont :
+Finalement, les prévisions pour l'années 2023 du cours des contrats à terme du blé et du Nickel sont :
 \begin{table}[H]
     \centering
     \caption{Prévision du cours des contrats à terme sur blé et du nickel en 2023}

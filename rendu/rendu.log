@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.28)  25 MAR 2023 02:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.11.28)  25 MAR 2023 16:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -856,6 +856,17 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \rotFPbot=\skip95
 \rot@float@box=\box118
 \rot@mess@toks=\toks42
+) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box119
+\beforetitleunit=\skip96
+\aftertitleunit=\skip97
+\ttl@plus=\dimen316
+\ttl@minus=\dimen317
+\ttl@toksa=\toks43
+\titlewidth=\dimen318
+\titlewidthlast=\dimen319
+\titlewidthfirst=\dimen320
 ) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/shorttoc\shorttoc.sty
 Package: shorttoc 2002/08/20 v1.3 Short table of contents (JPFD)
 ) (parts/commands.tex) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code.tex
@@ -863,7 +874,7 @@ File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
 File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
-LaTeX Font Info:    Trying to load font information for T1+ppl on input line 39.
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 41.
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -872,37 +883,37 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
  (rendu.aux (parts/0_intro.aux) (parts/1_macro.aux) (parts/2_analyse.aux) (parts/3_tradi.aux) (parts/4_boxjen.aux) (parts/5_Conclusion.aux))
 \openout1 = `rendu.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count460
-\scratchdimen=\dimen316
-\scratchbox=\box119
+\scratchdimen=\dimen321
+\scratchbox=\box120
 \nofMPsegments=\count461
 \nofMParguments=\count462
-\everyMPshowfont=\toks43
+\everyMPshowfont=\toks44
 \MPscratchCnt=\count463
-\MPscratchDim=\dimen317
+\MPscratchDim=\dimen322
 \MPnumerator=\count464
 \makeMPintoPDFobject=\count465
-\everyMPtoPDFconversion=\toks44
+\everyMPtoPDFconversion=\toks45
 ) (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -943,7 +954,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 45.
+Package hyperref Info: Link coloring OFF on input line 59.
 (rendu.out) (rendu.out)
 \@outlinefile=\write5
 \openout5 = `rendu.out'.
@@ -964,8 +975,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'rendu.bbl' found.
  (rendu.bbl)
-Package biblatex Info: Reference section=0 on input line 45.
-Package biblatex Info: Reference segment=0 on input line 45.
+Package biblatex Info: Reference section=0 on input line 59.
+Package biblatex Info: Reference segment=0 on input line 59.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -998,20 +1009,20 @@ Package biblatex Info: Reference segment=0 on input line 45.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<img//um3.png, id=282, 194.6472pt x 71.0655pt>
+<img//um3.png, id=294, 194.6472pt x 71.0655pt>
 File: img//um3.png Graphic file (type png)
 <use img//um3.png>
-Package pdftex.def Info: img//um3.png  used on input line 52.
+Package pdftex.def Info: img//um3.png  used on input line 66.
 (pdftex.def)             Requested size: 194.64671pt x 71.0653pt.
-<img//eco.png, id=284, 697.8873pt x 319.1925pt>
+<img//eco.png, id=296, 697.8873pt x 319.1925pt>
 File: img//eco.png Graphic file (type png)
 <use img//eco.png>
-Package pdftex.def Info: img//eco.png  used on input line 52.
+Package pdftex.def Info: img//eco.png  used on input line 66.
 (pdftex.def)             Requested size: 160.5107pt x 73.41272pt.
-<img//ble2.jpg, id=285, 1926.19624pt x 924.45375pt>
+<img//ble2.jpg, id=297, 1926.19624pt x 924.45375pt>
 File: img//ble2.jpg Graphic file (type jpg)
 <use img//ble2.jpg>
-Package pdftex.def Info: img//ble2.jpg  used on input line 68.
+Package pdftex.def Info: img//ble2.jpg  used on input line 82.
 (pdftex.def)             Requested size: 597.50787pt x 286.76108pt.
  [1
 
@@ -1053,11 +1064,14 @@ pdfTeX warning: pdflatex (file ./img//eco.png): large interlaced PNG might cause
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 95.
+ (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.85 \clearpage
+l.99 \clearpage
                 [1
 
 
@@ -1068,23 +1082,24 @@ l.85 \clearpage
 
  (parts/0_intro.tex) [3
 
-] [4]
+
+]
 \openout2 = `parts/1_macro.aux'.
 
  (parts/1_macro.tex
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 11.
- (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+
+LaTeX Font Warning: Font shape `T1/cmss/bx/n' in size <35> not available
+(Font)              size <35.83> substituted on input line 1.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5.
+(C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) (graphs/ble_prod.pgf
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 71.
- (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
-File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)) (tab/1_1_stat_ble.tex)
+) (graphs/ble_prod.pgf) (tab/1_1_stat_ble.tex)
 Overfull \hbox (14.39674pt too wide) in paragraph at lines 1--24
  [][] 
  []
 
-[5
+[4
 
 
 
@@ -1151,7 +1166,7 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <9.5> not available
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <15> not available
 (Font)              size <14.4> substituted on input line 185.
 
-) [6] (tab/1_1_stat_nickel.tex) (tab/1_1_stat_rendement_nickel.tex) [7] (graphs/nickel_rendement.pgf) (graphs/cours_historiques.pgf
+) [5] (tab/1_1_stat_nickel.tex) [6] (tab/1_1_stat_rendement_nickel.tex) (graphs/nickel_rendement.pgf) [7] (graphs/cours_historiques.pgf
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 417.
  (C:\Users\Joseph\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -1193,21 +1208,23 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <20> not available
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13.99994> not available
 (Font)              size <14.4> substituted on input line 1021.
 
-) [8] [9] [10] [11]) [12]
+) [8
+
+] [9] [10] [11]) [12]
 \openout2 = `parts/2_analyse.aux'.
 
  (parts/2_analyse.tex (tab/2_1_log.tex) [13
 
 
 
-] (tab/2_3_anova.tex) (tab/2_3_saiso.tex) [14] (tab/2_3_tend.tex) [15] (graphs/nickel_desaiso.pgf) [16]) [17]
+] (tab/2_3_anova.tex) (tab/2_3_saiso.tex) [14] (tab/2_3_tend.tex) [15] [16] (graphs/nickel_desaiso.pgf)) [17]
 \openout2 = `parts/3_tradi.aux'.
 
  (parts/3_tradi.tex [18
 
 
 
-] (tab/3_1_extra19.tex) (tab/3_1_led19.tex) [19] (tab/3_1_hw19.tex) [20] (tab/3_1_mse.tex) (tab/3_1_prev22.tex) [21] [22] (tab/3_2_prev_ble.tex
+] (tab/3_1_extra19.tex) (tab/3_1_led19.tex) [19] [20] (tab/3_1_hw19.tex) (tab/3_1_mse.tex) (tab/3_1_prev22.tex) [21] [22] (tab/3_2_prev_ble.tex
 LaTeX Font Info:    Font shape `U/eurosym/m/it' in size <12> not available
 (Font)              Font shape `U/eurosym/m/sl' tried instead on input line 4.
 ) [23] (tab/3_2_prev_nickel.tex) (tab/3_2_mse.tex) [24]
@@ -1262,33 +1279,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--212
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<img//1_2_at_ble.png, id=721, 1366.35469pt x 691.83469pt>
+File: img//1_2_at_ble.png Graphic file (type png)
+<use img//1_2_at_ble.png>
+Package pdftex.def Info: img//1_2_at_ble.png  used on input line 131.
+(pdftex.def)             Requested size: 455.24411pt x 230.5019pt.
+<img//1_2_at_nickel.png, id=722, 1367.8603pt x 693.34032pt>
+File: img//1_2_at_nickel.png Graphic file (type png)
+<use img//1_2_at_nickel.png>
+Package pdftex.def Info: img//1_2_at_nickel.png  used on input line 137.
+(pdftex.def)             Requested size: 455.24411pt x 230.74963pt.
  (annexe/2_1_hetero_ble.tex)
-Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--124
+Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--152
  [][] 
  []
 
-(annexe/2_1_hetero_nickel.tex)
-Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--132
+[43
+
+
+
+ <./img//1_2_at_ble.png> <./img//1_2_at_nickel.png>] (annexe/2_1_hetero_nickel.tex)
+Overfull \hbox (25.59883pt too wide) in paragraph at lines 1--160
  [][] 
  []
 
-(graphs/ble_log.pgf) (graphs/nickel_log.pgf) [43
+(graphs/ble_log.pgf) (graphs/nickel_log.pgf) [44] (annexe/2_2_bb_ble19.tex) (annexe/2_2_bb_ble21.tex) [45] (annexe/2_2_bb_nickel19.tex) (annexe/2_2_bb_nickel21.tex) [46] (annexe/2_3_anova_ble19.tex) (annexe/2_3_anova_ble21.tex) (annexe/2_3_anova_nickel19.tex) (annexe/2_3_anova_nickel21.tex) (graphs/nickel_bbc.pgf) [47
 
-
-
-] (annexe/2_2_bb_ble19.tex) (annexe/2_2_bb_ble21.tex) [44] (annexe/2_2_bb_nickel19.tex) (annexe/2_2_bb_nickel21.tex) [45] (annexe/2_3_anova_ble19.tex) (annexe/2_3_anova_ble21.tex) (annexe/2_3_anova_nickel19.tex) (annexe/2_3_anova_nickel21.tex) (graphs/nickel_bbc.pgf) [46
-
-] (annexe/2_4_bb_test.tex) (annexe/2_4_coefsaiso.tex) (annexe/3_1_mco_ble19.tex) [47] (annexe/3_1_mco_nickel19.tex)
-<annexe/3_1_extra_cor_ble19.pdf, id=749, 316.18124pt x 252.945pt>
+] (annexe/2_4_bb_test.tex) (annexe/2_4_coefsaiso.tex) (annexe/3_1_mco_ble19.tex) [48] (annexe/3_1_mco_nickel19.tex)
+<annexe/3_1_extra_cor_ble19.pdf, id=770, 316.18124pt x 252.945pt>
 File: annexe/3_1_extra_cor_ble19.pdf Graphic file (type pdf)
 <use annexe/3_1_extra_cor_ble19.pdf>
-Package pdftex.def Info: annexe/3_1_extra_cor_ble19.pdf  used on input line 274.
+Package pdftex.def Info: annexe/3_1_extra_cor_ble19.pdf  used on input line 302.
 (pdftex.def)             Requested size: 316.18047pt x 252.94438pt.
- [48]
-<annexe/3_1_extra_cor_nickel19.pdf, id=757, 316.18124pt x 252.945pt>
+ [49]
+<annexe/3_1_extra_cor_nickel19.pdf, id=777, 316.18124pt x 252.945pt>
 File: annexe/3_1_extra_cor_nickel19.pdf Graphic file (type pdf)
 <use annexe/3_1_extra_cor_nickel19.pdf>
-Package pdftex.def Info: annexe/3_1_extra_cor_nickel19.pdf  used on input line 280.
+Package pdftex.def Info: annexe/3_1_extra_cor_nickel19.pdf  used on input line 308.
 (pdftex.def)             Requested size: 316.18047pt x 252.94438pt.
 Package epstopdf Info: Source file: <annexe/3_1_extra_hist_ble19.eps>
 (epstopdf)                    date: 2023-03-24 01:53:50
@@ -1297,15 +1324,15 @@ Package epstopdf Info: Source file: <annexe/3_1_extra_hist_ble19.eps>
 (epstopdf)                    date: 2023-03-24 01:53:55
 (epstopdf)                    size: 7366 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/3_1_extra_hist_ble19-eps-converted-to.pdf annexe/3_1_extra_hist_ble19.eps>
-(epstopdf)             \includegraphics on input line 286.
+(epstopdf)             \includegraphics on input line 314.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/3_1_extra_hist_ble19-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/3_1_extra_hist_ble19-eps-converted-to.pdf, id=758, 1648.1575pt x 714.67pt>
+<annexe/3_1_extra_hist_ble19-eps-converted-to.pdf, id=778, 1648.1575pt x 714.67pt>
 File: annexe/3_1_extra_hist_ble19-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/3_1_extra_hist_ble19-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/3_1_extra_hist_ble19-eps-converted-to.pdf  used on input line 286.
+Package pdftex.def Info: annexe/3_1_extra_hist_ble19-eps-converted-to.pdf  used on input line 314.
 (pdftex.def)             Requested size: 455.24411pt x 197.4018pt.
 Package epstopdf Info: Source file: <annexe/3_1_extra_hist_nickel19.eps>
 (epstopdf)                    date: 2023-03-24 01:40:42
@@ -1314,29 +1341,29 @@ Package epstopdf Info: Source file: <annexe/3_1_extra_hist_nickel19.eps>
 (epstopdf)                    date: 2023-03-24 01:44:59
 (epstopdf)                    size: 7408 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/3_1_extra_hist_nickel19-eps-converted-to.pdf annexe/3_1_extra_hist_nickel19.eps>
-(epstopdf)             \includegraphics on input line 292.
+(epstopdf)             \includegraphics on input line 320.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/3_1_extra_hist_nickel19-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/3_1_extra_hist_nickel19-eps-converted-to.pdf, id=759, 1626.075pt x 707.64375pt>
+<annexe/3_1_extra_hist_nickel19-eps-converted-to.pdf, id=779, 1626.075pt x 707.64375pt>
 File: annexe/3_1_extra_hist_nickel19-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/3_1_extra_hist_nickel19-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/3_1_extra_hist_nickel19-eps-converted-to.pdf  used on input line 292.
+Package pdftex.def Info: annexe/3_1_extra_hist_nickel19-eps-converted-to.pdf  used on input line 320.
 (pdftex.def)             Requested size: 455.24411pt x 198.1065pt.
-[49 <./annexe/3_1_extra_cor_ble19.pdf> <./annexe/3_1_extra_cor_nickel19.pdf>] (annexe/3_1_extra_arch_ble19.tex) (annexe/3_1_extra_arch_nickel19.tex) [50 <./annexe/3_1_extra_hist_ble19-eps-converted-to.pdf> <./annexe/3_1_extra_hist_nickel19-eps-converted-to.pdf>] (annexe/3_1_led_ble19.tex) (annexe/3_1_led_nickel19.tex) [51
+[50 <./annexe/3_1_extra_cor_ble19.pdf> <./annexe/3_1_extra_cor_nickel19.pdf>] (annexe/3_1_extra_arch_ble19.tex) (annexe/3_1_extra_arch_nickel19.tex) [51 <./annexe/3_1_extra_hist_ble19-eps-converted-to.pdf> <./annexe/3_1_extra_hist_nickel19-eps-converted-to.pdf>] (annexe/3_1_led_ble19.tex) (annexe/3_1_led_nickel19.tex) [52
 
-] (annexe/3_1_hwout_ble19.tex) (annexe/3_1_hwout_nickel19.tex) (annexe/3_2_mco_ble.tex) [52] (annexe/3_2_mco_nickel.tex)
-<annexe/3_2_mco_corr_ble.pdf, id=814, 316.18124pt x 262.9825pt>
+] (annexe/3_1_hwout_ble19.tex) (annexe/3_1_hwout_nickel19.tex) (annexe/3_2_mco_ble.tex) [53] (annexe/3_2_mco_nickel.tex)
+<annexe/3_2_mco_corr_ble.pdf, id=834, 316.18124pt x 262.9825pt>
 File: annexe/3_2_mco_corr_ble.pdf Graphic file (type pdf)
 <use annexe/3_2_mco_corr_ble.pdf>
-Package pdftex.def Info: annexe/3_2_mco_corr_ble.pdf  used on input line 389.
+Package pdftex.def Info: annexe/3_2_mco_corr_ble.pdf  used on input line 417.
 (pdftex.def)             Requested size: 316.18047pt x 262.98184pt.
- [53]
-<annexe/3_2_mco_corr_nickel.pdf, id=821, 316.18124pt x 262.9825pt>
+ [54]
+<annexe/3_2_mco_corr_nickel.pdf, id=842, 316.18124pt x 262.9825pt>
 File: annexe/3_2_mco_corr_nickel.pdf Graphic file (type pdf)
 <use annexe/3_2_mco_corr_nickel.pdf>
-Package pdftex.def Info: annexe/3_2_mco_corr_nickel.pdf  used on input line 396.
+Package pdftex.def Info: annexe/3_2_mco_corr_nickel.pdf  used on input line 424.
 (pdftex.def)             Requested size: 316.18047pt x 262.98184pt.
 Package epstopdf Info: Source file: <annexe/3_2_mco_hist_ble.eps>
 (epstopdf)                    date: 2023-03-09 19:07:42
@@ -1345,15 +1372,15 @@ Package epstopdf Info: Source file: <annexe/3_2_mco_hist_ble.eps>
 (epstopdf)                    date: 2023-03-09 19:07:48
 (epstopdf)                    size: 7372 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/3_2_mco_hist_ble-eps-converted-to.pdf annexe/3_2_mco_hist_ble.eps>
-(epstopdf)             \includegraphics on input line 403.
+(epstopdf)             \includegraphics on input line 431.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/3_2_mco_hist_ble-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/3_2_mco_hist_ble-eps-converted-to.pdf, id=822, 1315.91624pt x 585.18625pt>
+<annexe/3_2_mco_hist_ble-eps-converted-to.pdf, id=843, 1315.91624pt x 585.18625pt>
 File: annexe/3_2_mco_hist_ble-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/3_2_mco_hist_ble-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/3_2_mco_hist_ble-eps-converted-to.pdf  used on input line 403.
+Package pdftex.def Info: annexe/3_2_mco_hist_ble-eps-converted-to.pdf  used on input line 431.
 (pdftex.def)             Requested size: 455.24411pt x 202.44308pt.
 Package epstopdf Info: Source file: <annexe/3_2_mco_hist_nickel.eps>
 (epstopdf)                    date: 2023-03-09 19:23:23
@@ -1362,26 +1389,26 @@ Package epstopdf Info: Source file: <annexe/3_2_mco_hist_nickel.eps>
 (epstopdf)                    date: 2023-03-09 19:25:58
 (epstopdf)                    size: 7411 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/3_2_mco_hist_nickel-eps-converted-to.pdf annexe/3_2_mco_hist_nickel.eps>
-(epstopdf)             \includegraphics on input line 410.
+(epstopdf)             \includegraphics on input line 438.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/3_2_mco_hist_nickel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/3_2_mco_hist_nickel-eps-converted-to.pdf, id=823, 1315.91624pt x 585.18625pt>
+<annexe/3_2_mco_hist_nickel-eps-converted-to.pdf, id=844, 1315.91624pt x 585.18625pt>
 File: annexe/3_2_mco_hist_nickel-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/3_2_mco_hist_nickel-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/3_2_mco_hist_nickel-eps-converted-to.pdf  used on input line 410.
+Package pdftex.def Info: annexe/3_2_mco_hist_nickel-eps-converted-to.pdf  used on input line 438.
 (pdftex.def)             Requested size: 455.24411pt x 202.44308pt.
-[54 <./annexe/3_2_mco_corr_ble.pdf> <./annexe/3_2_mco_corr_nickel.pdf>] (annexe/3_2_mco_homo_ble.tex) (annexe/3_2_mco_homo_nickel.tex) (annexe/3_2_led_ble.tex) [55 <./annexe/3_2_mco_hist_ble-eps-converted-to.pdf> <./annexe/3_2_mco_hist_nickel-eps-converted-to.pdf>] (annexe/3_2_led_nickel.tex) (annexe/3_2_hw_ble.tex) (annexe/3_2_hw_nickel.tex) [56]
-<annexe/3_2_2_cor_resid_ble.pdf, id=869, 316.18124pt x 252.945pt>
+[55 <./annexe/3_2_mco_corr_ble.pdf> <./annexe/3_2_mco_corr_nickel.pdf>] (annexe/3_2_mco_homo_ble.tex) (annexe/3_2_mco_homo_nickel.tex) (annexe/3_2_led_ble.tex) [56 <./annexe/3_2_mco_hist_ble-eps-converted-to.pdf> <./annexe/3_2_mco_hist_nickel-eps-converted-to.pdf>] (annexe/3_2_led_nickel.tex) (annexe/3_2_hw_ble.tex) (annexe/3_2_hw_nickel.tex) [57] [58]
+<annexe/3_2_2_cor_resid_ble.pdf, id=893, 316.18124pt x 252.945pt>
 File: annexe/3_2_2_cor_resid_ble.pdf Graphic file (type pdf)
 <use annexe/3_2_2_cor_resid_ble.pdf>
-Package pdftex.def Info: annexe/3_2_2_cor_resid_ble.pdf  used on input line 467.
+Package pdftex.def Info: annexe/3_2_2_cor_resid_ble.pdf  used on input line 495.
 (pdftex.def)             Requested size: 316.18047pt x 252.94438pt.
-<annexe/3_2_2_cor_resid_nickel.pdf, id=870, 316.18124pt x 252.945pt>
+<annexe/3_2_2_cor_resid_nickel.pdf, id=894, 316.18124pt x 252.945pt>
 File: annexe/3_2_2_cor_resid_nickel.pdf Graphic file (type pdf)
 <use annexe/3_2_2_cor_resid_nickel.pdf>
-Package pdftex.def Info: annexe/3_2_2_cor_resid_nickel.pdf  used on input line 473.
+Package pdftex.def Info: annexe/3_2_2_cor_resid_nickel.pdf  used on input line 501.
 (pdftex.def)             Requested size: 316.18047pt x 252.94438pt.
 Package epstopdf Info: Source file: <annexe/3_2_2_hist_resid_ble.eps>
 (epstopdf)                    date: 2023-03-24 02:20:26
@@ -1390,17 +1417,17 @@ Package epstopdf Info: Source file: <annexe/3_2_2_hist_resid_ble.eps>
 (epstopdf)                    date: 2023-03-24 02:33:37
 (epstopdf)                    size: 7567 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/3_2_2_hist_resid_ble-eps-converted-to.pdf annexe/3_2_2_hist_resid_ble.eps>
-(epstopdf)             \includegraphics on input line 479.
+(epstopdf)             \includegraphics on input line 507.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/3_2_2_hist_resid_ble-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/3_2_2_hist_resid_ble-eps-converted-to.pdf, id=871, 1648.1575pt x 845.1575pt>
+<annexe/3_2_2_hist_resid_ble-eps-converted-to.pdf, id=895, 1648.1575pt x 845.1575pt>
 File: annexe/3_2_2_hist_resid_ble-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/3_2_2_hist_resid_ble-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/3_2_2_hist_resid_ble-eps-converted-to.pdf  used on input line 479.
+Package pdftex.def Info: annexe/3_2_2_hist_resid_ble-eps-converted-to.pdf  used on input line 507.
 (pdftex.def)             Requested size: 455.24411pt x 233.44426pt.
-[57
+[59
 
  <./annexe/3_2_2_cor_resid_ble.pdf> <./annexe/3_2_2_cor_resid_nickel.pdf>]
 Package epstopdf Info: Source file: <annexe/3_2_2_hist_resid_nickel.eps>
@@ -1410,35 +1437,43 @@ Package epstopdf Info: Source file: <annexe/3_2_2_hist_resid_nickel.eps>
 (epstopdf)                    date: 2023-03-24 02:33:38
 (epstopdf)                    size: 7753 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/3_2_2_hist_resid_nickel-eps-converted-to.pdf annexe/3_2_2_hist_resid_nickel.eps>
-(epstopdf)             \includegraphics on input line 485.
+(epstopdf)             \includegraphics on input line 513.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/3_2_2_hist_resid_nickel-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/3_2_2_hist_resid_nickel-eps-converted-to.pdf, id=890, 1648.1575pt x 845.1575pt>
+<annexe/3_2_2_hist_resid_nickel-eps-converted-to.pdf, id=914, 1648.1575pt x 845.1575pt>
 File: annexe/3_2_2_hist_resid_nickel-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/3_2_2_hist_resid_nickel-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/3_2_2_hist_resid_nickel-eps-converted-to.pdf  used on input line 485.
+Package pdftex.def Info: annexe/3_2_2_hist_resid_nickel-eps-converted-to.pdf  used on input line 513.
 (pdftex.def)             Requested size: 455.24411pt x 233.44426pt.
-(annexe/3_2_2_arch_resid_ble.tex) [58 <./annexe/3_2_2_hist_resid_ble-eps-converted-to.pdf> <./annexe/3_2_2_hist_resid_nickel-eps-converted-to.pdf>] (annexe/3_2_2_arch_resid_nickel.tex) [59] (annexe/4_2_1_mod3_ble.tex) (annexe/4_2_1_mod3cont_ble.tex) (annexe/4_2_1_mod2_ble.tex) [60
+(annexe/3_2_2_arch_resid_ble.tex) [60 <./annexe/3_2_2_hist_resid_ble-eps-converted-to.pdf> <./annexe/3_2_2_hist_resid_nickel-eps-converted-to.pdf>] (annexe/3_2_2_arch_resid_nickel.tex) [61]
 
-] (annexe/4_2_1_testmoy_ble.tex) (annexe/4_2_1_mod3_nickel.tex) [61] (annexe/4_2_1_mod3cont_nickel.tex) (annexe/4_2_1_mod2_nickel.tex) [62] (annexe/4_2_1_testmoy_nickel.tex) (annexe/4_2_2_mod3_ble.tex) [63] (annexe/4_2_2_mod3cont_ble.tex) (annexe/4_2_2_mod2_ble.tex) [64] (annexe/4_2_2_testmoy_ble.tex) (annexe/4_2_2_mod3_nickel.tex) [65] (annexe/4_2_2_mod3cont_nickel.tex) (annexe/4_2_2_mod2_nickel.tex) [66] (annexe/4_2_2_testmoy_nickel.tex) (annexe/4_3_bds_ble19.tex) [67] (annexe/4_3_bds_nickel19.tex) (annexe/4_3_bds_ble21.tex) [68] (annexe/4_3_bds_nickel21.tex)
-<annexe/4_3_1_cor_dble19.pdf, id=973, 316.18124pt x 262.9825pt>
+pdfTeX warning: pdflatex (file ./annexe/4_2_df_test.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<annexe/4_2_df_test.pdf, id=938, 436.38432pt x 482.40927pt>
+File: annexe/4_2_df_test.pdf Graphic file (type pdf)
+<use annexe/4_2_df_test.pdf>
+Package pdftex.def Info: annexe/4_2_df_test.pdf  used on input line 537.
+(pdftex.def)             Requested size: 455.24411pt x 503.26169pt.
+(annexe/4_2_1_mod3_ble.tex) [62
+
+ <./annexe/4_2_df_test.pdf>] (annexe/4_2_1_mod3cont_ble.tex) (annexe/4_2_1_mod2_ble.tex) [63] (annexe/4_2_1_testmoy_ble.tex) (annexe/4_2_1_mod3_nickel.tex) [64] (annexe/4_2_1_mod3cont_nickel.tex) (annexe/4_2_1_mod2_nickel.tex) [65] (annexe/4_2_1_testmoy_nickel.tex) (annexe/4_2_2_mod3_ble.tex) [66] (annexe/4_2_2_mod3cont_ble.tex) (annexe/4_2_2_mod2_ble.tex) [67] (annexe/4_2_2_testmoy_ble.tex) (annexe/4_2_2_mod3_nickel.tex) [68] (annexe/4_2_2_mod3cont_nickel.tex) (annexe/4_2_2_mod2_nickel.tex) [69] (annexe/4_2_2_testmoy_nickel.tex) (annexe/4_3_bds_ble19.tex) [70] (annexe/4_3_bds_nickel19.tex) (annexe/4_3_bds_ble21.tex) [71] (annexe/4_3_bds_nickel21.tex)
+<annexe/4_3_1_cor_dble19.pdf, id=1064, 316.18124pt x 262.9825pt>
 File: annexe/4_3_1_cor_dble19.pdf Graphic file (type pdf)
 <use annexe/4_3_1_cor_dble19.pdf>
-Package pdftex.def Info: annexe/4_3_1_cor_dble19.pdf  used on input line 692.
+Package pdftex.def Info: annexe/4_3_1_cor_dble19.pdf  used on input line 726.
 (pdftex.def)             Requested size: 316.18047pt x 262.98184pt.
- [69] (annexe/4_3_1_armadlble_19.pgf
-<img//armadlble_19-img0.png, id=980, interpolate=true, 38.1425pt x 772.8875pt>
+ [72] (annexe/4_3_1_armadlble_19.pgf
+<img//armadlble_19-img0.png, id=1072, interpolate=true, 38.1425pt x 772.8875pt>
 File: img//armadlble_19-img0.png Graphic file (type png)
 <use img//armadlble_19-img0.png>
 Package pdftex.def Info: img//armadlble_19-img0.png  used on input line 1912.
 (pdftex.def)             Requested size: 27.46373pt x 556.47858pt.
-) (annexe/4_3_1_modele.tex) [70 <./annexe/4_3_1_cor_dble19.pdf> <./img//armadlble_19-img0.png>]
-<annexe/4_3_1_modele_cor.pdf, id=992, 316.18124pt x 262.9825pt>
+) (annexe/4_3_1_modele.tex) [73 <./annexe/4_3_1_cor_dble19.pdf> <./img//armadlble_19-img0.png>]
+<annexe/4_3_1_modele_cor.pdf, id=1084, 316.18124pt x 262.9825pt>
 File: annexe/4_3_1_modele_cor.pdf Graphic file (type pdf)
 <use annexe/4_3_1_modele_cor.pdf>
-Package pdftex.def Info: annexe/4_3_1_modele_cor.pdf  used on input line 715.
+Package pdftex.def Info: annexe/4_3_1_modele_cor.pdf  used on input line 749.
 (pdftex.def)             Requested size: 316.18047pt x 262.98184pt.
 Package epstopdf Info: Source file: <annexe/4_3_1_modele_hist.eps>
 (epstopdf)                    date: 2023-03-21 17:54:50
@@ -1447,35 +1482,35 @@ Package epstopdf Info: Source file: <annexe/4_3_1_modele_hist.eps>
 (epstopdf)                    date: 2023-03-21 18:51:32
 (epstopdf)                    size: 7360 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/4_3_1_modele_hist-eps-converted-to.pdf annexe/4_3_1_modele_hist.eps>
-(epstopdf)             \includegraphics on input line 721.
+(epstopdf)             \includegraphics on input line 755.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/4_3_1_modele_hist-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/4_3_1_modele_hist-eps-converted-to.pdf, id=993, 1641.13126pt x 678.535pt>
+<annexe/4_3_1_modele_hist-eps-converted-to.pdf, id=1085, 1641.13126pt x 678.535pt>
 File: annexe/4_3_1_modele_hist-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/4_3_1_modele_hist-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/4_3_1_modele_hist-eps-converted-to.pdf  used on input line 721.
+Package pdftex.def Info: annexe/4_3_1_modele_hist-eps-converted-to.pdf  used on input line 755.
 (pdftex.def)             Requested size: 455.24411pt x 188.21803pt.
-[71 <./annexe/4_3_1_modele_cor.pdf>] (annexe/4_3_1_modele_arch.tex)
-<annexe/4_3_2_cor_dble21.pdf, id=1006, 316.18124pt x 252.945pt>
+[74 <./annexe/4_3_1_modele_cor.pdf>] (annexe/4_3_1_modele_arch.tex)
+<annexe/4_3_2_cor_dble21.pdf, id=1098, 316.18124pt x 252.945pt>
 File: annexe/4_3_2_cor_dble21.pdf Graphic file (type pdf)
 <use annexe/4_3_2_cor_dble21.pdf>
-Package pdftex.def Info: annexe/4_3_2_cor_dble21.pdf  used on input line 735.
+Package pdftex.def Info: annexe/4_3_2_cor_dble21.pdf  used on input line 769.
 (pdftex.def)             Requested size: 316.18047pt x 252.94438pt.
  (annexe/4_3_2_armadlble_21.pgf
-<img//armadlble_21-img0.png, id=1007, interpolate=true, 38.1425pt x 772.8875pt>
+<img//armadlble_21-img0.png, id=1099, interpolate=true, 38.1425pt x 772.8875pt>
 File: img//armadlble_21-img0.png Graphic file (type png)
 <use img//armadlble_21-img0.png>
 Package pdftex.def Info: img//armadlble_21-img0.png  used on input line 1912.
 (pdftex.def)             Requested size: 27.46373pt x 556.47858pt.
-) [72 <./annexe/4_3_1_modele_hist-eps-converted-to.pdf> <./annexe/4_3_2_cor_dble21.pdf>] (annexe/4_3_2_modele.tex)
-<annexe/4_3_2_modele_cor.pdf, id=1026, 316.18124pt x 262.9825pt>
+) [75 <./annexe/4_3_1_modele_hist-eps-converted-to.pdf> <./annexe/4_3_2_cor_dble21.pdf>] (annexe/4_3_2_modele.tex)
+<annexe/4_3_2_modele_cor.pdf, id=1117, 316.18124pt x 262.9825pt>
 File: annexe/4_3_2_modele_cor.pdf Graphic file (type pdf)
 <use annexe/4_3_2_modele_cor.pdf>
-Package pdftex.def Info: annexe/4_3_2_modele_cor.pdf  used on input line 758.
+Package pdftex.def Info: annexe/4_3_2_modele_cor.pdf  used on input line 792.
 (pdftex.def)             Requested size: 316.18047pt x 262.98184pt.
- [73 <./img//armadlble_21-img0.png>]
+ [76 <./img//armadlble_21-img0.png>]
 Package epstopdf Info: Source file: <annexe/4_3_2_modele_hist.eps>
 (epstopdf)                    date: 2023-03-22 10:37:43
 (epstopdf)                    size: 20742 bytes
@@ -1483,28 +1518,26 @@ Package epstopdf Info: Source file: <annexe/4_3_2_modele_hist.eps>
 (epstopdf)                    date: 2023-03-22 10:53:29
 (epstopdf)                    size: 7472 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=annexe/4_3_2_modele_hist-eps-converted-to.pdf annexe/4_3_2_modele_hist.eps>
-(epstopdf)             \includegraphics on input line 764.
+(epstopdf)             \includegraphics on input line 798.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./annexe/4_3_2_modele_hist-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<annexe/4_3_2_modele_hist-eps-converted-to.pdf, id=1033, 1626.075pt x 707.64375pt>
+<annexe/4_3_2_modele_hist-eps-converted-to.pdf, id=1124, 1626.075pt x 707.64375pt>
 File: annexe/4_3_2_modele_hist-eps-converted-to.pdf Graphic file (type pdf)
 <use annexe/4_3_2_modele_hist-eps-converted-to.pdf>
-Package pdftex.def Info: annexe/4_3_2_modele_hist-eps-converted-to.pdf  used on input line 764.
+Package pdftex.def Info: annexe/4_3_2_modele_hist-eps-converted-to.pdf  used on input line 798.
 (pdftex.def)             Requested size: 455.24411pt x 198.1065pt.
-(annexe/4_3_2_modele_arch.tex) [74 <./annexe/4_3_2_modele_cor.pdf> <./annexe/4_3_2_modele_hist-eps-converted-to.pdf>] (rendu.toc)
-\tf@toc=\write6
-\openout6 = `rendu.toc'.
-
- [75
-
-]
-Overfull \hbox (4.20241pt too wide) in paragraph at lines 780--780
+(annexe/4_3_2_modele_arch.tex) [77 <./annexe/4_3_2_modele_cor.pdf> <./annexe/4_3_2_modele_hist-eps-converted-to.pdf>]
+Overfull \hbox (4.20241pt too wide) in paragraph at lines 811--811
 [][]\T1/cmr/m/n/12 Institute, Nickel. \T1/cmr/m/it/12 About nickel and its ap-pli-ca-tions\T1/cmr/m/n/12 . 2021. \T1/cmr/m/sc/12 url\T1/cmr/m/n/12 : []$\T1/cmtt/m/n/12 https : / / nickelinstitute .
  []
 
-[76
+[78] (rendu.toc)
+\tf@toc=\write6
+\openout6 = `rendu.toc'.
+
+ [79
 
 ] (rendu.aux (parts/0_intro.aux) (parts/1_macro.aux) (parts/2_analyse.aux) (parts/3_tradi.aux) (parts/4_boxjen.aux) (parts/5_Conclusion.aux))
 
@@ -1512,23 +1545,23 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.72pt have occurred.
 
 Package rerunfilecheck Info: File `rendu.out' has not changed.
-(rerunfilecheck)             Checksum: 35B576DF225D810CE71659F3281D5062;13582.
+(rerunfilecheck)             Checksum: 8078A82FBE812D45F17E1DABF8B4F2AC;14085.
 Package logreq Info: Writing requests to 'rendu.run.xml'.
 \openout1 = `rendu.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32055 strings out of 477843
- 624929 string characters out of 2823126
- 1338523 words of memory out of 3000000
- 49811 multiletter control sequences out of 15000+600000
- 501728 words of font info for 94 fonts, out of 8000000 for 9000
+ 32380 strings out of 477843
+ 630009 string characters out of 2823126
+ 1344820 words of memory out of 3000000
+ 50140 multiletter control sequences out of 15000+600000
+ 501719 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,17n,104p,1164b,1541s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss2074.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2074.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1728.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>{C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymo10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on rendu.pdf (77 pages, 2245169 bytes).
+ <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0900.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss2074.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss2074.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1728.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx3583.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Joseph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk>{C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymo10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Joseph/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on rendu.pdf (80 pages, 2741339 bytes).
 PDF statistics:
- 2111 PDF objects out of 2487 (max. 8388607)
- 325 named destinations out of 1000 (max. 500000)
- 734 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2241 PDF objects out of 2487 (max. 8388607)
+ 314 named destinations out of 1000 (max. 500000)
+ 781 words of extra memory for PDF output out of 10000 (max. 10000000)
 

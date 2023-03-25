@@ -17,8 +17,10 @@
 \usepackage[style=verbose]{biblatex}
 \usepackage{multicol}
 \usepackage{rotating}
-
+\usepackage{titlesec}
 \usepackage{shorttoc}
+
+\hypersetup{hidelinks}
 
 \setlength\columnseprule{.5pt}
 \bibliography{biblio.bib}
@@ -41,6 +43,18 @@
 \DeclareFixedFont{\namefont}{T1}{ppl}{m}{n}{0.6cm}
 
 \renewcommand\contentsname{Table des matières}
+\renewcommand\refname{Bibliographie}
+
+\titleformat{\section}
+  [display]
+  {\sffamily\bfseries}
+  {\centering\sffamily\fontsize{35}{20}\selectfont\thesection}
+  {0ex}
+  {\centering\Large}
+  [\vspace{-0.5ex}
+  \textcolor{gray}{\rule{0.8\textwidth}{0.1pt}}
+  ]
+
 
 \begin{document}
 \afterpage{\restoregeometry}
@@ -84,14 +98,14 @@ L'objectif de cette étude est de comparer deux classes de méthodes de prévisi
 \vspace*{\fill}
 \clearpage
 
-\pagestyle{fancy}
-\fancyhead{}
-\fancyfoot{}
-\fancyfoot[C]{\thepage}
 
-
-\shorttoc{Sommaire}{1}
+{\centering
+\vspace*{\fill}
+\shorttoc{Sommaire}{1}}
 \addcontentsline{toc}{section}{Sommaire}
+\vspace*{\fill}
+\clearpage
+
 
 \include{parts/0_intro.tex}
 \include{parts/1_macro.tex}
@@ -104,12 +118,26 @@ L'objectif de cette étude est de comparer deux classes de méthodes de prévisi
 
 \newgeometry{left=2.5cm, right=2.5cm,top=2cm, bottom=2cm}
 \appendix
+\addcontentsline{toc}{section}{Annexes}
 \addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
 \renewcommand{\thetable}{\thesection.\arabic{table}}
 \renewcommand{\thefigure}{\thesection.\arabic{figure}}
 \section{Analyse macroéconomique et technique}
 \setcounter{table}{0}
 \setcounter{figure}{0}
+\subsection{Analyse Technique}\label{appendix:at}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{1_2_at_ble.png}
+    \caption{Différents indicateurs d'analyse technique pour le cours du blé en journalier}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{1_2_at_nickel.png}
+    \caption{Différents indicateurs d'analyse technique pour le cours du nickel en journalier}
+\end{figure}
+
 
 \section{Analyse de la saisonnalité et de la tendance}
 \setcounter{table}{0}
@@ -504,6 +532,12 @@ L'objectif de cette étude est de comparer deux classes de méthodes de prévisi
 \setcounter{table}{0}
 \setcounter{figure}{0}
 \subsection{Test de racine unitaire}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{annexe/4_2_df_test.pdf}
+    \caption[df_test]{Stratégie des tests de Dickey-Fuller\footnotemark}
+\end{figure}
+\footcitetext{terraza}
 \subsubsection{Echantillon 2016-2019}\label{appendix:ru_19}
 \subsubsection*{Blé}
 \begin{table}[H]
@@ -771,10 +805,11 @@ D'où :
     \sffamily
     \resizebox{0.6\textwidth}{!}{\input{annexe/4_3_2_modele_arch.tex}}
 \end{table}
-
-\clearpage
 \addtocontents{toc}{\protect\setcounter{tocdepth}{3}}
-\tableofcontents
+\section*{Bibliographie}
+\addcontentsline{toc}{section}{Bibliographie}
+\printbibliography[heading=none]
 \clearpage
-\printbibliography
+\tableofcontents
+\addcontentsline{toc}{section}{Table des matières}
 \end{document}

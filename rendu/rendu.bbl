@@ -19,6 +19,30 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{euronext_ble}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f5e7898b14e1b64bcd107a4a44c206b6}{%
+           family={Euronext},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5e7898b14e1b64bcd107a4a44c206b6}
+      \strng{fullhash}{f5e7898b14e1b64bcd107a4a44c206b6}
+      \strng{bibnamehash}{f5e7898b14e1b64bcd107a4a44c206b6}
+      \strng{authorbibnamehash}{f5e7898b14e1b64bcd107a4a44c206b6}
+      \strng{authornamehash}{f5e7898b14e1b64bcd107a4a44c206b6}
+      \strng{authorfullhash}{f5e7898b14e1b64bcd107a4a44c206b6}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Milling wheat / ble de meunerie: Euronext Live Cours de Bourse}
+      \verb{urlraw}
+      \verb https://live.euronext.com/fr/product/commodities-futures/EBM-DPAR/contract-specification
+      \endverb
+      \verb{url}
+      \verb https://live.euronext.com/fr/product/commodities-futures/EBM-DPAR/contract-specification
+      \endverb
+    \endentry
     \entry{lme_nickel}{online}{}
       \name{author}{1}{}{%
         {{hash=c7c5da86a6b7b5bfb59039afac0e3859}{%
@@ -69,6 +93,30 @@
       \endverb
       \verb{url}
       \verb https://www.fao.org/faostat/en/#data/QCL
+      \endverb
+    \endentry
+    \entry{ble}{online}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{title}{Futures blé meunier N2}
+      \verb{urlraw}
+      \verb https://fr.investing.com/commodities/milling-wheat-n2
+      \endverb
+      \verb{url}
+      \verb https://fr.investing.com/commodities/milling-wheat-n2
+      \endverb
+    \endentry
+    \entry{nickel}{online}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{title}{Futures nickel}
+      \verb{urlraw}
+      \verb https://fr.investing.com/commodities/nickel?cid=959208
+      \endverb
+      \verb{url}
+      \verb https://fr.investing.com/commodities/nickel?cid=959208
       \endverb
     \endentry
     \entry{about_nickel}{online}{}
