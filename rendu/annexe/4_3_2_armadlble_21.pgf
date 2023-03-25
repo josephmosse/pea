@@ -1,0 +1,2139 @@
+%% Creator: Matplotlib, PGF backend
+%%
+%% To include the figure in your LaTeX document, write
+%%   \input{<filename>.pgf}
+%%
+%% Make sure the required packages are loaded in your preamble
+%%   \usepackage{pgf}
+%%
+%% Also ensure that all the required font packages are loaded; for instance,
+%% the lmodern package is sometimes necessary when using math font.
+%%   \usepackage{lmodern}
+%%
+%% Figures using additional raster images can only be included by \input if
+%% they are in the same directory as the main LaTeX file. For loading figures
+%% from other directories you can use the `import` package
+%%   \usepackage{import}
+%%
+%% and then include the figures with
+%%   \import{<path to file>}{<filename>.pgf}
+%%
+%% Matplotlib used the following preamble
+%%   \usepackage{fontspec}
+%%   \setmainfont{DejaVuSerif.ttf}[Path=\detokenize{C:/Users/Joseph/miniconda3/Lib/site-packages/matplotlib/mpl-data/fonts/ttf/}]
+%%   \setsansfont{DejaVuSans.ttf}[Path=\detokenize{C:/Users/Joseph/miniconda3/Lib/site-packages/matplotlib/mpl-data/fonts/ttf/}]
+%%   \setmonofont{DejaVuSansMono.ttf}[Path=\detokenize{C:/Users/Joseph/miniconda3/Lib/site-packages/matplotlib/mpl-data/fonts/ttf/}]
+%%
+\begingroup%
+\makeatletter%
+\begin{pgfpicture}%
+\pgfpathrectangle{\pgfpointorigin}{\pgfqpoint{14.937218in}{8.306155in}}%
+\pgfusepath{use as bounding box, clip}%
+\begin{pgfscope}%
+\pgfsetbuttcap%
+\pgfsetmiterjoin%
+\definecolor{currentfill}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.000000pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{14.937218in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{14.937218in}{8.306155in}}%
+\pgfpathlineto{\pgfqpoint{0.000000in}{8.306155in}}%
+\pgfpathlineto{\pgfqpoint{0.000000in}{0.000000in}}%
+\pgfpathclose%
+\pgfusepath{fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfsetbuttcap%
+\pgfsetmiterjoin%
+\definecolor{currentfill}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.000000pt}%
+\definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetstrokeopacity{0.000000}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{0.484392in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{12.884393in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{12.884393in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{0.100000in}}%
+\pgfpathclose%
+\pgfusepath{fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.872480,0.168397,0.145559}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{0.484392in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{7.800000in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.403922,0.000000,0.050980}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{2.551059in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{7.800000in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.503083,0.023991,0.063775}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{4.617726in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{7.800000in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.713095,0.074464,0.096255}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{6.684393in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{7.800000in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.863622,0.159785,0.141869}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{8.751059in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{7.800000in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.952572,0.291365,0.210842}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{10.817726in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{12.884392in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{12.884392in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{7.800000in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.625129,0.053518,0.079523}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{0.484392in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{6.516667in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.533595,0.031373,0.067712}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{2.551059in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{6.516667in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.717770,0.075571,0.097240}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{4.617726in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{6.516667in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.868051,0.164091,0.143714}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{6.684393in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{6.516667in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.958478,0.314494,0.225606}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{8.751059in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{6.516667in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.985483,0.462438,0.336947}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{10.817726in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{12.884392in}{6.516667in}}%
+\pgfpathlineto{\pgfqpoint{12.884392in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{6.516667in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.548850,0.035063,0.069681}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{0.484392in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{5.233333in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.708420,0.073356,0.095271}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{2.551059in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{5.233333in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.850334,0.146867,0.136332}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{4.617726in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{5.233333in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.955525,0.302930,0.218224}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{6.684393in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{5.233333in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.979146,0.395448,0.277278}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{8.751059in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{5.233333in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.988235,0.631188,0.514279}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{10.817726in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{12.884392in}{5.233333in}}%
+\pgfpathlineto{\pgfqpoint{12.884392in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{5.233333in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.694394,0.070035,0.092318}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{0.484392in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{3.950000in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.841476,0.138255,0.132641}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{2.551059in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{3.950000in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.940761,0.245106,0.181315}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{4.617726in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{3.950000in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.973241,0.372318,0.262514}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{6.684393in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{3.950000in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.987451,0.541176,0.415686}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{8.751059in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{3.950000in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.989896,0.764060,0.672065}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{10.817726in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{12.884392in}{3.950000in}}%
+\pgfpathlineto{\pgfqpoint{12.884392in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{3.950000in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.837047,0.133948,0.130796}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{0.484392in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{2.666667in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.952572,0.291365,0.210842}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{2.551059in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{2.666667in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.977670,0.389666,0.273587}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{4.617726in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{2.666667in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.987451,0.541176,0.415686}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{6.684393in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{2.666667in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.991126,0.786820,0.702207}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{8.751059in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{2.666667in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.996678,0.891027,0.841522}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{10.817726in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{12.884392in}{2.666667in}}%
+\pgfpathlineto{\pgfqpoint{12.884392in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{2.666667in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.952572,0.291365,0.210842}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{0.484392in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{0.484392in}{1.383333in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.985852,0.477201,0.351711}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{2.551059in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{2.551059in}{1.383333in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.987943,0.560861,0.435371}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{4.617726in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{4.617726in}{1.383333in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.988235,0.686674,0.577885}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{6.684393in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{6.684393in}{1.383333in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.990880,0.782268,0.696178}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{8.751059in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{8.751059in}{1.383333in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{0.484392in}{0.100000in}}{\pgfqpoint{12.400000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{1.000000,0.960784,0.941176}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.501875pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{10.817726in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{12.884392in}{1.383333in}}%
+\pgfpathlineto{\pgfqpoint{12.884392in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{10.817726in}{1.383333in}}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.517726in,y=7.897222in,,bottom]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont 0}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.584393in,y=7.897222in,,bottom]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont 1}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.651059in,y=7.897222in,,bottom]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont 2}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.717726in,y=7.897222in,,bottom]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont 3}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.784393in,y=7.897222in,,bottom]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont 4}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.851059in,y=7.897222in,,bottom]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont 5}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=6.684393in,y=8.100632in,,base]{\color{textcolor}\sffamily\fontsize{10.000000}{12.000000}\selectfont AR}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.387170in,y=7.158333in,right,]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont 0}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.387170in,y=5.875000in,right,]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont 1}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.387170in,y=4.591667in,right,]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont 2}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.387170in,y=3.308333in,right,]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont 3}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.387170in,y=2.025000in,right,]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont 4}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.387170in,y=0.741667in,right,]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont 5}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.234413in,y=3.950000in,,bottom,rotate=90.000000]{\color{textcolor}\sffamily\fontsize{10.000000}{12.000000}\selectfont MA}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.069053in, y=7.458323in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.854}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.082033in, y=7.287254in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.835448in, y=7.116185in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.071440in, y=6.945116in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.005756in, y=6.774047in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.135720in, y=7.458323in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.922}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.148700in, y=7.287254in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=2.937959in, y=7.116185in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.138107in, y=6.945116in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.108267in, y=6.774047in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.202386in, y=7.458323in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.911}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.179522in, y=7.287254in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.004626in, y=7.116185in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.204773in, y=6.945116in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.174934in, y=6.774047in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.269053in, y=7.458323in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.883}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.246189in, y=7.287254in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.071292in, y=7.116185in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.271440in, y=6.945116in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.241601in, y=6.774047in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.335720in, y=7.458323in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.856}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.312855in, y=7.287254in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.137959in, y=7.116185in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.338107in, y=6.945116in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.308267in, y=6.774047in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.402386in, y=7.458323in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.833}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.379522in, y=7.287254in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.204626in, y=7.116185in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.404773in, y=6.945116in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.374934in, y=6.774047in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.069053in, y=6.174990in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.898}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.082033in, y=6.003921in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.871292in, y=5.832852in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.071440in, y=5.661783in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.041601in, y=5.490714in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.135720in, y=6.174990in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.908}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.112855in, y=6.003921in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=2.937959in, y=5.832852in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.138107in, y=5.661783in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.108267in, y=5.490714in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.202386in, y=6.174990in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.883}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.179522in, y=6.003921in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.004626in, y=5.832852in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.204773in, y=5.661783in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.174934in, y=5.490714in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.269053in, y=6.174990in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.855}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.246189in, y=6.003921in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.071292in, y=5.832852in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.271440in, y=5.661783in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.241601in, y=5.490714in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.384321in, y=6.174990in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.83}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.312855in, y=6.003921in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.137959in, y=5.832852in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.338107in, y=5.661783in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.308267in, y=5.490714in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.402386in, y=6.174990in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.808}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.379522in, y=6.003921in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.204626in, y=5.832852in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.404773in, y=5.661783in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.374934in, y=5.490714in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.069053in, y=4.891657in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.906}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.082033in, y=4.720587in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.871292in, y=4.549518in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.071440in, y=4.378449in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.041601in, y=4.207380in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.135720in, y=4.891657in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.884}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.112855in, y=4.720587in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=2.937959in, y=4.549518in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.138107in, y=4.378449in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.108267in, y=4.207380in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.202386in, y=4.891657in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.858}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.179522in, y=4.720587in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.004626in, y=4.549518in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.204773in, y=4.378449in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.174934in, y=4.207380in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.269053in, y=4.891657in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.832}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.246189in, y=4.720587in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.071292in, y=4.549518in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.271440in, y=4.378449in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.241601in, y=4.207380in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.335720in, y=4.891657in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.818}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.312855in, y=4.720587in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.137959in, y=4.549518in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.338107in, y=4.378449in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.308267in, y=4.207380in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.402386in, y=4.891657in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.779}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.379522in, y=4.720587in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.204626in, y=4.549518in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.404773in, y=4.378449in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.374934in, y=4.207380in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.069053in, y=3.608323in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.887}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.046189in, y=3.437254in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.871292in, y=3.266185in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.071440in, y=3.095116in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.041601in, y=2.924047in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.184321in, y=3.608323in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.86}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.112855in, y=3.437254in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=2.937959in, y=3.266185in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.138107in, y=3.095116in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.108267in, y=2.924047in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.250987in, y=3.608323in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.84}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.179522in, y=3.437254in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.004626in, y=3.266185in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.204773in, y=3.095116in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.174934in, y=2.924047in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.269053in, y=3.608323in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.821}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.246189in, y=3.437254in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.071292in, y=3.266185in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.271440in, y=3.095116in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.241601in, y=2.924047in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.335720in, y=3.608323in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.794}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.312855in, y=3.437254in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.137959in, y=3.266185in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.338107in, y=3.095116in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.308267in, y=2.924047in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.402386in, y=3.608323in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.757}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.379522in, y=3.437254in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.204626in, y=3.266185in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.404773in, y=3.095116in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.374934in, y=2.924047in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.069053in, y=2.324990in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.861}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.046189in, y=2.153921in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.871292in, y=1.982852in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.071440in, y=1.811783in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.041601in, y=1.640714in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.135720in, y=2.324990in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.833}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.112855in, y=2.153921in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=2.937959in, y=1.982852in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.138107in, y=1.811783in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.108267in, y=1.640714in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.202386in, y=2.324990in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.819}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.179522in, y=2.153921in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.004626in, y=1.982852in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.204773in, y=1.811783in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.174934in, y=1.640714in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.269053in, y=2.324990in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.794}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.246189in, y=2.153921in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.071292in, y=1.982852in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.271440in, y=1.811783in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.241601in, y=1.640714in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.335720in, y=2.324990in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.752}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.312855in, y=2.153921in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.137959in, y=1.982852in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.338107in, y=1.811783in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.308267in, y=1.640714in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.402386in, y=2.324990in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.732}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.379522in, y=2.153921in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.204626in, y=1.982852in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.404773in, y=1.811783in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.374934in, y=1.640714in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.069053in, y=1.041657in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.833}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.046189in, y=0.870587in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=0.871292in, y=0.699518in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.071440in, y=0.528449in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=1.041601in, y=0.357380in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.135720in, y=1.041657in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.805}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.112855in, y=0.870587in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=2.937959in, y=0.699518in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.138107in, y=0.528449in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=3.108267in, y=0.357380in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.202386in, y=1.041657in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.791}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.179522in, y=0.870587in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.004626in, y=0.699518in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.204773in, y=0.528449in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=5.174934in, y=0.357380in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.317654in, y=1.041657in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.77}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.246189in, y=0.870587in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.071292in, y=0.699518in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.271440in, y=0.528449in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=7.241601in, y=0.357380in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.335720in, y=1.041657in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.753}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.312855in, y=0.870587in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.137959in, y=0.699518in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.338107in, y=0.528449in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=9.308267in, y=0.357380in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.402386in, y=1.041657in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont AIC : -2.709}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.379522in, y=0.870587in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Signif : NON}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.204626in, y=0.699518in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Abs autoco : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.404773in, y=0.528449in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Homo : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.150000,0.150000,0.150000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=11.374934in, y=0.357380in, left, base]{\color{textcolor}\sffamily\fontsize{11.000000}{13.200000}\selectfont Norma : OUI}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfsetbuttcap%
+\pgfsetmiterjoin%
+\definecolor{currentfill}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.000000pt}%
+\definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetstrokeopacity{0.000000}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{13.659393in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{14.044393in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{14.044393in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{13.659393in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{13.659393in}{0.100000in}}%
+\pgfpathclose%
+\pgfusepath{fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfpathrectangle{\pgfqpoint{13.659393in}{0.100000in}}{\pgfqpoint{0.385000in}{7.700000in}}%
+\pgfusepath{clip}%
+\pgfsetbuttcap%
+\pgfsetmiterjoin%
+\definecolor{currentfill}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.010037pt}%
+\definecolor{currentstroke}{rgb}{1.000000,1.000000,1.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfusepath{stroke,fill}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfsys@transformshift{13.660000in}{0.106155in}%
+\pgftext[left,bottom]{\includegraphics[interpolate=true,width=0.380000in,height=7.700000in]{armadlble_21-img0.png}}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.803000pt}%
+\definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfsys@defobject{currentmarker}{\pgfqpoint{0.000000in}{0.000000in}}{\pgfqpoint{0.048611in}{0.000000in}}{%
+\pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{0.048611in}{0.000000in}}%
+\pgfusepath{stroke,fill}%
+}%
+\begin{pgfscope}%
+\pgfsys@transformshift{14.044393in}{7.008545in}%
+\pgfsys@useobject{currentmarker}{}%
+\end{pgfscope}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=14.141615in, y=6.955784in, left, base]{\color{textcolor}\sffamily\fontsize{10.000000}{12.000000}\selectfont \ensuremath{-}2.900}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.803000pt}%
+\definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfsys@defobject{currentmarker}{\pgfqpoint{0.000000in}{0.000000in}}{\pgfqpoint{0.048611in}{0.000000in}}{%
+\pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{0.048611in}{0.000000in}}%
+\pgfusepath{stroke,fill}%
+}%
+\begin{pgfscope}%
+\pgfsys@transformshift{14.044393in}{6.105847in}%
+\pgfsys@useobject{currentmarker}{}%
+\end{pgfscope}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=14.141615in, y=6.053085in, left, base]{\color{textcolor}\sffamily\fontsize{10.000000}{12.000000}\selectfont \ensuremath{-}2.875}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.803000pt}%
+\definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfsys@defobject{currentmarker}{\pgfqpoint{0.000000in}{0.000000in}}{\pgfqpoint{0.048611in}{0.000000in}}{%
+\pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{0.048611in}{0.000000in}}%
+\pgfusepath{stroke,fill}%
+}%
+\begin{pgfscope}%
+\pgfsys@transformshift{14.044393in}{5.203148in}%
+\pgfsys@useobject{currentmarker}{}%
+\end{pgfscope}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=14.141615in, y=5.150387in, left, base]{\color{textcolor}\sffamily\fontsize{10.000000}{12.000000}\selectfont \ensuremath{-}2.850}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.803000pt}%
+\definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfsys@defobject{currentmarker}{\pgfqpoint{0.000000in}{0.000000in}}{\pgfqpoint{0.048611in}{0.000000in}}{%
+\pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{0.048611in}{0.000000in}}%
+\pgfusepath{stroke,fill}%
+}%
+\begin{pgfscope}%
+\pgfsys@transformshift{14.044393in}{4.300449in}%
+\pgfsys@useobject{currentmarker}{}%
+\end{pgfscope}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=14.141615in, y=4.247688in, left, base]{\color{textcolor}\sffamily\fontsize{10.000000}{12.000000}\selectfont \ensuremath{-}2.825}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.803000pt}%
+\definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfsys@defobject{currentmarker}{\pgfqpoint{0.000000in}{0.000000in}}{\pgfqpoint{0.048611in}{0.000000in}}{%
+\pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{0.048611in}{0.000000in}}%
+\pgfusepath{stroke,fill}%
+}%
+\begin{pgfscope}%
+\pgfsys@transformshift{14.044393in}{3.397751in}%
+\pgfsys@useobject{currentmarker}{}%
+\end{pgfscope}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=14.141615in, y=3.344989in, left, base]{\color{textcolor}\sffamily\fontsize{10.000000}{12.000000}\selectfont \ensuremath{-}2.800}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.803000pt}%
+\definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfsys@defobject{currentmarker}{\pgfqpoint{0.000000in}{0.000000in}}{\pgfqpoint{0.048611in}{0.000000in}}{%
+\pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{0.048611in}{0.000000in}}%
+\pgfusepath{stroke,fill}%
+}%
+\begin{pgfscope}%
+\pgfsys@transformshift{14.044393in}{2.495052in}%
+\pgfsys@useobject{currentmarker}{}%
+\end{pgfscope}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=14.141615in, y=2.442291in, left, base]{\color{textcolor}\sffamily\fontsize{10.000000}{12.000000}\selectfont \ensuremath{-}2.775}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.803000pt}%
+\definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfsys@defobject{currentmarker}{\pgfqpoint{0.000000in}{0.000000in}}{\pgfqpoint{0.048611in}{0.000000in}}{%
+\pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{0.048611in}{0.000000in}}%
+\pgfusepath{stroke,fill}%
+}%
+\begin{pgfscope}%
+\pgfsys@transformshift{14.044393in}{1.592354in}%
+\pgfsys@useobject{currentmarker}{}%
+\end{pgfscope}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=14.141615in, y=1.539592in, left, base]{\color{textcolor}\sffamily\fontsize{10.000000}{12.000000}\selectfont \ensuremath{-}2.750}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfsetbuttcap%
+\pgfsetroundjoin%
+\definecolor{currentfill}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetfillcolor{currentfill}%
+\pgfsetlinewidth{0.803000pt}%
+\definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfsys@defobject{currentmarker}{\pgfqpoint{0.000000in}{0.000000in}}{\pgfqpoint{0.048611in}{0.000000in}}{%
+\pgfpathmoveto{\pgfqpoint{0.000000in}{0.000000in}}%
+\pgfpathlineto{\pgfqpoint{0.048611in}{0.000000in}}%
+\pgfusepath{stroke,fill}%
+}%
+\begin{pgfscope}%
+\pgfsys@transformshift{14.044393in}{0.689655in}%
+\pgfsys@useobject{currentmarker}{}%
+\end{pgfscope}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=14.141615in, y=0.636894in, left, base]{\color{textcolor}\sffamily\fontsize{10.000000}{12.000000}\selectfont \ensuremath{-}2.725}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\definecolor{textcolor}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{textcolor}%
+\pgfsetfillcolor{textcolor}%
+\pgftext[x=14.702805in,y=3.950000in,,top,rotate=90.000000]{\color{textcolor}\sffamily\fontsize{10.000000}{12.000000}\selectfont Critère AIC}%
+\end{pgfscope}%
+\begin{pgfscope}%
+\pgfsetrectcap%
+\pgfsetmiterjoin%
+\pgfsetlinewidth{0.000000pt}%
+\definecolor{currentstroke}{rgb}{0.000000,0.000000,0.000000}%
+\pgfsetstrokecolor{currentstroke}%
+\pgfsetdash{}{0pt}%
+\pgfpathmoveto{\pgfqpoint{13.659393in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{13.851893in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{14.044393in}{0.100000in}}%
+\pgfpathlineto{\pgfqpoint{14.044393in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{13.851893in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{13.659393in}{7.800000in}}%
+\pgfpathlineto{\pgfqpoint{13.659393in}{0.100000in}}%
+\pgfpathclose%
+\pgfusepath{}%
+\end{pgfscope}%
+\end{pgfpicture}%
+\makeatother%
+\endgroup%

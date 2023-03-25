@@ -1,0 +1,26 @@
+\section*{Conclusion}
+\addcontentsline{toc}{section}{Conclusion}
+Le but de ce travail était d'évaluer les performances de différentes méthodes de prévision, notamment comparer les méthodes traditionnelles et la méthodologie de Box et 
+Jenkins, dans le but d'identifier la méthode la plus efficace pour effectuer des prévisions sur le cours de deux matières premières de nature différentes. Toutefois, étant 
+donné l'ampleur inédite du choc économique survenu en 2020, il était nécessaire de développer une stratégie de prévision pour répondre à cette problématique. Cette 
+stratégie nous a permis de rester flexibles dans notre modélisation de ce choc. Pour cela, nous avons utilisé deux échantillons : un échantillon ante-Covid19 (de 2016 à 
+2019) et un échantillon post-Covid19 (de 2016 à 2021).\\[11pt]
+Lors d'une analyse de prévision basée sur des méthodes traditionnelles, nous avons observé que même en présence de composantes extra-saisonnières (tendance) déterministes, 
+les lissages exponentiels étaient les meilleures méthodes pour prévoir les deux cours. En particulier, un lissage exponentiel double a été utilisé pour prévoir le cours du 
+blé et un lissage exponentiel de Holt-Winters a été utilisé pour prévoir celui du nickel. De plus, nous avons constaté que la prévision du cours du nickel était plus 
+précise lorsqu'on utilisait l'échantillon ante-Covid19, et inversement pour le blé. Donc :
+\begin{itemize}
+    \item Le lissage exponentiel double s'est avéré être la méthode la plus efficace pour prévoir le cours du blé. En outre, l'inclusion de la période de la pandémie 
+    Covid19 a permis une meilleure modélisation de la série.
+    \item La méthode appropriée pour prévoir le cours du nickel est le lissage de Holt-Winters. Cependant, contrairement au cours du blé, l'inclusion de la période de la 
+    pandémie Covid19 n'a pas amélioré les résultats de la prévision.
+\end{itemize}
+Par la suite, nous avons comparé les résultats obtenus par ces méthodes aux résultats obtenus en prévoyant à l'aide de la méthodologie de Box-Jenkins. Plus précisément, 
+dans la section~\ref{sec:bj}, nous avons tenté de modéliser les prix en utilisant des processus aléatoires de type ARMA. Cependant, il n'a été possible de modéliser que le 
+prix du blé, car celui du nickel s'est avéré statistiquement indépendant et \textit{i.i.d.}. En ce qui concerne le prix du blé, après avoir été rendu stationnaire, le 
+processus sous-jacent ARMA identifié et estimé fut celui d'un AR(1). \\[11pt]
+Après avoir effectué des prévisions à l'aide de l'algorithme de Box et Jenkins, une dernière étape de comparaison a été réalisée, révélant que les méthodes traditionnelles 
+demeurent plus efficaces pour prédire les fluctuations de prix des deux matières premières. Il est possible que ce résultat soit cohérent étant donné que les contrats à 
+terme sur les matières premières ont un comportement distinct de celui des instruments financiers tels que les actions, qui peuvent être plus volatils et mieux modélisés 
+par des méthodes telles que les modèles ARMA ou GARCH.\\[11pt]
+En réalité, la pertinence de telles méthodes peut être remise en question, car elles peuvent être peu applicables en finance, étant donné leur difficulté à prédire les mouvements de marché anormaux tels que les chocs et les crises. En effet, à l'heure de la digitalisation croissante de l'industrie financière, cette dernière est de plus en plus axée sur les données \textit{data driven}. L'utilisation de données massives et d'algorithmes pour l'analyse de marché, gérer des portefeuilles et prendre des décision est de plus en plus courante et ont tendance à surpasser les méthodes abordées dans ce travail.

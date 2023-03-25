@@ -1,15 +1,15 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'rendu.blg'
-[163] biber-MSWIN64:340> INFO - === 
-[230] Biber.pm:418> INFO - Reading 'rendu.bcf'
-[409] Biber.pm:978> INFO - Found 5 citekeys in bib section 0
-[429] Biber.pm:4401> INFO - Processing section 0
-[447] Biber.pm:4592> INFO - Looking for bibtex file 'biblio.bib' for section 0
-[569] bibtex.pm:1713> INFO - LaTeX decoding ...
-[579] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
-[656] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[656] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[656] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[656] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
-[677] bbl.pm:654> INFO - Writing 'rendu.bbl' with encoding 'UTF-8'
-[681] bbl.pm:757> INFO - Output to rendu.bbl
+[167] biber-MSWIN64:340> INFO - === 
+[236] Biber.pm:418> INFO - Reading 'rendu.bcf'
+[394] Biber.pm:978> INFO - Found 5 citekeys in bib section 0
+[413] Biber.pm:4401> INFO - Processing section 0
+[431] Biber.pm:4592> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[519] bibtex.pm:1713> INFO - LaTeX decoding ...
+[531] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
+[663] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[663] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[663] Biber.pm:4221> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[664] Biber.pm:4227> INFO - No sort tailoring available for locale 'en-US'
+[684] bbl.pm:654> INFO - Writing 'rendu.bbl' with encoding 'UTF-8'
+[689] bbl.pm:757> INFO - Output to rendu.bbl
