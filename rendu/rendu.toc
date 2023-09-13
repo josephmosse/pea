@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {2.2}Désaisonnalisation de l'échantillon 2016-2021 du nickel}{16}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Type de saisonnalité et sélection du schéma de décomposition}{16}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Désaisonnalisation de l'échantillon par méthode Census}{17}{subsubsection.2.2.2}%
-\contentsline {section}{\numberline {3}Prévision par le méthodes traditionnelles}{18}{section.3}%
+\contentsline {section}{\numberline {3}Prévision par les méthodes traditionnelles}{18}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Échantillon 2016-2019}{18}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Prévision pour 2020}{18}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}Choix de la meilleure méthode}{21}{subsubsection.3.1.2}%

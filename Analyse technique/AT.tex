@@ -1,0 +1,222 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{geometry}
+\usepackage{afterpage}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{caption}
+
+\usetikzlibrary{fadings}
+
+\begin{document}
+\definecolor{light}{HTML}{E0E3C2}
+\DeclareFixedFont{\titlefont}{T1}{ppl}{b}{n}{1.2cm}
+\DeclareFixedFont{\subtitlefont}{T1}{ppl}{m}{n}{0.6cm}
+\DeclareFixedFont{\namefont}{T1}{ppl}{m}{n}{0.8cm}
+
+\newgeometry{left=2cm, right=2cm,top=2cm, bottom=-0.5cm}
+\definecolor{mytan}{HTML}{E3C9A7}
+\pagecolor{mytan}\afterpage{\nopagecolor}
+\thispagestyle{empty}
+\begin{flushright}
+\titlefont Analyse Technique\par\vspace{0.1cm}
+\titlefont du Blé et du Nickel
+\vfill
+\namefont Mosse Joseph \par\vspace{0.2cm} Rubira Pierre \par\vspace{0.3cm} ARB
+\end{flushright}
+\vfill
+\begin{center}
+\begin{tikzpicture}
+\node[scope fading=north, inner sep=0pt, outer sep=0pt]{
+ \makebox[\textwidth]{\includegraphics[width=\paperwidth]{wave}}
+};
+\end{tikzpicture}
+\end{center}
+
+\newgeometry{left=2.5cm, right=2.5cm,top=2.5cm, bottom=2.5cm}
+\pagenumbering{arabic}
+\section*{Introduction}
+Notre analyse portera sur deux matières premières qui sont essentielles dans notre mode de vie. Le blé fait partie des trois grandes céréales avec le maïs et le riz. Ce 
+dernier fait partie de notre alimentation depuis de nombreuses décennies. La seconde matière première est un métal, le nickel. Ce précieux élément également nommé “métal 
+du diable” est devenu indispensable dans l'industrie de l'acier inoxydable et plus particulièrement aujourd'hui et dans les jours à venir pour la lutte contre le 
+réchauffement climatique puisqu'il permet la confection de batterie, panneau solaire etc..
+Cette étude concernant ces deux matières premières sera réalisée sur le site Investing.com et concernera des contrats de type future.
+
+Un contrat future est un contrat à terme par lequel deux parties s'engagent à acheter ou vendre une quantité déterminée d'un actif sous-jacent à une date déterminée. Cela 
+peut être une action ou un indice boursier, par exemple ici une commodité : le blé meunier ou encore le nickel. 
+Ce contrat a une date d'échéance et à un prix convenus à l'avance. Il permet d'anticiper les variations futures d'un actif sous-jacent et peut donc servir à couvrir un 
+portefeuille contre les fluctuations à venir du marché. Il permet aussi de dynamiser les performances de son portefeuille. Le future constitue un engagement ferme, il doit 
+être exécuté à sa date d'échéance par ses contreparties : l'acheteur du future doit acheter l'actif sous-jacent au prix convenu et le vendeur doit livrer l'actif tout cela 
+à une date convenue.
+\section{Le blé}
+\subsection{Description de l'actif}
+Le blé meunier est une variété de blé tendre (\textit{Triticum aestivum}), elle est la variété de blé la plus couramment cultivée dans les régions tempérées 
+du monde. Le blé meunier est particulièrement apprécié pour sa concentration élevée en gluten, ce dernier donne à la pâte de blé une texture élastique et une capacité à 
+lever. La farine faite à partir du blé meunier est majoritairement utilisée pour la fabrication du pain, pâtisseries et d'autres denrées à base de farine. Il est également 
+présent dans la sphère agricole pour l'alimentation animale.
+Célèbre comptine du patrimoine français : meunier tu dors tirée d'une chanson de Léon Raiter et de Fernand Pothier composée au XXème siècle. 
+Le contrat future de blé meunier est coté à Euronext, Paris\footnote{Cours disponible sur : https://fr.investing.com/commodities/milling-wheat-n2}. Le contrat engage sur 
+50 Tonnes de blé.\\[11pt]
+Dans une perception générale, nous apercevons une forte décroissance du cours depuis mi-février. Mais nous allons nous intéresser aux informations disponible pour le 20/03/
+2023 date de réalisation de notre analyse. 
+Nous précisons que nous travaillons en période journalière et que nous ne sommes pas en possession de ce titre. Nous allons utiliser plusieurs indicateurs techniques afin 
+de se positionner sur un achat/vente à plus ou moins court terme.
+\subsection{Analyse technique}
+\subsubsection*{L'indicateur Moyenne Mobile} 
+Une moyenne mobile permet de lisser une série de valeurs exprimées en fonction du temps. Nous avons décidé d'utiliser deux moyennes mobiles. Une MA(20) qui est donnée à 
+l'aide de l'indicateur Bandes de Bollinger et une seconde MA(50). Par exemple, la MA(50) se calcule en additionnant les cours des 50 derniers jours et en divisant la 
+somme par 50.\\
+Dans notre analyse, on remarque bien que la MA(20) et la MA(50) ne se coupent pas et sont toutes les deux décroissantes. Ce qui nous informe que la tendance du cours est 
+baissière.
+\subsubsection*{Les Bandes de Bollinger}
+Les bandes de Bollinger sont deux lignes placées autour de la MA(20). Ce qui forme un intervalle de confiance, calculé avec +/- 2 écarts-types à la MA(20).
+On remarque que l'écart entre les bandes de Bollinger a augmenté le 10 mars 2023 puisque le cours est descendu très bas et a failli sortir de l'intervalle de confiance 
+inférieure des bandes de Bollinger. La forte volatilité du cours à la baisse a donc fait écarter les bandes de Bollinger. Toutefois, le cours a subi une légère 
+augmentation pour revenir à l'intérieur des Bandes de Bollinger, mais reste sur une tendance décroissante.
+\subsubsection*{Les Stochastiques}
+Cet indicateur permet de détecter un potentiel changement de tendance. Il possède deux courbes, \%K et \%D. Ici la courbe bleu représente \%K et donc la courbe rouge 
+représente \%D. On observe que \%K vient de croiser \%D en zone de survente le 10 mars 2023 provoquant alors un signal d'achat. C'est peut-être l'effet que l'on vient de 
+décrire qui consiste à refaire monter le cours dans l'intervalle de confiance entre les deux Bandes de Bollinger.\\
+Aujourd'hui, on observe que les courbes \%D et \%K ne sont ni en zone de survente, ni en zone de surachat. Mais on observe que \%K vient de couper par le haut \%D ce qui 
+se traduit par un signal de vente. Tout comme les Moyennes Mobiles, on observe un signal clair qui est de vente.
+\subsubsection*{CCI (\textit{Commodity Channel Index})} 
+Le CCI est un indicateur technique de la famille des oscillateurs. Ce dernier permet de prendre en compte les mouvements saisonniers en 
+plus de l'indicateur des stochastiques. Il permet de savoir si la hausse ou la baisse du cours est liée à un cycle saisonnier. En effet, si l'indicateur est entre [-100;
+100] on parle de variation saisonnière. Si le cours quitte cette fourchette on obtiendrait alors un signal de surachat ou de survente avec une tendance haussière ou 
+baissière très très forte.
+Ici notre CCI est de -64 donnant ainsi un signal de décroissance de type saisonnière.\\[11pt]
+On observe également que cette dernière était négative mais haussière au même moment que le cours du titre est revenu proche de la MA(20) et donc au milieu des Bandes de 
+Bollinger. Mais à présent, c'est une tendance baissière qui est apparue en plus que le CCI est négatif, on peut alors imaginer que ce dernier dépasse la ligne des -100 
+prochainement provoquant un signal de tendance baissière encore plus prononcé dans les jours à venir.
+\subsubsection*{MACD (\textit{Moving Average Convergence Divergence})}
+Les MACD sont représentées par deux courbes. La ligne MACD est la différence entre une Moyenne Mobile Exponentielle (EMA) de 26 jours et une Moyenne Mobile Exponentielle 
+de 12 jours. Représenté par la ligne en bleu, la ligne en rouge représente donc la courbe signal qui est une Moyenne Mobile sur 9 jours.\\
+Suite à l'augmentation du cours pour revenir vers la MA(20) et donc vers le milieu des Bandes de Bollinger, il y a eu un signal d'achat donné par l'indicateur MACD. En 
+effet, lorsque la courbe signal croise par le haut la courbe MACD cela provoque un signal d'achat. De plus, on observe également que ce signal d'achat était en réalité 
+qu'une légère correction du cours puisque la puissance de la tendance haussière est mesuré par l'écart entre les deux courbes (signal et MACD). On remarque bien que cet 
+écart est très minime ce qui montre que ce n'était juste qu'un mécanisme d'ajustement et non pas une potentiel tendance haussière. Le croisement des deux courbes étant 
+fait avec un angle très faible, on aurait pu l'anticiper. 
+\subsubsection*{OBV (\textit{On Balance Volume})} 
+Cet indicateur reflète le volume des transactions et permet donc de détecter des pressions à la hausse ou des pressions à la baisse. Dans notre analyse, cet indicateur 
+vient de former un pic. Ce qui veut dire qu'il y a eu une entrée d'acheteur sur le marché il y a quelque jours, encore liée au retour du cours dans les Bande de Bollinger. 
+Et il y a un jour, une forte baisse de cette indicateur indiquant cette fois-ci que le nombre de vendeurs était plus important que le nombre d'acheteur, provoquant alors 
+une tendance à la baisse du cours. L'OBV indicator étant une moyenne totale continue du cumul des volumes positifs et négatifs. Cela veut dire que dans les derniers jours, 
+le nombre d'acheteur était clairement plus faible que le nombre de vendeurs, dégageant un signal de tendance baissière et donc de vente du titre.
+\subsubsection*{DMI (\textit{Directional Movement Index} )}
+On observe la présence de 3 courbes, l'ADX est la courbe rouge qui représente la “température”. La courbe orange et bleu représente respectivement ID- et ID+ ces derniers 
+permettent de savoir s'il y a de la “pression”. Pour une tendance, il faut donc suffisamment de température et de pression. Lorsque ID- > ID+ comme c'est le cas ici, et 
+que ADX est supérieur à 25, il y a une tendance à la baisse. On observe ici que l'ADX est supérieur à 25, puisqu'il est de 32,1067. On observe également que l'écart entre 
+ID-  et ID+  c'était réduit, mais aujourd'hui on observe que ces dernières varient désormais en sens contraire ce qui va augmenter l'écart entre elles.
+Toutefois, ADX a encore une température assez élevée, il peut donc encore y avoir une tendance baissière sur le cours du titre dans les prochains jours à venir.
+\subsubsection*{RSI (\textit{Relative Strength Index} )}
+Indique quant à lui, à la date du 20 mars 2023, 36,1846. Quand le RSI est inférieur à 50, la position à adopter est de vendre. De plus, cet indicateur était sur une phase 
+haussière il y a encore quelques jours. Peut-être là encore une explication possible d'un retour dans les Bandes Bollingers. Toutefois, on observe dès à présent que 
+celui-ci rentre dans une phase baissière. On peut donc imaginer que la situation de vente décrite par cet indicateur ne va pas évoluer dans les jours ou semaines à venir 
+et donc le signal de vente va continuer. 
+\subsubsection*{Conclusion} 
+On a observé que certains indicateurs comme le RSI, OBV ou encore MACD avait donné il y a quelque jours des signaux encourageant quant à la potentiel croissance du titre. 
+Mais avec plus d'analyse, on peut imaginer que ce n'était en réalité qu'une correction, un léger ajustement du cours du titre afin de revenir dans les bandes de bollinger. 
+Le cours ayant subi une forte diminution, la volatilité à la baisse a augmenté. Afin de resserrer les bandes de bollinger le cours est alors revenu vers la MA(20) qui 
+représente la moyenne des deux Bandes de Bollinger. Toutefois, tous les indicateurs montrent à présent des signaux de vente, ou de tendance baissière.\\[11pt]
+N'étant pas en possession de ce titre, et avec la présence de signaux qui ne sont pas encourageant quant à l'évolution à la hausse du titre dans les prochains jours à 
+venir. Nous décidons de ne pas se positionner à l'achat. Notre analyse portant sur du court terme (quelques jours), nous décidons d'attendre une évolution des indicateurs 
+en faveur de l'achat afin d'entrer dans le cours au meilleur moment.
+\begin{table}[H]
+    \centering
+    \caption{Rappel des indicateurs}
+    \begin{tabular}{cc}
+    \toprule
+    Indicateur     & Signal       \\
+    \midrule
+    Moyenne Mobile & Baisse       \\
+    Stochastiques  & Vente        \\
+    CCI            & Baisse       \\
+    DMI            & Baisse       \\
+    MACD           & Achat faible \\
+    RSI            & Baisse        \\
+    OBV            & Baisse       \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+\clearpage
+\section{Le Nickel}
+\subsection{Description de l'actif}
+Le nickel est un métal de symbole chimique Ni découvert en 1751. Il est fréquemment associé au cobalt dans les dépôts miniers, particulièrement apprécié pour les alliages 
+qu'il forme. Longtemps confondue avec le cuivre ou l'argent, le nickel est désormais utilisé par exemple dans la confection de monnaie, de couverts, de composants 
+électroménagers et d'autres alliages dans l'industrie comme l'acier inoxydable.\\
+Il est de plus en plus utilisé dans la fabrication de batteries, dans le secteur automobile, aéronautique et de l'aviation. 
+Le nickel est aujourd'hui très à la mode pour le changement climatique.\\
+Actuellement l'approvisionnement du nickel subit des pressions puisque la Russie est un très grand producteur mondial de nickel. On peut donc s'attendre à une hausse du 
+cours du nickel suite à un choc potentiel à venir concernant l'offre et la demande.\\
+Le contrat future de nickel est coté au \textit{London Metal Exchange}\footnote{Cours disponible sur : https://fr.investing.com/commodities/nickel?cid=959208}. Le contrat 
+engage sur 6 tonnes de nickel.\\[11pt]
+\subsection{Analyse technique}
+\subsubsection*{L'indicateur RSI}
+L'indicateur des RSI est de 37,8549 qui est donc inférieur à 50 précisant un signal de vente. De plus, celui-ci possède une tendance baissière. On peut alors confirmer que 
+cette tendance baissière va continuer sur du très court terme, nous donnons donc un signal de baisse du cours. 
+\subsubsection*{Bande de Bollinger}
+tout comme le RSI, les bandes de Bollinger et la MA(20) indique une tendance baissière du cours au vu des 20 dernières observations. 
+Si on regarde la MA(20) et la MA(10), on remarque clairement que ces dernières sont baissières. Néanmoins, la MA(5) change de convexité et vient de croiser la MA(10) on 
+peut donc aussi imaginer que le cours de l'action devrait augmenter dans les prochains jours.
+\subsubsection*{CCI}
+Le CCI du cours est de -67,6120, si on respecte la règle on pourrait dire qu'il s'agit d'un signal de tendance baissière de cycle saisonnière. Pourtant, en tenant compte 
+de la structure de la CCI on observe une tendance haussière de cette dernière. On peut alors, là aussi, faire une hypothèse de continuité de cette croissance sur les jours 
+à venir et imaginer que le CCI va devenir positif indiquant un signal de tendance haussier. Il faudrait alors attendre qu'il dépasse la limite des 0 qui est encore loin. 
+En tant que risquophiles nous estimons que pour s'engager sur un potentiel achat, il faudrait surveiller cet indicateur. À l'heure actuelle, il y a un signal de vente. 
+\subsubsection*{MACD}
+L'indicateur des MACD nous présente un signal d'achat. La courbe signal vient de croiser à cet instant la courbe MACD par le haut. Mais l'écart entre les deux courbes 
+(MACD et Signal) est très faible, on peut donc imaginer une légère tendance haussière.
+\subsubsection*{DMI} 
+La courbe ADX en rouge, est de 25,9723 ce qui est assez faible pour signaler la présence actuelle d'une tendance mais qui reste très faible.On imagine donc que nous allons 
+connaître une tendance explosive dans les jours à venir. On observe également que ID- > ID+ indiquant une pression à la baisse, mais comme il n'y a actuellement une 
+température très faible, on ne peut pas conclure à la présence d'une tendance baissière très forte.\\
+Il faut donc surveiller l'écart entre les courbes ID- et ID+ pour détecter dans les jours/semaines à venir un potentiel changement de tendance, si ADX augmente. Ce qui 
+crée de fortes hypothèses, et à aujourd'hui nous avons un signal de baisse.
+\subsubsection*{Les Stochastiques}
+On remarque que les deux courbes sont à la frontière de la limite des 20. Elles sont toutes les deux haussières néanmoins, \%K vient de croiser à l'instant \%D à la 
+baisse. Ce phénomène crée alors un signal de vente. On peut donc imaginer que ces deux courbes reviennent dans la zone inférieure à 20 (zone de survente). Le cours devrait 
+donc connaître une baisse.
+\subsubsection*{Conclusion}
+On remarque que certains indicateurs comme les MACD ou la MA(5)  nous donnent des informations actuelles en faveur d'un achat mais ces derniers sont passés ou de faible 
+puissance face aux autres indicateurs.\\
+Des indicateurs comme les RSI ou encore CCI ne donnent pas encore de signaux d'achat. Et nous ne pouvons pas créer d'hypothèse de croissance de ces derniers. En effet, 
+l'analyse technique ne repose pas sur des probabilités de croissance des indicateurs.\\
+Nous sommes donc majoritairement en présence d'indicateurs donnant des signaux de vente/baisse du cours dans les prochains jours (à court terme). En ces raisons, et 
+n'étant pas en possession du cours, nous décidons de ne pas entrer dans ce marché.\\
+L'analyse technique n'étant un outil de probabilité, nous ne pouvons pas prendre le risque de se placer acheteur maintenant au vu des incohérences des indicateurs. 
+Le cours du nickel est connu pour son extrême volatilité, étant risquophobes, nous décidons donc de réaliser une analyse technique sur d'autres actifs afin de réaliser un 
+potentiel investissement.
+\begin{table}[H]
+    \centering
+    \caption{Rappel des indicateurs}
+    \begin{tabular}{cc}
+    \toprule
+    Indicateur     & Signal       \\
+    \midrule
+    Stochastiques  & Vente        \\
+    CCI            & Baisse       \\
+    DMI            & Baisse       \\
+    RSI            & Baisse        \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+
+\appendix
+\section{Le blé}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{image1.png}
+    \caption{Différents indicateurs d'analyse technique pour le cours du blé en journalier (20/03/2023 17h36)}
+\end{figure}
+\section{Le Nickel}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{image2.png}
+    \caption{Différents indicateurs d'analyse technique pour le cours du nickel en journalier (17/03/2023 10h30)}
+\end{figure}
+\end{document}
